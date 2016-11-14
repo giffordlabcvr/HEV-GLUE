@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>AB288102</GBSeq_locus>
+  <GBSeq_length>821</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>23-JUL-2016</GBSeq_update-date>
+  <GBSeq_create-date>22-JUN-2007</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus gene for replicase, partial cds, strain: E000-NGS96R</GBSeq_definition>
+  <GBSeq_primary-accession>AB288102</GBSeq_primary-accession>
+  <GBSeq_accession-version>AB288102.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>dbj|AB288102.1|</GBSeqid>
+    <GBSeqid>gi|149689506</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_authors>
+        <GBAuthor>Yano,K.</GBAuthor>
+        <GBAuthor>Tamada,Y.</GBAuthor>
+        <GBAuthor>Yatsuhashi,H.</GBAuthor>
+        <GBAuthor>Ishibashi,H.</GBAuthor>
+        <GBAuthor>Takahashi,K.</GBAuthor>
+        <GBAuthor>Mishiro,S.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>hepatitis E virus ORF1 gene for replicase, partial cds</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..821</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Yano,K.</GBAuthor>
+        <GBAuthor>Tamada,Y.</GBAuthor>
+        <GBAuthor>Yatsuhashi,H.</GBAuthor>
+        <GBAuthor>Takahashi,K.</GBAuthor>
+        <GBAuthor>Mishiro,S.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (20-DEC-2006) Yoko Tamada, National Nagasaki Medical Center, CRC; Kubara 2-1001-1, Omura, Nagasaki 856-8562, Japan (E-mail:tamada@nmc.hosp.go.jp, Tel:81-957-52-3121, Fax:81-957-53-6675)</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..821</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>821</GBInterval_to>
+          <GBInterval_accession>AB288102.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>E000-NGS96R</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>serum</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Japan</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>1996</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>Strains E000-NGS96R and E000-NGS96 (Acc# AY684253) were derived from an acute hepatitis E patient in Japan, who had traveled to Shanghai, China before onset.; genotype 4</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;821</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>821</GBInterval_to>
+          <GBInterval_accession>AB288102.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>RNA_dep_RNApol2 region</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>replicase</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>BAF64514.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>RYGRRTKLYEAAHADVRGSLNHFIPELGPINVTTCELYELVEAMVEKGQDGSAVLELDLCNRDVSRITFFQKDCNKFTTGETIAHGKVGQGISAWSKTFCALFGPWFRAIEKEILAALAPNIFYGDAYEDTVLAAAVAGAPGCKVFENDFSEFDSTQNNFSLGLECIIMEECGMPQWMVRLYHLVRSAWVLQAPKESLRGFWKKHSGEPGTLLWNTVWNMAVIAHCYEFRDLKVAAFKGDDSVVLCSDYRQSRNAAALIAGCGLKLKVDFRPIG</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>aggtacggccgccgtacgaagctatacgaggctgcccacgcagatgtccgcgggtccctgaaccactttatccctgagctcggccctattaacgttaccacctgcgaactctatgagcttgtagaggccatggtagagaagggccaagatggctccgcagtcctggagctcgacttgtgtaaccgtgatgtgtcccggataaccttcttccagaaagactgtaacaaattcacaacaggtgagacgatagcgcatggtaaagtcgggcagggtatatctgcgtggagcaaaaccttctgcgccttatttggaccgtggttccgcgctattgaaaaggagattttggcagcgcttgcacccaatatcttttatggtgatgcctatgaggacacagttttggccgctgctgttgcaggcgctcctggctgtaaggtctttgagaatgatttttctgagtttgatagcacccaaaataatttttcacttgggcttgagtgtataatcatggaggagtgcggcatgccgcaatggatggtgcgactttaccaccttgtccgctccgcctgggtcttgcaggccccaaaagagtccctgcgtggcttctggaagaagcactctggcgaacctggcactttgctgtggaataccgtttggaatatggcggttatagcgcactgttatgagttccgtgacctcaaggttgcggcatttaaaggggatgactctgttgtactctgcagcgactatcggcagagtcgtaatgcagctgctttaatcgctgggtgtgggctgaagcttaaggtggattttaggcctattgg</GBSeq_sequence>
+</GBSeq>

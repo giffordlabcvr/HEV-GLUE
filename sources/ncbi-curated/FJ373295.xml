@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>FJ373295</GBSeq_locus>
+  <GBSeq_length>2025</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>mRNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>05-MAR-2009</GBSeq_update-date>
+  <GBSeq_create-date>20-OCT-2008</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus isolate Sh-hu-et1 capsid protein (ORF2) mRNA, complete cds</GBSeq_definition>
+  <GBSeq_primary-accession>FJ373295</GBSeq_primary-accession>
+  <GBSeq_accession-version>FJ373295.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|FJ373295.1|</GBSeqid>
+    <GBSeqid>gi|209483673</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..2025</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Zhang,W.</GBAuthor>
+        <GBAuthor>Yang,S.</GBAuthor>
+        <GBAuthor>Shen,Q.</GBAuthor>
+        <GBAuthor>Liu,J.</GBAuthor>
+        <GBAuthor>Shan,T.</GBAuthor>
+        <GBAuthor>Huang,F.</GBAuthor>
+        <GBAuthor>Ning,H.</GBAuthor>
+        <GBAuthor>Kang,Y.</GBAuthor>
+        <GBAuthor>Yang,Z.</GBAuthor>
+        <GBAuthor>Cui,L.</GBAuthor>
+        <GBAuthor>Zhu,J.</GBAuthor>
+        <GBAuthor>Hua,X.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Isolation and characterization of a genotype 4 Hepatitis E virus strain from an infant in China</GBReference_title>
+      <GBReference_journal>Virol. J. 6, 24 (2009)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1186/1743-422X-6-24</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>19220877</GBReference_pubmed>
+      <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..2025</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Zhang,W.</GBAuthor>
+        <GBAuthor>Hua,X.</GBAuthor>
+        <GBAuthor>Chen,Y.</GBAuthor>
+        <GBAuthor>Yang,S.</GBAuthor>
+        <GBAuthor>Shen,Q.</GBAuthor>
+        <GBAuthor>Shan,T.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (23-SEP-2008) School of Agriculture and Biology, Shanghai Jiaotong University, 800 Dongchuan Road, Shanghai, Shanghai 200240, China</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..2025</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>2025</GBInterval_to>
+          <GBInterval_accession>FJ373295.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>mRNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>Sh-hu-et1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>fecal sample</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>China</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>2008</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>genotype</GBQualifier_name>
+          <GBQualifier_value>4</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>gene</GBFeature_key>
+      <GBFeature_location>1..2025</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>2025</GBInterval_to>
+          <GBInterval_accession>FJ373295.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>ORF2</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>1..2025</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>2025</GBInterval_to>
+          <GBInterval_accession>FJ373295.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>ORF2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>capsid protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>ACI47324.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MNNMFFCSLHGDATMRSRALLFLLLLLLPMLPAPPAGQPSGRRRGRRSGGAGSGFWGDRVDSQPFALPYIHPTNPFASDIPAAAGAGARPRQPARPLGSAWRDQSQRPAAPARRRSAPAGASPLTAVAPAPDTAPVPDVDSRGAILRRQYNLSTSPLTSTIATGTNLVLYAAPLSPLLPLQDGTNTHIMATEASNYAQYRVVRATIRYRPLVPNAVGGYAISISFWPQTTTTPTSVDMNSITSTDVRILVQPGIASELVIPSERLHYRNQGWRSVETSGVAEEEATSGLVMLCIHGSPVNSYTNTPYTGALGLLDFALELEFRNLTPGNTNTRVSRYSSSARHKLRRGADGTAELTTTAATRFMKDLHFTGTNGVGEVGRGIALTLFNLADTLLGGLPTELISSAGGQLFYSRPVVSANGEPTVKLYTSVENAQQDKGIAIPHDIDLGESRVVIQDYDNQHEQDRPTPSPAPSRPFSVLRANDVLWLSLTAAEYDQTTYGSSTNPMYVSDTVTFVNVATGAQGVSRSLDWSKVTLDGRPLTTIQQYSKTFYVLPLRGKLSFWEAGTTKAGYPYNYNTTASDQILIENAAGHRVCISTYTTNLGSGPVSISAVGVLAPHSALAVLEDTVDYPARAHTFDDFCPECRALGLQGCAFQSTVAELQRLKMKVGKTREY</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>atgaataacatgttcttttgctctttgcatggcgatgccaccatgcgctctcgggctcttctgtttttgctcctcctgcttttgcctatgctgcccgcgccaccggccggtcagccgtctggccgtcgtcgtgggcggcgcagcggcggtgccggcagtggtttctggggtgaccgggttgattctcagcccttcgccctcccctatattcatccaaccaaccccttcgcatctgacattccagcggccgccggggctggagctcgccctcgacaaccagcccgtccactcggctccgcttggcgcgaccagtcccagcgccccgccgctcccgcccgtcgtcgatctgccccagctggggcttcgccgctgacggctgtggctccggcccctgatactgccccggtccctgatgttgattcgcgtggtgctatattgcgccgtcagtataatttgtctacgtctccactcacatccactattgctaccgggacgaatcttgtgctatatgctgccccgcttagccctctactcccacttcaggatggcaccaatactcatattatggctactgaagcttcaaattatgcccagtatcgtgttgtccgcgccaccattcggtatcgccccttggtgccgaatgctgtcggtgggtatgctatatctatctctttctggccccaaacaacgaccaccccgacgtctgtggatatgaattccatcacttccaccgatgtccgtatccttgttcaacccggtatagcctctgagttggtgattcccagtgagcgcctgcactatcgaaatcagggttggcgctcagttgagacctctggcgttgctgaggaggaggctacttccggtcttgttatgctctgtattcatgggtcacctgtgaactcctacactaatacaccctacactggtgctcttggcctgctcgattttgcacttgagcttgagtttcgtaatttgacacctggtaatacaaacacgcgcgtttctcgttattcgagcagtgcgcgccataaattgcgccgaggggccgacggtactgctgagctaactactactgctgctacacggtttatgaaggatcttcattttacagggactaatggtgttggtgaggttggccgtgggatagcgcttaccttgtttaatcttgctgacacacttctcggcgggcttccgacagaattgatttcgtcggctggtggccaactgttttactcccgccccgtcgtctcagccaatggcgagccgacagtgaaactttacacctcagtcgagaatgctcagcaggacaaagggattgctatcccacatgatattgatctcggtgagtcccgagttgttattcaggactatgacaatcaacatgagcaagaccgccctaccccctctcctgcaccctctcgccctttttctgtgcttcgtgctaatgatgtgctttggctttcacttactgccgccgagtatgatcagactacctacggctcttctactaatcctatgtatgtttctgatactgtgacgttcgtcaatgtggctaccggcgcccagggggtttcgcgctccttggactggtctaaggtcactcttgatgggcgcccactcactactatccagcagtattccaagactttctatgttttgcctcttcgtggtaagctttctttttgggaggcgggtactactaaagctggttatccttacaactacaatactactgctagtgaccagatcctgattgagaatgcggctggccaccgggtttgtatttctacttataccactaatttaggttctgggcctgtttctatttctgctgttggtgtcctcgcacctcattctgcgttggctgttctagaggacactgttgattatcccgctcgtgctcatacttttgatgatttctgccctgagtgccgtgcacttggtcttcagggttgtgcttttcagtcaactgttgctgagttgcagcgtcttaaaatgaaggtgggtaaaacccgggagtattga</GBSeq_sequence>
+</GBSeq>

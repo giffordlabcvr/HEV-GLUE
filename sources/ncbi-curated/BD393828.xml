@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>BD393828</GBSeq_locus>
+  <GBSeq_length>66</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>DNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>PAT</GBSeq_division>
+  <GBSeq_update-date>04-NOV-2005</GBSeq_update-date>
+  <GBSeq_create-date>04-NOV-2005</GBSeq_create-date>
+  <GBSeq_definition>A nucleic acid construct encoding a processing component derived from the N-terminal region of the Hepatitis virus ORF2, and an antigenic polypeptide</GBSeq_definition>
+  <GBSeq_primary-accession>BD393828</GBSeq_primary-accession>
+  <GBSeq_accession-version>BD393828.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>dbj|BD393828.1|</GBSeqid>
+    <GBSeqid>pat|JP|2003528614|1</GBSeqid>
+    <GBSeqid>gi|92306440</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_keywords>
+    <GBKeyword>JP 2003528614-A/1</GBKeyword>
+  </GBSeq_keywords>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..66</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Persil,D.F.J.</GBAuthor>
+        <GBAuthor>Anderson,D.A.</GBAuthor>
+        <GBAuthor>Lee,F.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>A nucleic acid construct encoding a processing component derived from the N-terminal region of the Hepatitis virus ORF2, and an antigenic polypeptide</GBReference_title>
+      <GBReference_journal>Patent: JP 2003528614-A 1 30-SEP-2003; Macfarlane Burnet Institute for Medical Research, Public Health Limited</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>OS Hepatitis E Virus~PN JP 2003528614-A/1~PD 30-SEP-2003~PF 30-MAR-2001 JP 2001570795~PR 31-MAR-2000 AU PQ 6616~PI damien francis john persil,david andrew anderson,fang lee CC~FH Key Location/Qualifiers</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..66</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>66</GBInterval_to>
+          <GBInterval_accession>BD393828.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>unassigned DNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>atgcgccctcggcctattttgctgttgctcctcatgtttctgcctatgctgcccgcgccaccgccc</GBSeq_sequence>
+</GBSeq>

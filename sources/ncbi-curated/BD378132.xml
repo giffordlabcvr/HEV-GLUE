@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>BD378132</GBSeq_locus>
+  <GBSeq_length>197</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>DNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>PAT</GBSeq_division>
+  <GBSeq_update-date>04-NOV-2005</GBSeq_update-date>
+  <GBSeq_create-date>04-NOV-2005</GBSeq_create-date>
+  <GBSeq_definition>METHODS AND COMPOSITIONS FOR DETECTING HEPATITIS E VIRUS</GBSeq_definition>
+  <GBSeq_primary-accession>BD378132</GBSeq_primary-accession>
+  <GBSeq_accession-version>BD378132.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>dbj|BD378132.1|</GBSeqid>
+    <GBSeqid>pat|JP|2003525428|167</GBSeqid>
+    <GBSeqid>gi|92277226</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_keywords>
+    <GBKeyword>JP 2003525428-A/167</GBKeyword>
+  </GBSeq_keywords>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..197</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Erker,J.C.</GBAuthor>
+        <GBAuthor>Dawson,G.J.</GBAuthor>
+        <GBAuthor>Desai,S.M.</GBAuthor>
+        <GBAuthor>Schlauder,G.G.</GBAuthor>
+        <GBAuthor>Mushahwar,I.K.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>METHODS AND COMPOSITIONS FOR DETECTING HEPATITIS E VIRUS</GBReference_title>
+      <GBReference_journal>Patent: JP 2003525428-A 167 26-AUG-2003; Abbott Laboratories</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>OS Hepatitis E Virus~PN JP 2003525428-A/167~PD 26-AUG-2003~PF 19-DEC-2000 JP 2001547552~PR 21-DEC-1999 US 09/468147~PI james c erker,george j dawson,suresh m desai,george g PI schlauder,~PI isa k mushahwar~CC z12-orf2.con~FH Key Location/Qualifiers</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..197</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>197</GBInterval_to>
+          <GBInterval_accession>BD378132.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>unassigned DNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gacagaattaatttcgtcggctgggggtcaactgttctactcccgccctgtcgtctcagccaatggcgagccgactgtcaagttatacacatctgttgagaatgcacagcaggataaggggatagctattccacatgacatagatttgggcgactctcgtttggtaatccaggattatgataaccaacacgaacaag</GBSeq_sequence>
+</GBSeq>

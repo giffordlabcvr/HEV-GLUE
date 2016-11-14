@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>CS246042</GBSeq_locus>
+  <GBSeq_length>420</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>DNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>PAT</GBSeq_division>
+  <GBSeq_update-date>17-JUL-2006</GBSeq_update-date>
+  <GBSeq_create-date>09-JAN-2006</GBSeq_create-date>
+  <GBSeq_definition>Sequence 89 from Patent EP1609874</GBSeq_definition>
+  <GBSeq_primary-accession>CS246042</GBSeq_primary-accession>
+  <GBSeq_accession-version>CS246042.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>emb|CS246042.1|</GBSeqid>
+    <GBSeqid>pat|EP|1609874|89</GBSeqid>
+    <GBSeqid>gi|84660506</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_authors>
+        <GBAuthor>Perseu,S.</GBAuthor>
+        <GBAuthor>De Montis,A.</GBAuthor>
+        <GBAuthor>Lautero,C.</GBAuthor>
+        <GBAuthor>Manca,I.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>System for searching for and identifying pathogenic agents</GBReference_title>
+      <GBReference_journal>Patent: EP 1609874-A2 89 28-DEC-2005; Bioanalisi Centro Sud S.n.c. di Perseu Sinibaldo eC. (IT)</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..420</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>420</GBInterval_to>
+          <GBInterval_accession>CS246042.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>unassigned DNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>ggctcctggcatcactactgctattgagcaggctgctctagcagcggccaactctgcccttgcgaatgctgtggtagttaggccttttctctctcaccagcagattgagatccttattaacctaatgcaacctcgccagcttgttttccgccccgaggttttctggaaccatcccatccagcgtgttatccataatgagctggagctttactgtcgcgcccgttccggccgctgccttgaaattggtgcccacccccgctcaataaatgataaccctaatgtggtccaccgctgcttcctccgccctgccgggcgtgatgttcagcgttggtatactgcccctacccgcgggccggctgctaattgccggcgttccgcactgcgcgggctccccgctgctgaccgcacttactgcttcga</GBSeq_sequence>
+</GBSeq>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>DQ022751</GBSeq_locus>
+  <GBSeq_length>345</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>mRNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>31-JAN-2006</GBSeq_update-date>
+  <GBSeq_create-date>31-JAN-2006</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus strain 94 clone 1 ORF3 protein mRNA, complete cds</GBSeq_definition>
+  <GBSeq_primary-accession>DQ022751</GBSeq_primary-accession>
+  <GBSeq_accession-version>DQ022751.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|DQ022751.1|</GBSeqid>
+    <GBSeqid>gi|68160657</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..345</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Yan,C.</GBAuthor>
+        <GBAuthor>Ying,T.D.</GBAuthor>
+        <GBAuthor>Shao,X.N.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Genotyping and heterogeneity of sporadic acute hepatitis E in Wuhan</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..345</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Yan,C.</GBAuthor>
+        <GBAuthor>Ying,T.D.</GBAuthor>
+        <GBAuthor>Shao,X.N.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (01-MAY-2005) Infectious Diseases, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, 1095 JieFang Ave, WuHan, HuBei 430030, China</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..345</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>345</GBInterval_to>
+          <GBInterval_accession>DQ022751.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>mRNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>94</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>clone</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>1..345</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>345</GBInterval_to>
+          <GBInterval_accession>DQ022751.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>ORF3 protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AAY86775.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MAMPSCALGLFCFCSSCFCLCCPRHRPVSRLAVVVGGAAAVPAVVSGVTGLILSPPSSPIFIQPTPSHLMFQPPPGLELALDNQSAHSVPLGVTNPSAPPLPPVVDLPQLGLRR</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>atggcgatgccatcatgcgctctcgggctcttctgtttttgctcctcctgcttttgcctatgctgcccgcgccaccggccggtcagccgtctggccgtcgtcgtgggcggcgcagcggcggtgccggcggtggtttctggggtgaccgggttgattctcagccctccgtcctcccctatattcatccaaccaaccccttcgcacctgatgtttcagccaccgccggggctggagctcgccctcgacaaccagtccgcccactcggttccgcttggcgtgaccaatcccagcgccccaccgctcccgcccgtcgtcgacctgccccagctggggcttcgccgctaa</GBSeq_sequence>
+</GBSeq>

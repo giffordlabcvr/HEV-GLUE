@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>AB517744</GBSeq_locus>
+  <GBSeq_length>323</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>24-JUL-2016</GBSeq_update-date>
+  <GBSeq_create-date>21-AUG-2009</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus gene for nonstructural protein, partial cds, strain: Mie2005_248Ku55M</GBSeq_definition>
+  <GBSeq_primary-accession>AB517744</GBSeq_primary-accession>
+  <GBSeq_accession-version>AB517744.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>dbj|AB517744.1|</GBSeqid>
+    <GBSeqid>gi|256353471</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_authors>
+        <GBAuthor>Nakano,Y.</GBAuthor>
+        <GBAuthor>Yamauchi,A.</GBAuthor>
+        <GBAuthor>Yano,T.</GBAuthor>
+        <GBAuthor>Nakayama,O.</GBAuthor>
+        <GBAuthor>Sakai,H.</GBAuthor>
+        <GBAuthor>Nagasaka,Y.</GBAuthor>
+        <GBAuthor>Itaba,S.</GBAuthor>
+        <GBAuthor>Tabata,Y.</GBAuthor>
+        <GBAuthor>Sugiyama,A.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>A diffuse outbreak of hepatitis E in Mie Prefecture, 2005</GBReference_title>
+      <GBReference_journal>Jpn. J. Infect. Dis. 59 (2), 136-138 (2006)</GBReference_journal>
+      <GBReference_pubmed>16632919</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..323</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Yano,T.</GBAuthor>
+        <GBAuthor>Nakano,Y.</GBAuthor>
+        <GBAuthor>Yamauchi,A.</GBAuthor>
+        <GBAuthor>Nakayama,O.</GBAuthor>
+        <GBAuthor>Sakai,H.</GBAuthor>
+        <GBAuthor>Nagasaka,Y.</GBAuthor>
+        <GBAuthor>Itaba,S.</GBAuthor>
+        <GBAuthor>Tabata,Y.</GBAuthor>
+        <GBAuthor>Sugiyama,A.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (19-AUG-2009) Contact:Takuya Yano Mie Prefectural Institute of Public Health and Environmental Sciences, Microbiology; Sakura-cho, 3684-11, Yokkaichi-city, Mie 5121211, Japan</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..323</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>323</GBInterval_to>
+          <GBInterval_accession>AB517744.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>Mie2005_248Ku55M</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Japan:Mie</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;323</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>323</GBInterval_to>
+          <GBInterval_accession>AB517744.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>nonstructural protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>BAH97752.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>VRPFLSRTQTDILINLMQPRQLVFRPEVLWNHPIQRVIHNELEQYCRARAGRCLEVGAHPRSINDNPNVLHRCFLRPVGRDVQRWYSAPTRGPAANCRRSHYVVYLLS</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gtccggccgttcttgtcccgtacccagactgacattcttattaatttgatgcaaccccggcagcttgtgttccgccctgaggttttgtggaaccatcctatccagcgagtcatacataatgagctggagcagtactgccgcgctcgcgctggccgctgcctggaggtgggagcccacccaagatccattaatgacaaccctaatgttttgcaccggtgttttcttcgtccggttgggagagatgtgcagcgwtggtattcagccccgacccgtggcccggcggctaactgtcgccgctcgcattacgtggtctacctcctgtc</GBSeq_sequence>
+</GBSeq>

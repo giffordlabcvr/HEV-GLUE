@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>AB219128</GBSeq_locus>
+  <GBSeq_length>412</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+  <GBSeq_create-date>24-JUN-2005</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus ORF2 gene for capsid protein, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>AB219128</GBSeq_primary-accession>
+  <GBSeq_accession-version>AB219128.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>dbj|AB219128.1|</GBSeqid>
+    <GBSeqid>gi|68163356</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_authors>
+        <GBAuthor>Saitoh,N.</GBAuthor>
+        <GBAuthor>Doyama,H.</GBAuthor>
+        <GBAuthor>Omori,T.</GBAuthor>
+        <GBAuthor>Yamada,S.</GBAuthor>
+        <GBAuthor>Shimazaki,H.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>A domestic case of acute sporadic hepatitis E identified in Hokuriku district</GBReference_title>
+      <GBReference_journal>Kanzo 45, 268-273 (2004)</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..412</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Saitoh,N.</GBAuthor>
+        <GBAuthor>Okamoto,H.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (22-JUN-2005) Contact:Hiroaki Okamoto Jichi Medical School, Division of Virology, Department of Infection and Immunity; Kawachi-Gun, 3311-1 Yakushiji, Minamikawachi-Machi, Tochigi 329-0498, Japan</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..412</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>412</GBInterval_to>
+          <GBInterval_accession>AB219128.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>HEV-Kanazawa</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>Homo sapiens</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Japan: Kanazawa</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>genotype 3</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;412</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>412</GBInterval_to>
+          <GBInterval_accession>AB219128.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>ORF2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>capsid protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>BAE02671.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>AEEEATSGLVMLCIHGSPVNSYTNTPYTGALGLLDFALELEFRNLTPGNTNTRVSRYTSTARHRLRRGADGTAELTTTAATRFMKDLHFTGTNGVGEVGRGIALTLFNLADTLLGGLPTELISSAGGQLFYSRPVVS</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>cgccgaggaggaggctacctctggcctggtaatgctttgtattcatggttctccagtcaattcatatacaaatacaccttatactggggcactggggcttcttgattttgcattggagcttgaatttaggaatttgacacctgggaacaccaatacccgtgtatcccgatataccagcacagcccgccaccggctgcgccgtggtgctgatgggaccgctgagcttaccactacggcggccacacgttttatgaaggacctgcatttcaccggtacgaatggagtcggtgaggtgggccgaggtattgccctgacactgtttaatcttgctgacacgcttctcggtggtttgccgacagaattgatttcgtcggccgggggccagttgttctactcccgcccagtcgtctca</GBSeq_sequence>
+</GBSeq>

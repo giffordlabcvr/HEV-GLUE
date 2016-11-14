@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>DJ128191</GBSeq_locus>
+  <GBSeq_length>186</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>DNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>PAT</GBSeq_division>
+  <GBSeq_update-date>25-MAR-2008</GBSeq_update-date>
+  <GBSeq_create-date>25-MAR-2008</GBSeq_create-date>
+  <GBSeq_definition>Highly sensitive method for detecting hepatitis E virus genomic</GBSeq_definition>
+  <GBSeq_primary-accession>DJ128191</GBSeq_primary-accession>
+  <GBSeq_accession-version>DJ128191.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>dbj|DJ128191.1|</GBSeqid>
+    <GBSeqid>pat|JP|2007222092|1</GBSeqid>
+    <GBSeqid>gi|170975112</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_keywords>
+    <GBKeyword>JP 2007222092-A/1</GBKeyword>
+  </GBSeq_keywords>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..186</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Tsujikawa,M.</GBAuthor>
+        <GBAuthor>Yamamoto,S.</GBAuthor>
+        <GBAuthor>Ueda,Y.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Highly sensitive method for detecting hepatitis E virus genomic</GBReference_title>
+      <GBReference_journal>Patent: JP 2007222092-A 1 06-SEP-2007; Benesis Corporation</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>OS Hepatitis E virus~PN JP 2007222092-A/1~PD 06-SEP-2007~PF 24-FEB-2006 JP 2006048055~PI muneo tsujikawa,sumiko yamamoto,yumi ueda~CC~FH Key Location/Qualifiers</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..186</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>186</GBInterval_to>
+          <GBInterval_accession>DJ128191.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>unassigned DNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gcagaccacrtatgtggtcgaygccatggaggcccaycagttyathaaggctcctggcrtyacwactgcyattgagcaggcwgctctrgcwgcggcyaaytccgccytkgcgaatgctgtggtrgtymggcckttyytvtcycrbswrcarayhgagathctyatwaayytgatgcaaccccggca</GBSeq_sequence>
+</GBSeq>

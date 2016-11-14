@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>AJ879572</GBSeq_locus>
+  <GBSeq_length>280</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+  <GBSeq_create-date>09-FEB-2005</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus partial gene for capsid protein, genomic RNA, isolate NT6</GBSeq_definition>
+  <GBSeq_primary-accession>AJ879572</GBSeq_primary-accession>
+  <GBSeq_accession-version>AJ879572.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>emb|AJ879572.1|</GBSeqid>
+    <GBSeqid>gi|58864739</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_keywords>
+    <GBKeyword>capsid protein</GBKeyword>
+  </GBSeq_keywords>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_authors>
+        <GBAuthor>Ijaz,S.</GBAuthor>
+        <GBAuthor>Arnold,E.</GBAuthor>
+        <GBAuthor>Banks,M.</GBAuthor>
+        <GBAuthor>Bendall,R.P.</GBAuthor>
+        <GBAuthor>Cramp,M.E.</GBAuthor>
+        <GBAuthor>Cunningham,R.</GBAuthor>
+        <GBAuthor>Dalton,H.R.</GBAuthor>
+        <GBAuthor>Harrison,T.J.</GBAuthor>
+        <GBAuthor>Hill,S.F.</GBAuthor>
+        <GBAuthor>Macfarlane,L.</GBAuthor>
+        <GBAuthor>Meigh,R.E.</GBAuthor>
+        <GBAuthor>Shafi,S.</GBAuthor>
+        <GBAuthor>Sheppard,M.J.</GBAuthor>
+        <GBAuthor>Smithson,J.</GBAuthor>
+        <GBAuthor>Wilson,M.P.</GBAuthor>
+        <GBAuthor>Teo,C.G.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Non-travel-associated hepatitis E in England and Wales: demographic, clinical, and molecular epidemiological characteristics</GBReference_title>
+      <GBReference_journal>J. Infect. Dis. 192 (7), 1166-1172 (2005)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1086/444396</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>16136458</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..280</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Ijaz,S.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (07-FEB-2005) Ijaz S., Virus Reference Division, Health Protection Agency, 61 Colindale Avenue, London, NW9 5HT, UNITED KINGDOM</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..280</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>280</GBInterval_to>
+          <GBInterval_accession>AJ879572.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>NT6</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;277</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>277</GBInterval_to>
+          <GBInterval_accession>AJ879572.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>capsid protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>CAI51889.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GOA:Q5F2P5</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>InterPro:IPR004261</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>UniProtKB/TrEMBL:Q5F2P5</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>TPYTGALGLLDFALELEFRNLTPGNTNTRVSRYTSTARHRLRRGADGTAELTTTAATRFMKDLHFTGTNGVGEVGRGIALTLFNLADTLLGG</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>acgccctacactggggcattgggacttcttgactttgcactcgagcttgaatttaggaatctgacccccgggaacactaacacccgtgtatcccggtacactagcacggcccgtcatcgtttacgccgtggcgctgatgggactgccgagctcacgaccactgctgccacgcgcttcatgaaggacctgcatttcaccgggacaaatggtgttggtgaggtgggccgtggcatagccttaactctattcaacctcgctgatacacttctcggcggtttgc</GBSeq_sequence>
+</GBSeq>

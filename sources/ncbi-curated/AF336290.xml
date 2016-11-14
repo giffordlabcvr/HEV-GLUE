@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>AF336290</GBSeq_locus>
+  <GBSeq_length>476</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+  <GBSeq_create-date>02-FEB-2002</GBSeq_create-date>
+  <GBSeq_definition>Swine hepatitis E virus isolate NLSW20 structural protein gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>AF336290</GBSeq_primary-accession>
+  <GBSeq_accession-version>AF336290.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|AF336290.1|</GBSeqid>
+    <GBSeqid>gi|18478608</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Swine hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Swine hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..476</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>van der Poel,W.H.</GBAuthor>
+        <GBAuthor>Verschoor,F.</GBAuthor>
+        <GBAuthor>van der Heide,R.</GBAuthor>
+        <GBAuthor>Herrera,M.I.</GBAuthor>
+        <GBAuthor>Vivo,A.</GBAuthor>
+        <GBAuthor>Kooreman,M.</GBAuthor>
+        <GBAuthor>de Roda Husman,A.M.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Hepatitis E virus sequences in swine related to sequences in humans, The Netherlands</GBReference_title>
+      <GBReference_journal>Emerging Infect. Dis. 7 (6), 970-976 (2001)</GBReference_journal>
+      <GBReference_pubmed>11747723</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..476</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>van der Poel,W.H.M.</GBAuthor>
+        <GBAuthor>Verschoor,F.</GBAuthor>
+        <GBAuthor>van der Heide,R.</GBAuthor>
+        <GBAuthor>de Roda Husman,A.M.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (16-JAN-2001) MGB, RIVM, Antonie van Leeuwenhoeklaan 9, Bilthoven, Utrecht 3720 BA, Netherlands</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..476</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>476</GBInterval_to>
+          <GBInterval_accession>AF336290.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Swine hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>NLSW20</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:63421</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;476</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>476</GBInterval_to>
+          <GBInterval_accession>AF336290.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>ORF2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>structural protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AAL73215.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>PVNSYTNTPYTGALGLLDFALELEFRNLTPGNTNTRVSRYTSTARHRLRRGADGTAELTTTAATRFMKDLHFTGTNGVGEVGRGIALTLFNLADTLLGGLPTELISSAGGQLFYSRPVVSANGEPTVKLYTSVENAQQDKGIAIPHDIDLGDSRVVIQ</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>cccctgttaattcttacaccaacaccccctacactggggcgcttgggcttcttgattttgctttagagcttgagtttaggaacttgacacccgggaacaccaacacccgtgtttcacggtacacaagtacagcccgtcaccggctgcgccgcggtgctgatggcaccgccgaactcaccactacagcggccacgcgttttatgaaggacctgcacttcaccggtacgaatggggttggtgaggtgggtcgtggtatcgcccttacactctttaatcttgctgacacgcttctcggtggtttgccgacagaattratttcgtcggctggaggccagctattttactcccgtccggttgtctcagccaatggcgagccgactgttaagttatacacctccgtcgagaatgcacagcaggataagggcattgctataccgcatgatatagatttgggagattcccgtgtggttattcag</GBSeq_sequence>
+</GBSeq>

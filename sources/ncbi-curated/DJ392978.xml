@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>DJ392978</GBSeq_locus>
+  <GBSeq_length>53</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>DNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>PAT</GBSeq_division>
+  <GBSeq_update-date>23-MAY-2008</GBSeq_update-date>
+  <GBSeq_create-date>23-MAY-2008</GBSeq_create-date>
+  <GBSeq_definition>Polynucleotide probe and primer derived a hepatitis E virus strain from Japanese, chip having them, kit having them, and methods of detecting a hepatitis E virus with them</GBSeq_definition>
+  <GBSeq_primary-accession>DJ392978</GBSeq_primary-accession>
+  <GBSeq_accession-version>DJ392978.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>dbj|DJ392978.1|</GBSeqid>
+    <GBSeqid>pat|JP|2007289195|38</GBSeqid>
+    <GBSeqid>gi|189068022</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_keywords>
+    <GBKeyword>JP 2007289195-A/38</GBKeyword>
+  </GBSeq_keywords>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..53</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Takahashi,K.</GBAuthor>
+        <GBAuthor>Hashimoto,M.</GBAuthor>
+        <GBAuthor>Ota,Y.</GBAuthor>
+        <GBAuthor>Maekubo,H.</GBAuthor>
+        <GBAuthor>Mishiro,S.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Polynucleotide probe and primer derived a hepatitis E virus strain from Japanese, chip having them, kit having them, and methods of detecting a hepatitis E virus with them</GBReference_title>
+      <GBReference_journal>Patent: JP 2007289195-A 38 08-NOV-2007; KABUSHIKI KAISHA TOSHIBA</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>OS Hepatitis E virus~PN JP 2007289195-A/38~PD 08-NOV-2007~PF 06-JUN-2007 JP 2007150297~PI kazuaki takahashi,michie hashimoto,yasuhiko ota,hiroshi PI maekubo,~PI shunji mishiro~CC The type of this sequence is wrong in the original data. It is CC automatically modified by the JPO.~FH Key Location/Qualifiers</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..53</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>53</GBInterval_to>
+          <GBInterval_accession>DJ392978.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>unassigned DNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>aaggctcctggcrtyactactgcyatwgagcaggcwgctctrgcwgcggccaa</GBSeq_sequence>
+</GBSeq>

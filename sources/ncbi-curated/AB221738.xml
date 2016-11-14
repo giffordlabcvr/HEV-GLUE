@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>AB221738</GBSeq_locus>
+  <GBSeq_length>475</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+  <GBSeq_create-date>17-FEB-2006</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus gene for nonstructural protein, partial cds, isolate: HE-JA38-ORF1-3</GBSeq_definition>
+  <GBSeq_primary-accession>AB221738</GBSeq_primary-accession>
+  <GBSeq_accession-version>AB221738.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>dbj|AB221738.1|</GBSeqid>
+    <GBSeqid>gi|87887583</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_authors>
+        <GBAuthor>Inoue,J.</GBAuthor>
+        <GBAuthor>Nishizawa,T.</GBAuthor>
+        <GBAuthor>Takahashi,M.</GBAuthor>
+        <GBAuthor>Aikawa,T.</GBAuthor>
+        <GBAuthor>Mizuo,H.</GBAuthor>
+        <GBAuthor>Suzuki,K.</GBAuthor>
+        <GBAuthor>Shimosegawa,T.</GBAuthor>
+        <GBAuthor>Okamoto,H.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Analysis of the full-length genome of genotype 4 hepatitis E virus isolates from patients with fulminant or acute self-limited hepatitis E</GBReference_title>
+      <GBReference_journal>J. Med. Virol. 78 (4), 476-484 (2006)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1002/jmv.20565</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>16482537</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..475</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Inoue,J.</GBAuthor>
+        <GBAuthor>Nishizawa,T.</GBAuthor>
+        <GBAuthor>Okamoto,H.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (14-JUL-2005) Contact:Hiroaki Okamoto Jichi Medical School, Division of Virology, Department of Infection and Immunity; 3311-1 Yakushiji, Minamikawachi-Machi, Kawachi-Gun, Tochigi 329-0498, Japan</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..475</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>475</GBInterval_to>
+          <GBInterval_accession>AB221738.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>HE-JA38</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>HE-JA38-ORF1-3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>human serum</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>Homo sapiens</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Japan: Hokkaido</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>genotype 3</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;475</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>475</GBInterval_to>
+          <GBInterval_accession>AB221738.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>ORF1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>nonstructural protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>BAE79702.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>PGSGKSRSIQQGDVDVVVVPTRELRNSWRRRGFAAFTPHTAARVTIGRRVVIDEAPSLPPHLLLLHMQRASSVHLLGDPNQIPAIDFEHAGLVPAIRPELAPTSWWHVTHRCPADVCELIRGAYPKIQTTSRVLRSLFWNEPAIGQKLVFTQAAKAAN</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>cccgggctcgggcaagtcaaggtccatacaacagggagacgtcgatgtggtggttgtgcccacccgggagcttcgtaatagctggcgtcgccggggttttgcggctttcacgcctcacacagcggcccgtgttactatcggtcgccgcgttgtgattgatgaggccccatccctcccgccgcatctgctgctgctacacatgcaacgggcctcctcggtccatctcctcggcgacccaaatcagattcctgctattgattttgagcatgccggcttggtccccgcgatccgccccgagcttgcgccaacgagctggtggcacgttacacaccgctgcccggcagacgtgtgcgagcttatacgtggggcctaccctaagatccagaccacgagccgtgtgctacggtctctgttttggaacgaaccggccattggccagaagctggttttcacgcaggctgctaaggctgctaat</GBSeq_sequence>
+</GBSeq>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>DQ832268</GBSeq_locus>
+  <GBSeq_length>348</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>14-JUL-2016</GBSeq_update-date>
+  <GBSeq_create-date>30-NOV-2006</GBSeq_create-date>
+  <GBSeq_definition>Swine hepatitis E virus isolate swSTHY336 capsid protein (ORF2) gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>DQ832268</GBSeq_primary-accession>
+  <GBSeq_accession-version>DQ832268.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|DQ832268.1|</GBSeqid>
+    <GBSeqid>gi|112433991</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Swine hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Swine hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..348</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Leblanc,D.</GBAuthor>
+        <GBAuthor>Ward,P.</GBAuthor>
+        <GBAuthor>Gagne,M.J.</GBAuthor>
+        <GBAuthor>Poitras,E.</GBAuthor>
+        <GBAuthor>Muller,P.</GBAuthor>
+        <GBAuthor>Trottier,Y.L.</GBAuthor>
+        <GBAuthor>Simard,C.</GBAuthor>
+        <GBAuthor>Houde,A.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Presence of hepatitis E virus in a naturally infected swine herd from nursery to slaughter</GBReference_title>
+      <GBReference_journal>Int. J. Food Microbiol. 117 (2), 160-166 (2007)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1016/j.ijfoodmicro.2007.03.008</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>17459506</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..348</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Ward,P.</GBAuthor>
+        <GBAuthor>Leblanc,D.</GBAuthor>
+        <GBAuthor>Gagne,M.-J.</GBAuthor>
+        <GBAuthor>Poitras,E.</GBAuthor>
+        <GBAuthor>Mueller,P.</GBAuthor>
+        <GBAuthor>Trottier,Y.-L.</GBAuthor>
+        <GBAuthor>Simard,C.</GBAuthor>
+        <GBAuthor>Houde,A.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (29-JUN-2006) Agriculture and Agri-Food Canada, 3600 Casavant Blvd. West, Saint-Hyacinthe, Quebec J2S 8E3, Canada</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..348</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>348</GBInterval_to>
+          <GBInterval_accession>DQ832268.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Swine hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>swSTHY336</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>swine fecal material</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:63421</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Canada: Quebec</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>2004</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>genotype</GBQualifier_name>
+          <GBQualifier_value>3</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>gene</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;348</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>348</GBInterval_to>
+          <GBInterval_accession>DQ832268.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>ORF2</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;348</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>348</GBInterval_to>
+          <GBInterval_accession>DQ832268.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>ORF2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>capsid protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>ABI18342.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>VMLCIHGSPVNSYTNTPYTGALGLLDFALELEFRNLTPGNTNTRVSRYTSTARHRLRRGADGTAELTTTAATRFMKDLHFTGTNGVGEVGRGIALTLFNLADTLLGGLPTELISSA</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gtaatgctctgcatacatggctctcctgttaattcctatactaatacaccttacactggtgcactggggctccttgattttgcattagagcttgagtttagaaatttgacacccgggaacactaatacccgtgtttcccggtataccagcacagcccgccaccggctgcgccgcggtgctgatgggaccgctgaacttactaccacagcagccacacgtttcatgaaggatctgcattttactggtacgaacggcgttggtgaggtgggtcgtggtatcgctttgacactgtttaatcttgctgatacgcttcttggtggtttaccgacagaattgatttcgtcggct</GBSeq_sequence>
+</GBSeq>

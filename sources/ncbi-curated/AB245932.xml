@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>AB245932</GBSeq_locus>
+  <GBSeq_length>412</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>14-JUL-2016</GBSeq_update-date>
+  <GBSeq_create-date>22-JUN-2006</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus ORF2 gene for capsid protein, partial cds, isolate: HE-JANGP89</GBSeq_definition>
+  <GBSeq_primary-accession>AB245932</GBSeq_primary-accession>
+  <GBSeq_accession-version>AB245932.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>dbj|AB245932.1|</GBSeqid>
+    <GBSeqid>gi|109452298</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_authors>
+        <GBAuthor>Mitsui,T.</GBAuthor>
+        <GBAuthor>Tsukamoto,Y.</GBAuthor>
+        <GBAuthor>Hirose,A.</GBAuthor>
+        <GBAuthor>Suzuki,S.</GBAuthor>
+        <GBAuthor>Yamazaki,C.</GBAuthor>
+        <GBAuthor>Masuko,K.</GBAuthor>
+        <GBAuthor>Tsuda,F.</GBAuthor>
+        <GBAuthor>Endo,K.</GBAuthor>
+        <GBAuthor>Takahashi,M.</GBAuthor>
+        <GBAuthor>Okamoto,H.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Distinct changing profiles of hepatitis A and E virus infection among patients with acute hepatitis, patients on maintenance hemodialysis and healthy individuals in Japan</GBReference_title>
+      <GBReference_journal>J. Med. Virol. 78 (8), 1015-1024 (2006)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1002/jmv.20657</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>16789007</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..412</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Okamoto,H.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (05-JAN-2006) Contact:Hiroaki Okamoto Jichi Medical School, Division of Virology, Department of Infection and Immunity; 3311-1 Yakushiji, Minamikawachi-Machi, Kawachi-Gun, Tochigi 329-0498, Japan</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..412</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>412</GBInterval_to>
+          <GBInterval_accession>AB245932.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>HE-JANGP89</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>serum</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>Homo sapiens</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Japan: Nagoya</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>genotype 3</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>gene</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;412</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>412</GBInterval_to>
+          <GBInterval_accession>AB245932.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>ORF2</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;412</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>412</GBInterval_to>
+          <GBInterval_accession>AB245932.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>ORF2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>capsid protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>BAE96566.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>AEEEATSGLVMLCIHGSPVNSYTNTPYTGALGLLDFALELEFRNLTPGNTNTRVSRYTSTARHRLRRGADGTAELTTTAATRFMKDLHFTGTNGVGEVGRGIALTLFNLADTLLGGLPTELISSAGGQLFYSRPVVS</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>ggctgaggaggaggctacttccggtctggtaatgctttgtattcatggctctcctgttaattcctatactaatacaccttacaccggtgcactagggctccttgactttgcattagagcttgaatttagaaatttgacacccgggaacactaacactcgtgtttcccggtacaccagcacagctcgccatcggctgcgccgtggtgctgatgggaccgctgagcttaccaccacagcggccacacgcttcatgaaggacttgcattttactggcacgaacggcgttggtgaggtgggtcgtggtatcgctctgacactgtttaacctcgctgatacgcttctcggtggtttaccgacagaattgatttcgtcggccgggggtcagctgttttactcccgccctgttgtctcg</GBSeq_sequence>
+</GBSeq>

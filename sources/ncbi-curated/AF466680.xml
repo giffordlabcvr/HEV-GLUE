@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>AF466680</GBSeq_locus>
+  <GBSeq_length>301</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+  <GBSeq_create-date>04-APR-2002</GBSeq_create-date>
+  <GBSeq_definition>Swine hepatitis E virus strain 01-22807-2 capsid protein gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>AF466680</GBSeq_primary-accession>
+  <GBSeq_accession-version>AF466680.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|AF466680.1|</GBSeqid>
+    <GBSeqid>gi|19919512</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Swine hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Swine hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..301</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Huang,F.F.</GBAuthor>
+        <GBAuthor>Haqshenas,G.</GBAuthor>
+        <GBAuthor>Guenette,D.K.</GBAuthor>
+        <GBAuthor>Halbur,P.G.</GBAuthor>
+        <GBAuthor>Schommer,S.K.</GBAuthor>
+        <GBAuthor>Pierson,F.W.</GBAuthor>
+        <GBAuthor>Toth,T.E.</GBAuthor>
+        <GBAuthor>Meng,X.J.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Detection by reverse transcription-PCR and genetic characterization of field isolates of swine hepatitis E virus from pigs in different geographic regions of the United States</GBReference_title>
+      <GBReference_journal>J. Clin. Microbiol. 40 (4), 1326-1332 (2002)</GBReference_journal>
+      <GBReference_pubmed>11923352</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..301</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Huang,F.</GBAuthor>
+        <GBAuthor>Haqshenas,G.</GBAuthor>
+        <GBAuthor>Guenette,D.</GBAuthor>
+        <GBAuthor>Halbur,P.</GBAuthor>
+        <GBAuthor>Schommer,S.</GBAuthor>
+        <GBAuthor>Pierson,F.</GBAuthor>
+        <GBAuthor>Toth,T.</GBAuthor>
+        <GBAuthor>Meng,X.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (07-JAN-2002) College of Veterinary Medicine, Virginia Polytechnic Institute and State University, 1410 Prices Fork Road, Blacksburg, VA 24060, USA</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..301</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>301</GBInterval_to>
+          <GBInterval_accession>AF466680.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Swine hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>01-22807-2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:63421</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;301</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>301</GBInterval_to>
+          <GBInterval_accession>AF466680.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>capsid protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AAM08312.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>PVNSYTNTPYTGALGLLDFALELEFRNLTPGNTNTRVSRYTSTARHRLRRGADGTAELTTTAATRFMKDLHFTGTNGVGEVGRGIALTLFNLADTLLGGL</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>tcctgtcaattcttatactaatacaccttacaccggtgcactggggcttcttgattttgcactagagcttgagttcaggaatctgacacccgggaacaccaacacccgtgtctcccggtataccagcacagcccgccaccggctgcgccgcggtgctgatgggaccgctgagcttaccaccacagcagccacacgtttcatgaaggacctgcacttcactggcacgaacggagttggtgaggtgggtcgtggtatcgccctgacactgttcaatctcgctgacacgcttctcggcggttta</GBSeq_sequence>
+</GBSeq>

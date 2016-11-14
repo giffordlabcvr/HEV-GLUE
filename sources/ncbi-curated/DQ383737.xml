@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>DQ383737</GBSeq_locus>
+  <GBSeq_length>216</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+  <GBSeq_create-date>26-FEB-2006</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus strain UAB4 capsid protein gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>DQ383737</GBSeq_primary-accession>
+  <GBSeq_accession-version>DQ383737.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|DQ383737.1|</GBSeqid>
+    <GBSeqid>gi|88601298</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..216</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Martin,M.</GBAuthor>
+        <GBAuthor>Segales,J.</GBAuthor>
+        <GBAuthor>Huang,F.F.</GBAuthor>
+        <GBAuthor>Guenette,D.K.</GBAuthor>
+        <GBAuthor>Mateu,E.</GBAuthor>
+        <GBAuthor>de Deus,N.</GBAuthor>
+        <GBAuthor>Meng,X.J.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Association of hepatitis E virus (HEV) and postweaning multisystemic wasting syndrome (PMWS) with lesions of hepatitis in pigs</GBReference_title>
+      <GBReference_journal>Vet. Microbiol. 122 (1-2), 16-24 (2007)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1016/j.vetmic.2006.12.020</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>17270366</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..216</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Martin,M.</GBAuthor>
+        <GBAuthor>Segales,J.</GBAuthor>
+        <GBAuthor>Huang,F.</GBAuthor>
+        <GBAuthor>Guenette,D.</GBAuthor>
+        <GBAuthor>Mateu,E.M.</GBAuthor>
+        <GBAuthor>Meng,X.J.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (30-JAN-2006) Sanitat Animal-CReSA, Universitat Autonoma de Barcelona, Edifici V, Bellaterra, Barcelona 08193, Spain</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..216</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>216</GBInterval_to>
+          <GBInterval_accession>DQ383737.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>UAB4; 153</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Spain</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;216</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>216</GBInterval_to>
+          <GBInterval_accession>DQ383737.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>capsid protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>ABD46647.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>GLGLLDFALELEFRNLTPGNTNTRVSRYTSTARHRLRRGADGSAELTTTAATRFMKDLHFTGTNGVGEVGRG</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>ggtttggggcttcttgactttgcacttgaacttgaatttagaaatttaacccccgggaacactaacacccgtgtttcccgctacaccagcacagcccgacaccgcttgcgtcgtggtgctgatgggtcggccgagctcacaaccactgcagccacacggtttatgaaggacctgcattttaccgggacgaatggcgttggtgaggtgggccgcgga</GBSeq_sequence>
+</GBSeq>

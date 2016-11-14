@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>DL127676</GBSeq_locus>
+  <GBSeq_length>1989</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>DNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>PAT</GBSeq_division>
+  <GBSeq_update-date>26-SEP-2008</GBSeq_update-date>
+  <GBSeq_create-date>26-SEP-2008</GBSeq_create-date>
+  <GBSeq_definition>THE POLYPEPTIDE FRAGMENT OF HEPATISIS E VIRUS, THE VACCINE COMPOSITION COMPRISING SAID FRAGMENTS AND THE DIAGNOSTIC KITS</GBSeq_definition>
+  <GBSeq_primary-accession>DL127676</GBSeq_primary-accession>
+  <GBSeq_accession-version>DL127676.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>dbj|DL127676.1|</GBSeqid>
+    <GBSeqid>pat|JP|2004525613|2</GBSeqid>
+    <GBSeqid>gi|207048390</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_keywords>
+    <GBKeyword>JP 2004525613-A/2</GBKeyword>
+  </GBSeq_keywords>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..1989</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>He,Z.</GBAuthor>
+        <GBAuthor>Gu,Y.</GBAuthor>
+        <GBAuthor>Ge,S.</GBAuthor>
+        <GBAuthor>Li,S.</GBAuthor>
+        <GBAuthor>Zhang,J.</GBAuthor>
+        <GBAuthor>Xia,N.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>THE POLYPEPTIDE FRAGMENT OF HEPATISIS E VIRUS, THE VACCINE COMPOSITION COMPRISING SAID FRAGMENTS AND THE DIAGNOSTIC KITS</GBReference_title>
+      <GBReference_journal>Patent: JP 2004525613-A 2 26-AUG-2004; YANG SHENG TANG company Ltd</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>OS hepatitis E virus~PN JP 2004525613-A/2~PD 26-AUG-2004~PF 30-SEP-2001 JP 2002542994~PR 30-SEP-2000 CN 00 1 30634.0~PI zhiqiang he,ying gu,shenshan ge,shaowei li,jun zhang,ninshao PI xia~CC~FH Key Location/Qualifiers</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1989</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1989</GBInterval_to>
+          <GBInterval_accession>DL127676.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>unassigned DNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>atgcgccctcggcctattttgctgttgctcctcatgtttctgcctatgctgcccgcgccaccgcccggtcagccgtctggccgccgtcgtgggcggcgcagcggcggttccggcggtggtttctggggtgaccgggttgattctcagcccttcgcaatcccctatattcatccaaccaaccccttcgcccccgatgtcaccgctgcggccggggctggacctcgtgttcgccaacccgcccgaccactcggctccgcttggcgtgaccaggcccagcgccccgccgttgcctcacgtcgtagacctaccacagctggggccgcgccgctaaccgcggtcgctccggcccatgacaccccgccagtgcctgatgttgactcccgcggcgccatcctgcgccggcagtataacctatcaacatctccccttacttcttccgtggccaccggtacaaacttggttctatacgccgctcctcttagcccacttctacccctccaggacggcaccaatactcatataatggccacagaagcttctaattatgcccagtaccgggttgctcgtgccacaattcgctaccgcccgctggtccccaacgctgttggtggctacgccatctccatctcgttctggccacagaccaccaccaccccgacgtccgttgacatgaattcaataacctcgacggatgttcgtattttagtccagcccggcatagcctccgagcttgttatcccaagtgagcgcctacactaccgtaaccaaggttggcgctctgttgagacctccggggtggcggaggaggaggccacctctggtcttgttatgctctgcatacatggctcacctgtaaattcttatactaatacaccttataccggtgccctcgggctgttggactttgccctcgaacttgagttccgcaacctcacccccggtaataccaacacgcgggtctcccgttactccagcactgcccgtcaccgccttcgtcgcggtgcagatgggactgccgagcttaccaccacggctgctacccgcttcatgaaggacctctattttactagtactaatggtgtcggtgagatcggccgtgggatagcgcttaccctgtttaaccttgctgacaccctgcttggcggtctaccgacagaattgatttcgtcggctggtggccagctgttctactctcgtcccgtcgtctcagccaatggcgagccgactgttaagctttatacatctgtagagaatgctcagcaggataagggtattgcaatcccgcatgacatcgacctcggggagtctcgtgtagttattcaggattatgacaaccaacatgagcaggaccgaccgacaccttccccagccccatcgcgccctttttctgtcctccgagctaatgatgtgctttggctttctctcaccgctgccgagtatgaccagtccacttacggctcttcgaccggcccagtctatgtctctgactctgtgaccttggttaatgttgcgaccggcgcgcaggccgttgcccggtcactcgactggaccaaggtcacacttgatggtcgccccctttccaccatccagcagtattcaaagaccttctttgtcctgccgctccgcggtaagctctccttttgggaggcaggtactactaaagccgggtacccttataattataacaccactgctagtgaccaactgctcgttgagaatgccgctgggcatcgggttgctatttccacttacaccactagcctgggtgctggtcccgtctctatttccgcggttgctgttttagccccccctccgcgctagcattgcttgaggataccatggactaccctgcccgcgcccatactttcgatgacttctgcccggagtgccgcccccttggcctccagggctgtgcttttcagtctactgtcgctgagcttcagcgccttaagatgaaggtgggtaaaactcgggagttatagtttattt</GBSeq_sequence>
+</GBSeq>

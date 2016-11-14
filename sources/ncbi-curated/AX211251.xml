@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>AX211251</GBSeq_locus>
+  <GBSeq_length>111</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>PAT</GBSeq_division>
+  <GBSeq_update-date>31-AUG-2001</GBSeq_update-date>
+  <GBSeq_create-date>31-AUG-2001</GBSeq_create-date>
+  <GBSeq_definition>Sequence 8 from Patent WO0157073</GBSeq_definition>
+  <GBSeq_primary-accession>AX211251</GBSeq_primary-accession>
+  <GBSeq_accession-version>AX211251.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>emb|AX211251.1|</GBSeqid>
+    <GBSeqid>pat|WO|0157073|8</GBSeqid>
+    <GBSeqid>gi|15425508</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_authors>
+        <GBAuthor>Panda,S.K.</GBAuthor>
+        <GBAuthor>Ansari,I.H.</GBAuthor>
+        <GBAuthor>Agrawal,S.</GBAuthor>
+        <GBAuthor>Durgapal,H.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Genetically engineered clone of hepatitis e virus (hev) genome which is infectious, its production and uses</GBReference_title>
+      <GBReference_journal>Patent: WO 0157073-A2 8 09-AUG-2001; Department of Science and Technology (IN); All India Institute of Medical Sciences (IN)</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..111</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>111</GBInterval_to>
+          <GBInterval_accession>AX211251.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>unassigned RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gctccagcgccttaagatgaaggtgggtaaaactcgggagttatagtttatttgcttgtgccccccttctctctgttgcttatttctcatttctgcgttccgcgctccctg</GBSeq_sequence>
+</GBSeq>

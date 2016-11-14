@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>DD496415</GBSeq_locus>
+  <GBSeq_length>1983</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>DNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>PAT</GBSeq_division>
+  <GBSeq_update-date>04-OCT-2007</GBSeq_update-date>
+  <GBSeq_create-date>04-OCT-2007</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus empty capsid, gene encoding the same, method for preparing the recombinant vector comprising the gene and usage of the vector</GBSeq_definition>
+  <GBSeq_primary-accession>DD496415</GBSeq_primary-accession>
+  <GBSeq_accession-version>DD496415.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>dbj|DD496415.1|</GBSeqid>
+    <GBSeqid>pat|JP|2007050002|3</GBSeqid>
+    <GBSeqid>gi|157897259</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_keywords>
+    <GBKeyword>JP 2007050002-A/3</GBKeyword>
+  </GBSeq_keywords>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..1983</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Miyamura,T.</GBAuthor>
+        <GBAuthor>Takeda,N.</GBAuthor>
+        <GBAuthor>Li,T.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Hepatitis E virus empty capsid, gene encoding the same, method for preparing the recombinant vector comprising the gene and usage of the vector</GBReference_title>
+      <GBReference_journal>Patent: JP 2007050002-A 3 01-MAR-2007; DENKA SEIKEN CO LTD et al</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>OS Hepatitis E virus~PN JP 2007050002-A/3~PD 01-MAR-2007~PF 06-OCT-2006 JP 2006274700~PI tatsuo miyamura,naokazu takeda,tiancheng li~CC~FH Key Location/Qualifiers~FT exon (1)..(1980)</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1983</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1983</GBInterval_to>
+          <GBInterval_accession>DD496415.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>unassigned DNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>atgcgccctcggcctattttgttgctgctcctcatgtttttgcctatgttgcccgcgccaccgcccggtcagccgtctggccgccgtcgtgggcggcgcagcggcggttccggcggtggtttctggggtgaccgggttgattctcagcccttcgcaatcccctatattcatccaaccaaccccttcgcccccgatgtcaccgctgcggccggggctggacctcgtgttcgccaaccagcccgaccactcggctccgcttggcgtgaccaggcccagcgccccgccgttgcctcacgtcgtagacctaccacagctggggccgcgccgctaaccgcggtcgctccagcccatgacaccccgccagtgcctgatgtcgactctcgcggcgccatcttgcgccggcagtataatctatcaacatctcccctcacctcttccgtggccaccggcactaacctggttctttatgccgcccctcttagtccgctcttacctcttcaggacggcaccaatacccatataatggccacggaagcttctaattatgcccagtaccgggttgcccgtgccacaatccgttaccgcccgctggtccccaatgctgtcggcggttatgccatctccatctcattctggccacagaccaccaccaccccgacgtccgttgatatgaattcaataacctcgacggatgttcgtattttagtccagcccggcatagcctctgagcttgtgatcccaagtgagcgcctacactatcgtaaccaaggctggcgctccgtcgagacctctggggtggctgaggaggaggctacctctggtcttgttatgctttgcatacatggctcacccgtaaattcctatactaacacaccctataccggtgccctcgggctgctggactttgcccttgagcttgagtttcgcaaccttacccccggtaacaccaatacgcgggtctcccgttattccagcactgctcgccaccgccttcgtcgcggtgcggacgggactgccgagctcaccaccacggccgctacccgctttatgaaggacctctattttactagtactaatggtgtcggtgagatcggccgcgggatagccctcaccctgtttaaccttgctgacactctgcttggcggcctgccgacagaattgatttcgtcggctggtggccagctgttctactcccgtcccgttgtctcggccaatggcgagccgactgttaagttgtatacatctgtagagaatgctcagcaggataagggtattgcaatcccgcatgacattgacctcggagaatctcgtgtggttattcaggattatgacaaccaacatgaacaagatcggccgacgccttctccagccccatcgcgccctttctctgtccttcgagctaatgatgtgctttggctctctctcaccgctgccgagtatgaccagtccacttatggctcttcgactggcccagtttatgtttctgactctgtgaccttggttaatgttgcgaccggcgcgcaggccgttgcccggtcgctcgattggaccaaggtcacacttgacggtcgccccctctccaccatccagcagtactcgaagaccttctttgtcctgccgctccgcggtaagctctctttctgggaggcaggcacaactaaagccgggtacccttataattataacaccactgctagcgaccaactgcttgtcgagaatgccgccgggcaccgggtcgctatttccacttacaccactagcctgggtgctggtcccgtctccatctctgcggttgctgttttagccccccactctgcgctagcattgcttgaggataccttggactaccctgcccgcgcccatacttttgatgatttctgcccagagtgccgccctcttggcctccagggctgcgctttccagtctactgtcgctgagcttcagcgccttaagatgaaggtgggtaaaactcgggagttatag</GBSeq_sequence>
+</GBSeq>

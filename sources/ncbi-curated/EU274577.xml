@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>EU274577</GBSeq_locus>
+  <GBSeq_length>122</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>26-JUL-2016</GBSeq_update-date>
+  <GBSeq_create-date>11-DEC-2007</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus strain CAM-REP-R1 capsid protein gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>EU274577</GBSeq_primary-accession>
+  <GBSeq_accession-version>EU274577.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|EU274577.1|</GBSeqid>
+    <GBSeqid>gi|161898661</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..122</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Kitajima,M.</GBAuthor>
+        <GBAuthor>Matsubara,K.</GBAuthor>
+        <GBAuthor>Sour,S.</GBAuthor>
+        <GBAuthor>Haramoto,E.</GBAuthor>
+        <GBAuthor>Katayama,H.</GBAuthor>
+        <GBAuthor>Ohgaki,S.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>First detection of genotype 3 hepatitis E virus RNA in river water in Cambodia</GBReference_title>
+      <GBReference_journal>Trans. R. Soc. Trop. Med. Hyg. 103 (9), 955-957 (2009)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1016/j.trstmh.2009.04.004</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>19446859</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..122</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Matsubara,K.</GBAuthor>
+        <GBAuthor>Kitajima,M.</GBAuthor>
+        <GBAuthor>Haramoto,E.</GBAuthor>
+        <GBAuthor>Katayama,H.</GBAuthor>
+        <GBAuthor>Ohgaki,S.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (11-NOV-2007) Department of Urban Engineering, Graduate School of Engineering, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-8656, Japan</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..122</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>122</GBInterval_to>
+          <GBInterval_accession>EU274577.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>CAM-REP-R1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>river water</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Cambodia</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>genotype</GBQualifier_name>
+          <GBQualifier_value>3</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;122</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>122</GBInterval_to>
+          <GBInterval_accession>EU274577.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>capsid protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>ABX80363.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>RXDSXPXALPYIHPTNPFAADVVSQPGAGTRPRQPPXPLG</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>acagggntgattctcancccttngccctcccctatattcatccaaccaaccccttcgccgccgatgtcgtttcacaacccggggctggaactcgccctcggcagccgccccnccccctcggc</GBSeq_sequence>
+</GBSeq>
