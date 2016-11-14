@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>EF199964</GBSeq_locus>
+  <GBSeq_length>307</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>14-APR-2010</GBSeq_update-date>
+  <GBSeq_create-date>30-JAN-2007</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus isolate 3 from serum ORF1 gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>EF199964</GBSeq_primary-accession>
+  <GBSeq_accession-version>EF199964.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|EF199964.1|</GBSeqid>
+    <GBSeqid>gi|124107977</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..307</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Verma,V.</GBAuthor>
+        <GBAuthor>Arankalle,V.A.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Hepatitis E virus-based evaluation of a virion concentration method and detection of enteric viruses in environmental samples by multiplex nested RT-PCR</GBReference_title>
+      <GBReference_journal>J. Appl. Microbiol. (2009) In press</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1111/j.1365-2672.2009.04581.x</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>19878363</GBReference_pubmed>
+      <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..307</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Verma,V.</GBAuthor>
+        <GBAuthor>Mishra,N.</GBAuthor>
+        <GBAuthor>Chadha,M.</GBAuthor>
+        <GBAuthor>Arankalle,V.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Detection of genotype I Hepatitis E virus in the Indrayani River during an outbreak at Alandi, Pune</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>3</GBReference_reference>
+      <GBReference_position>1..307</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Verma,V.</GBAuthor>
+        <GBAuthor>Mishra,N.</GBAuthor>
+        <GBAuthor>Chadha,M.</GBAuthor>
+        <GBAuthor>Arankalle,V.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (21-DEC-2006) Hepatitis Department, National Institute of Virology, 20/A Dr. Ambedkar Road, Pune, Maharashtra 411001, India</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..307</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>307</GBInterval_to>
+          <GBInterval_accession>EF199964.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>serum</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>India</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>PCR_primers=fwd_name: EF2, rev_name: ER2</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;307</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>307</GBInterval_to>
+          <GBInterval_accession>EF199964.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>ORF1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>ABM90627.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:124107978</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>VAAFKGDDSIVLCSEYRQSPGAAVLIAGCGLKLKVDFRPIGLYAGVVVAPGLGALPDVVRFAGRLTEKNWGPGPERAEQLRLAVSDFLRKLTNVAQMCVDVV</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>aggtggctgccttcaaaggtgatgattcgatagtgctttgcagtgagtaccgtcagagcccgggggccgctgtcctgatcgccggctgtggcctaaagttgaaggtagactttcgcccgattggtttgtatgcaggtgttgtggtagcccctggccttggcgcgcttcctgatgttgtgcgctttgccggccggcttactgagaagaattggggccctggccctgagcgggcggagcagctccgccttgctgtgagtgattttctccgcaagctcacgaatgtagcacagatgtgtgtggatgttgt</GBSeq_sequence>
+</GBSeq>

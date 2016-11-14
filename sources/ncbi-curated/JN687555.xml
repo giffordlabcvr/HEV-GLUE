@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>JN687555</GBSeq_locus>
+  <GBSeq_length>228</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>22-FEB-2012</GBSeq_update-date>
+  <GBSeq_create-date>15-JAN-2012</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus isolate Mrs_9325953 capsid protein gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>JN687555</GBSeq_primary-accession>
+  <GBSeq_accession-version>JN687555.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|JN687555.1|</GBSeqid>
+    <GBSeqid>gi|371768350</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..228</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Motte,A.</GBAuthor>
+        <GBAuthor>Roquelaure,B.</GBAuthor>
+        <GBAuthor>Galambrun,C.</GBAuthor>
+        <GBAuthor>Bernard,F.</GBAuthor>
+        <GBAuthor>Zandotti,C.</GBAuthor>
+        <GBAuthor>Colson,P.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Hepatitis E in three immunocompromized children in southeastern France</GBReference_title>
+      <GBReference_journal>J. Clin. Virol. 53 (2), 162-166 (2012)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1016/j.jcv.2011.11.012</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>22177988</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..228</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Motte,A.</GBAuthor>
+        <GBAuthor>Roquelaure,B.</GBAuthor>
+        <GBAuthor>Galambrun,C.</GBAuthor>
+        <GBAuthor>Bernard,F.</GBAuthor>
+        <GBAuthor>Colson,P.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (15-SEP-2011) Centre Hospitalo-Universitaire Timone, Pole des Maladies Infectieuses et Tropicales Clinique et Biologique, Federation de Bacteriologie-Hygiene-Virologie, 264 rue Saint-Pierre, Marseille 13385, France</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..228</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>228</GBInterval_to>
+          <GBInterval_accession>JN687555.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>Mrs_9325953</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>Homo sapiens</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>France: Marseille</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>Nov-2009</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;228</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>228</GBInterval_to>
+          <GBInterval_accession>JN687555.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>ORF2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>capsid protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AEX56436.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:371768351</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>YTGALGLLDFALELEFRNLTPGNTNTRVSRYTSTARHRLRRGADGTAELTTTAATRFMKDLHFTGTNGVGEVGRGI</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>tatactggggcattagggctcctcgactttgcgcttgagcttgaatttagaaatttgacccctgggaacactaacacccgtgtgtcccgatacactagcacagcccggcaccgtttgcgtcgcggagccgatggtacagccgagcttacaaccactgcggccacacgttttatgaaggacttgcatttcacagggacaaatggtgttggtgaggtgggccgtggyata</GBSeq_sequence>
+</GBSeq>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>AB890376</GBSeq_locus>
+  <GBSeq_length>1965</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>29-MAR-2014</GBSeq_update-date>
+  <GBSeq_create-date>29-MAR-2014</GBSeq_create-date>
+  <GBSeq_definition>Ferret hepatitis E virus gene for ORF2 protein, complete cds, strain: HEV-4331</GBSeq_definition>
+  <GBSeq_primary-accession>AB890376</GBSeq_primary-accession>
+  <GBSeq_accession-version>AB890376.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>dbj|AB890376.1|</GBSeqid>
+    <GBSeqid>gi|602152666</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Ferret hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Ferret hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_authors>
+        <GBAuthor>Li,T.C.</GBAuthor>
+        <GBAuthor>Yang,T.</GBAuthor>
+        <GBAuthor>Ami,Y.</GBAuthor>
+        <GBAuthor>Suzaki,Y.</GBAuthor>
+        <GBAuthor>Shirakura,M.</GBAuthor>
+        <GBAuthor>Kishida,N.</GBAuthor>
+        <GBAuthor>Asanuma,H.</GBAuthor>
+        <GBAuthor>Takeda,N.</GBAuthor>
+        <GBAuthor>Takaji,W.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Complete genome of hepatitis e virus from laboratory ferrets</GBReference_title>
+      <GBReference_journal>Emerging Infect. Dis. 20 (4), 709-712 (2014)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.3201/eid2004.131815</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>24655541</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..1965</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Li,T.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (28-NOV-2013) Contact:Tiancheng Li National institute of infectious diseases, Virology 2; Gakuen 4-7-1, Musashimurayama, Tokyo 208-0011, Japan</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..1965</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1965</GBInterval_to>
+          <GBInterval_accession>AB890376.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Ferret hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>HEV-4331</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>ferret stool</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>Mustela putorius furo</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:1213422</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Japan</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>2013-05-28</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>1..1965</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>1965</GBInterval_to>
+          <GBInterval_accession>AB890376.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>ORF2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>ORF2 protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>BAO57194.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:602152667</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MEHVYKMRFVLLLLLLLFVSVLLAAPMYPAGAGGRPSNRRGTRADSVGPGPNSLPPPPTRVDARPNWMSPTNPFAPELSGVPPLGSAWADRPRAKRQPGNTRLSDAGQSPLTAVAPAPNTAPVPDYDSRGAILKRQYNLSTSPLTLTVPQSSNSILFAASLNPLLPLQDGSNTHIMATEASNYAQYRIQAATLRFRPLVPNSVGGYAMSMSFWPQSTTVPTSVDMNSITSTDVRIVSQPGLSAELVIPRERLHYRNQGWRSVETNAVPQEESTSGMIMVCIHGAPINSFTNSPYTGALGLLDPALQLEYRNLTPGNTNTRVNRYRSTAQHKIRRLPDGTAQVSSAAALRFMQDVHLTGNNGLGDVGRGIVQVLFNIADTLLGGLPTDLVSNAGGQMFYGRPQVSANGEPSVKLYTSVEAAQLDHGIVIPHDIDLGLSSVTLQDYDNQHVQDRPTPSPAPARPITNWRTGDVVWVTLPAAQYIQSSSVLDSHPAYWSADATIINVATGQRAAVSSIKWDQVTLNGRPLHHEAHSELIYYKLPLMGKISFWEQGTTKAGYTYNYNTVDSDSIWVWWDGGSKAYLYVSTYTTMLGAGPVDITGVGAVGPTSSSTARAVDPSHTLQDGCPACAAAGLSSCLVAEAIARVKLLTVSEDV</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>atggagcatgtgtacaagatgcgttttgttctcttgctcctgcttctgctgttcgtgtcggtgctgctcgccgccccaatgtaccccgcaggtgcaggggggcgcccgagcaatcggcgaggtacccgggccgactccgtcggccccggccccaacagcttaccccctccacccaccagagttgatgctaggcccaattggatgtcccccacaaaccctttcgcccctgagctgtctggcgtgcccccactcgggagcgcctgggcagaccgcccccgtgcaaaacgtcaacccgggaatacccgcctttccgatgccgggcaatcgccgttgactgcggttgcccccgccccaaataccgcgcctgtgccggattacgactctcgtggcgccattttaaaacgccaatataacttgtcaacttcccctttaaccttgactgtccctcagtcctctaattctattctgtttgcggcatctcttaacccccttttgccgctacaggatgggtctaatactcacattatggctactgaggcctctaattatgcccaataccgcatacaggccgcaaccttacggttccggccattggtcccgaattcggttggaggttacgccatgagtatgtctttctggccgcagtcgactacggttcccacctcagtcgacatgaactccatcacctccactgatgtgaggatcgtgtcccaaccaggcctctctgccgaactggtcatcccccgtgagcggctgcattaccggaatcagggctggcgatcagtagagaccaatgctgtgcctcaagaggaatcgacttccggtatgattatggtttgcattcacggggcaccaattaattccttcacaaactccccttacaccggagcactagggttgcttgatcccgctttgcagctggagtatcgcaacctcactcctggtaataccaatactcgagtgaatcggtatcgctccacggcccagcataagatacgccgtctgcctgatggcacggcacaggtttcatctgctgctgcccttcggtttatgcaggatgttcatctgacgggtaataatggcttaggtgatgtgggtaggggtatcgtgcaagtgctgtttaacatagctgacaccctgcttggtggcctacccactgatctcgtgtcgaatgccggagggcagatgttctatggccgccctcaggtttcggccaatggggaaccatcggttaaattgtatacatctgttgaggctgcccagctggaccacggtatcgtgataccgcatgacattgacctcggactttcttcagttaccctgcaggactatgacaatcaacatgtacaagaccgaccgaccccttcgcctgcccctgctaggccgatcaccaattggaggacgggtgatgtggtgtgggtcacattgccagcggcccaatacattcagtcctcgagcgtgctagactcccacccggcctattggtctgctgatgccacaattataaacgtggccacaggccagcgtgccgcagtgtcatctataaagtgggaccaggttacccttaatggccgccctctacatcatgaggcccactcggagttgatttattacaagctgccgttgatgggtaagatcagtttttgggaacagggcactacgaaggccggttatacctataattacaacactgtggactctgatagtatctgggtttggtgggatggtggctctaaagcttatctttatgtttctacctatacaactatgctgggtgcgggtccggttgatattacaggtgtgggtgctgttggccctacctcttcatccaccgcccgtgctgttgacccctctcatactcttcaggacggttgtccagcctgtgctgccgccgggctgtcgagctgtctcgttgctgaagctattgcgcgggtcaagctcctgactgtttctgaagatgtctag</GBSeq_sequence>
+</GBSeq>

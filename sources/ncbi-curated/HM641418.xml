@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>HM641418</GBSeq_locus>
+  <GBSeq_length>266</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>09-OCT-2010</GBSeq_update-date>
+  <GBSeq_create-date>09-OCT-2010</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus isolate 689-96-gt1 structural protein gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>HM641418</GBSeq_primary-accession>
+  <GBSeq_accession-version>HM641418.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|HM641418.1|</GBSeqid>
+    <GBSeqid>gi|308096981</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..266</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Widen,F.</GBAuthor>
+        <GBAuthor>Sundqvist,L.</GBAuthor>
+        <GBAuthor>Matyi-Toth,A.</GBAuthor>
+        <GBAuthor>Metreveli,G.</GBAuthor>
+        <GBAuthor>Belak,S.</GBAuthor>
+        <GBAuthor>Hallgren,G.</GBAuthor>
+        <GBAuthor>Norder,H.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Molecular epidemiology of hepatitis E virus in humans, pigs and wild boars in Sweden</GBReference_title>
+      <GBReference_journal>Epidemiol. Infect. (2010) In press</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1017/S0950268810001342</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>20546635</GBReference_pubmed>
+      <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..266</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Widen,F.</GBAuthor>
+        <GBAuthor>Sundqvist,L.</GBAuthor>
+        <GBAuthor>Matyi-Toth,A.</GBAuthor>
+        <GBAuthor>Metreveli,G.</GBAuthor>
+        <GBAuthor>Belak,S.</GBAuthor>
+        <GBAuthor>Hallgren,G.</GBAuthor>
+        <GBAuthor>Norder,H.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (24-MAY-2010) Virological, Swedish Institute for Infectious Disease Control, Hepatitis Section, Solna se-171 82, Sweden</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..266</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>266</GBInterval_to>
+          <GBInterval_accession>HM641418.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>689-96-gt1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>Homo sapiens</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Bangladesh</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;266</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>266</GBInterval_to>
+          <GBInterval_accession>HM641418.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>ORF2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>structural protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>ADO14042.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:308096982</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>PVNSYTNTPYTGALGLLDFALELEFRNLTPGNTNTRVSRYSSTARHRLRRGADGTAELTTTAATRFMKDLYFTSTNGVGEIGRGIALTL</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>cctgtaaattcctacactaatacaccctataccggtgccctcgggctgctggactttgcccttgagcttgagtttcgtaacctcacccccggtaataccaatacacgggtctcccgttactccagcactgctcgccaccgccttcgtcgcggtgcggacgggactgccgagctcaccaccacggctgctactcgctttatgaaggacctttatttcactagtactaatggtgttggtgagatcggccgcgggatagccctcaccct</GBSeq_sequence>
+</GBSeq>

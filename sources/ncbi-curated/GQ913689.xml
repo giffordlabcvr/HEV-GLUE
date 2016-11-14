@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>GQ913689</GBSeq_locus>
+  <GBSeq_length>280</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>20-MAY-2010</GBSeq_update-date>
+  <GBSeq_create-date>11-OCT-2009</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus isolate Cam E01 capsid protein gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>GQ913689</GBSeq_primary-accession>
+  <GBSeq_accession-version>GQ913689.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|GQ913689.1|</GBSeqid>
+    <GBSeqid>gi|260609528</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..280</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Rolfe,K.J.</GBAuthor>
+        <GBAuthor>Curran,M.D.</GBAuthor>
+        <GBAuthor>Mangrolia,N.</GBAuthor>
+        <GBAuthor>Gelson,W.</GBAuthor>
+        <GBAuthor>Alexander,G.J.</GBAuthor>
+        <GBAuthor>L'estrange,M.</GBAuthor>
+        <GBAuthor>Vivek,R.</GBAuthor>
+        <GBAuthor>Tedder,R.</GBAuthor>
+        <GBAuthor>Ijaz,S.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>First case of genotype 4 human hepatitis E virus infection acquired in India</GBReference_title>
+      <GBReference_journal>J. Clin. Virol. 48 (1), 58-61 (2010)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1016/j.jcv.2010.02.004</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>20227909</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..280</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Curran,M.D.</GBAuthor>
+        <GBAuthor>Ijaz,S.</GBAuthor>
+        <GBAuthor>Rolfe,K.J.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (14-SEP-2009) Clinical Microbiology and Public Health Laboratory, Addenbrooke's Hospital, Hill's Road, Cambridge, Cambridgeshire CB2 0QW, England, UK</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..280</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>280</GBInterval_to>
+          <GBInterval_accession>GQ913689.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>Cam E01</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>patient with acute hepatitis/liver failure who recently travelled to Mumbai, India</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>Homo sapiens</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>United Kingdom: England</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>May-2009</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>genotype</GBQualifier_name>
+          <GBQualifier_value>4</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;280</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>280</GBInterval_to>
+          <GBInterval_accession>GQ913689.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>ORF 2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>capsid protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>ACX47136.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:260609529</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>TPYTGALGLLDFALELEFRNLTPGNTNTRVSRYSSSARHKLHRGADGTAELTTTAATRFMKDLHFTGTNGVGEVGRGIALTLFNLADTLLGGL</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>acaccttacactggcgccctcggtttgcttgattttgcactcgaactcgagtttcgtaatttaacacctggcaatacgaacactcgtgtgtctcgctattcgagcagcgcgcgtcacaagttgcaccgaggggccgatggcactgctgagctaactactactgccgctacacgttttatgaaggacctccattttactgggaccaatggtgttggtgaagttggccgtggtatagcgctgaccctattcaatcttgctgatacacttctcggtgggctcc</GBSeq_sequence>
+</GBSeq>

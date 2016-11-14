@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>KF366515</GBSeq_locus>
+  <GBSeq_length>301</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>03-NOV-2015</GBSeq_update-date>
+  <GBSeq_create-date>20-JAN-2014</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus isolate 2D clone 1 CP protein gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>KF366515</GBSeq_primary-accession>
+  <GBSeq_accession-version>KF366515.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|KF366515.1|</GBSeqid>
+    <GBSeqid>gi|574455114</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus (HEV)</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..301</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Prpic,J.</GBAuthor>
+        <GBAuthor>Cerni,S.</GBAuthor>
+        <GBAuthor>Skoric,D.</GBAuthor>
+        <GBAuthor>Keros,T.</GBAuthor>
+        <GBAuthor>Brnic,D.</GBAuthor>
+        <GBAuthor>Cvetnic,Z.</GBAuthor>
+        <GBAuthor>Jemersic,L.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Distribution and Molecular Characterization of Hepatitis E virus in Domestic Animals and Wildlife in Croatia</GBReference_title>
+      <GBReference_journal>Food Environ Virol 7 (3), 195-205 (2015)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1007/s12560-015-9193-5</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>25820413</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..301</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Cerni,S.</GBAuthor>
+        <GBAuthor>Prpic,J.</GBAuthor>
+        <GBAuthor>Jemersic,L.</GBAuthor>
+        <GBAuthor>Skoric,D.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Application of single strand conformation polymorphism (SSCP) in the assessment of genetic heterogeneity of Hepatitis E virus intra-host isolates</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>3</GBReference_reference>
+      <GBReference_position>1..301</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Cerni,S.</GBAuthor>
+        <GBAuthor>Prpic,J.</GBAuthor>
+        <GBAuthor>Jemersic,L.</GBAuthor>
+        <GBAuthor>Skoric,D.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (08-JUL-2013) Biology, University of Zagreb, Faculty of Science, Marulicev trg 9a, Zagreb HR-10000, Croatia</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>##Assembly-Data-START## Sequencing Technology Sanger dideoxy sequencing ##Assembly-Data-END##</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..301</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>301</GBInterval_to>
+          <GBInterval_accession>KF366515.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>2D</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>serum</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>pig</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>clone</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Croatia</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>acronym</GBQualifier_name>
+          <GBQualifier_value>HEV</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>genotype</GBQualifier_name>
+          <GBQualifier_value>3</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;301</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>301</GBInterval_to>
+          <GBInterval_accession>KF366515.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>ORF2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>CP protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AHG26170.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:574455115</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>PVNSYTNTPYTGALGLLDFALELEFRNLTPGNTNTRVSRYTSTARHRLRRGADGTAELTTTAATRFMKDLHFTGTNGVGEVGRGIALTLFNLADTLLGG</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>cccctgtcaattcctacaccaatacgccctatactggggcgctaggacttcttgactttgcacttgagcttgaatttaggaatttgactcctgggaacactaacacccgtgtgtcccggtacaccagtacggctcgccaccgcttacgccgtggtgccgatggaactgctgagctcacgactactgcggccacgcgctttatgaaggacctgcatttcactgggacgaatggcgttggcgaggtgggccgtggcatagccctaaccttgtttaatcttgcagatacacttctcggcggttt</GBSeq_sequence>
+</GBSeq>

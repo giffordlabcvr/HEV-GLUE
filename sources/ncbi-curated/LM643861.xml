@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>LM643861</GBSeq_locus>
+  <GBSeq_length>132</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>24-AUG-2014</GBSeq_update-date>
+  <GBSeq_create-date>24-AUG-2014</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus type 1 partial polyprotein, methyltransferase region, strain 110/2007/Tun</GBSeq_definition>
+  <GBSeq_primary-accession>LM643861</GBSeq_primary-accession>
+  <GBSeq_accession-version>LM643861.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>emb|LM643861.1|</GBSeqid>
+    <GBSeqid>gi|674651784</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus type 1</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus type 1</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_authors>
+        <GBAuthor>Beji Hamza,A.</GBAuthor>
+        <GBAuthor>Hassine Zaafrane,M.</GBAuthor>
+        <GBAuthor>Della Libera,S.</GBAuthor>
+        <GBAuthor>Iaconelli,M.</GBAuthor>
+        <GBAuthor>Muscillo,M.</GBAuthor>
+        <GBAuthor>Petricca,S.</GBAuthor>
+        <GBAuthor>Ciccaglione,A.R.</GBAuthor>
+        <GBAuthor>Bruni,R.</GBAuthor>
+        <GBAuthor>Khelifi Gharbi,H.</GBAuthor>
+        <GBAuthor>Aouni,M.</GBAuthor>
+        <GBAuthor>La Rosa,G.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Hepatitis E virus genotypes 1 and 3 in wastewater samples in Tunisia</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_authors>
+        <GBAuthor>Beji,A.</GBAuthor>
+        <GBAuthor>Della Libera,S.</GBAuthor>
+        <GBAuthor>Iaconelli,M.</GBAuthor>
+        <GBAuthor>Muscillo,M.</GBAuthor>
+        <GBAuthor>Petricca,S.</GBAuthor>
+        <GBAuthor>Ciccaglione,A.R.</GBAuthor>
+        <GBAuthor>Bruni,R.</GBAuthor>
+        <GBAuthor>Taffon,S.</GBAuthor>
+        <GBAuthor>Hassine,M.</GBAuthor>
+        <GBAuthor>Khelifi,H.</GBAuthor>
+        <GBAuthor>Aouni,M.</GBAuthor>
+        <GBAuthor>La Rosa,G.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Qualitative and quantitative assessment of Hepatitis A virus in wastewaters in Tunisia</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>3</GBReference_reference>
+      <GBReference_position>1..132</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>La Rosa,G.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (24-JUN-2014) Department Environment and Primary Prev, Istituto Superiore di Sanita, Viale Regina Elena 299, Rome 00161, ITALY</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..132</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>132</GBInterval_to>
+          <GBInterval_accession>LM643861.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus type 1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>110/2007/Tun</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>sewage sample</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:185579</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Tunisia</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>PCR_primers</GBQualifier_name>
+          <GBQualifier_value>fwd_name: 1679, fwd_seq: ccaycagttyathaaggctcc, fwd_name: 1681, fwd_seq: ctcctggcrtyacwactgc, rev_name: 1680, rev_seq: taccavcgctgracrtc, rev_name: 1682, rev_seq: ggrtgrttcca&lt;i&gt;arvacytc</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>genotype:1</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>gene</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;132</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>132</GBInterval_to>
+          <GBInterval_accession>LM643861.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>ORF1</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;132</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>132</GBInterval_to>
+          <GBInterval_accession>LM643861.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>ORF1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>methyltransferase region</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>polyprotein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>CDW51344.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:674651785</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>IEQAALAAANSALANAVVVRPFLSHQQIEILINLMQPRQLVFRP</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>attgagcaggctgctctagcagcggccaactctgccctggcgaatgctgtggtagttaggccttttctctctcaccagcagattgagatccttattaacctgatgcaacctcgccagcttgttttccgcccc</GBSeq_sequence>
+</GBSeq>

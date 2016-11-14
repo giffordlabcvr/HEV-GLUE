@@ -1,0 +1,136 @@
+  create feature whole_genome "Whole genome"
+    feature whole_genome set metatag INFORMATIONAL true
+
+    create feature 5UTR -p whole_genome "5' UTR"
+
+    create feature ORF1_polyprotein -p whole_genome "ORF1 polyprotein"
+feature ORF1_polyprotein set metatag OWN_CODON_NUMBERING true
+      feature ORF1_polyprotein set metatag CODES_AMINO_ACIDS true
+      feature ORF1_polyprotein set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+      create feature non_structural_proteins -p ORF1_polyprotein "Non-structural proteins"
+        feature non_structural_proteins set metatag INFORMATIONAL true
+
+        create feature MT -p non_structural_proteins "methytransferase"
+          feature MT set metatag OWN_CODON_NUMBERING true
+          feature MT set metatag INCLUDE_IN_SUMMARY true
+          feature MT set metatag CODES_AMINO_ACIDS true
+          feature MT set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+        create feature Y -p non_structural_proteins "Y domain"
+          feature Y set metatag OWN_CODON_NUMBERING true
+          feature Y set metatag INCLUDE_IN_SUMMARY true
+          feature Y set metatag CODES_AMINO_ACIDS true
+          feature Y set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+        create feature PCP -p non_structural_proteins "papain-like cysteine protease"
+          feature PCP set metatag OWN_CODON_NUMBERING true
+          feature PCP set metatag INCLUDE_IN_SUMMARY true
+          feature PCP set metatag CODES_AMINO_ACIDS true
+          feature PCP set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+        create feature HVR -p non_structural_proteins "hypervariable region"
+          feature HVR set metatag OWN_CODON_NUMBERING true
+          feature HVR set metatag INCLUDE_IN_SUMMARY true
+          feature HVR set metatag CODES_AMINO_ACIDS true
+          feature HVR set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+        create feature X -p non_structural_proteins "macro domain"
+          feature X set metatag OWN_CODON_NUMBERING true
+          feature X set metatag INCLUDE_IN_SUMMARY true
+          feature X set metatag CODES_AMINO_ACIDS true
+          feature X set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+        create feature Hel -p non_structural_proteins "helicase"
+          feature Hel set metatag OWN_CODON_NUMBERING true
+          feature Hel set metatag INCLUDE_IN_SUMMARY true
+          feature Hel set metatag CODES_AMINO_ACIDS true
+          feature Hel set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+        create feature RdRp -p non_structural_proteins "RNA-dependent RNA polymerase"
+          feature RdRp set metatag OWN_CODON_NUMBERING true
+          feature RdRp set metatag INCLUDE_IN_SUMMARY true
+          feature RdRp set metatag CODES_AMINO_ACIDS true
+          feature RdRp set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+    create feature JR -p whole_genome "junction region"
+
+      create feature structural_proteins -p whole_genome "Structural proteins"
+        feature structural_proteins set metatag INFORMATIONAL true
+
+        create feature CP -p structural_proteins "Capsid"
+          feature CP set metatag OWN_CODON_NUMBERING true
+          feature CP set metatag INCLUDE_IN_SUMMARY true
+          feature CP set metatag CODES_AMINO_ACIDS true
+          feature CP set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+        create feature ORF3 -p whole_genome "Multifunctional protein"
+          feature ORF3 set metatag OWN_CODON_NUMBERING true
+          feature ORF3 set metatag INCLUDE_IN_SUMMARY true
+          feature ORF3 set metatag CODES_AMINO_ACIDS true
+          feature ORF3 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+    create feature CRE -p whole_genome "cis-reactive element"
+
+    create feature 3UTR -p whole_genome "3' UTR"
+
+
+  create reference L08816 ncbi-refseqs L08816
+  reference L08816
+  
+    add feature-location 5UTR
+    feature-location 5UTR
+      add segment 1 3
+      exit
+
+    add feature-location ORF1_polyprotein
+    feature-location ORF1_polyprotein
+      add segment 4 5085
+      exit
+
+    add feature-location MT
+    feature-location MT
+      add segment 169 714
+      exit
+      
+    add feature-location Y
+    feature-location Y
+      add segment 649 1299
+      exit
+      
+    add feature-location PCP
+    feature-location PCP
+      add segment 1300 1779
+      exit
+
+    add feature-location HVR
+    feature-location HVR
+      add segment 2137 2337
+      exit
+
+    add feature-location X
+    feature-location X
+      add segment 2356 2829
+      exit
+
+    add feature-location Hel
+    feature-location Hel
+      add segment 2881 3615
+      exit
+
+    add feature-location RdRp
+    feature-location RdRp
+      add segment 3622 5082
+      exit
+
+    add feature-location JR
+    feature-location JR
+      add segment 5085 5123
+      exit
+
+    add feature-location CP
+    feature-location CP
+      add segment 5123 7105
+      exit
+
+  exit  

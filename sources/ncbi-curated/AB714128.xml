@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>AB714128</GBSeq_locus>
+  <GBSeq_length>408</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>24-OCT-2012</GBSeq_update-date>
+  <GBSeq_create-date>24-OCT-2012</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus gene for capsid protein, partial cds, isolate: YKSF23</GBSeq_definition>
+  <GBSeq_primary-accession>AB714128</GBSeq_primary-accession>
+  <GBSeq_accession-version>AB714128.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>dbj|AB714128.1|</GBSeqid>
+    <GBSeqid>gi|409971164</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_authors>
+        <GBAuthor>Widasari,D.I.</GBAuthor>
+        <GBAuthor>Yano,Y.</GBAuthor>
+        <GBAuthor>Utsumi,T.</GBAuthor>
+        <GBAuthor>Heriyanto,D.S.</GBAuthor>
+        <GBAuthor>Anggorowati,N.</GBAuthor>
+        <GBAuthor>Rinonce,H.T.</GBAuthor>
+        <GBAuthor>Utoro,T.</GBAuthor>
+        <GBAuthor>Lusida,M.I.</GBAuthor>
+        <GBAuthor>Soetjipto</GBAuthor>
+        <GBAuthor>Asmara,W.</GBAuthor>
+        <GBAuthor>Hotta,H.</GBAuthor>
+        <GBAuthor>Hayashi,Y.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Hepatitis E Virus infection in community people, pig farm workers and swine from two different ethnic regions in Indonesia: with the identification of swine HEV genotype 3 from Java</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..408</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Widasari,D.I.</GBAuthor>
+        <GBAuthor>Yano,Y.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (23-APR-2012) Contact:Dewiyani I Widasari Kobe University Graduate School of Medicine, Infectious Diseases Pathology; 7-5-1 Kusunoki-cho, Chuo-ku, Kobe, Hyogo 650-0017, Japan</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..408</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>408</GBInterval_to>
+          <GBInterval_accession>AB714128.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>YKSF23</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>swine feces</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>Sus scrofa</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Indonesia:Yogyakarta</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>Jul-2011</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>genotype: 3a</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>1..&gt;408</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>408</GBInterval_to>
+          <GBInterval_accession>AB714128.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>ORF2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>capsid protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>BAM63385.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:409971165</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MLCIQDSPVNSYTNTPYTGALGLLDFALELEFRNLTPGNTNTRVSRYTSTARHRLRRGADGTAELTTTAATRFMKDLHFTGTNGVGEVGRGIALTLFNLADTLLGGLPTELISSAGGQLFYSRPVVSANGEPTVKK</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>atgctttgcatccaagactctcctgttaattcttatactaatacaccttacactggtgcgcttgggcttcttgattttgcattagagcttgaatttagaaatctaacacccgggaacactaacacccgtgtctcccggtacaccagtacagcccgccaccggctgcgtcgcggtgctgatgggactgctgagcttactaccacggcagccacacgtttcatgaaggacctgcattttactggcacgaatggcgttggtgaggtgggtcgtggtatcgccctcacactgttcaatcttgctgatacccttctcggcggtttaccgacagaattgatttcgtcggctgggggtcaactgttctactcccgccccgttgtctcagccaatggcgagccgacagtaaaaaaa</GBSeq_sequence>
+</GBSeq>

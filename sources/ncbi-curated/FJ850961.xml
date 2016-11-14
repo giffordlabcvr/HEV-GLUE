@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>FJ850961</GBSeq_locus>
+  <GBSeq_length>154</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>30-JUN-2015</GBSeq_update-date>
+  <GBSeq_create-date>18-MAY-2009</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus isolate GM2 nonfunctional capsid protein gene, partial sequence</GBSeq_definition>
+  <GBSeq_primary-accession>FJ850961</GBSeq_primary-accession>
+  <GBSeq_accession-version>FJ850961.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|FJ850961.1|</GBSeqid>
+    <GBSeqid>gi|237507227</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..154</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Masia,G.</GBAuthor>
+        <GBAuthor>Orru,G.</GBAuthor>
+        <GBAuthor>Liciardi,M.</GBAuthor>
+        <GBAuthor>Desogus,G.</GBAuthor>
+        <GBAuthor>Coppola,R.C.</GBAuthor>
+        <GBAuthor>Murru,V.</GBAuthor>
+        <GBAuthor>Argiolas,M.</GBAuthor>
+        <GBAuthor>Orru,G.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Evidence of hepatitis E virus (HEV) infection in human and pigs in Sardinia, Italy</GBReference_title>
+      <GBReference_journal>J Prev Med Hyg 50 (4), 227-231 (2009)</GBReference_journal>
+      <GBReference_pubmed>20812518</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..154</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Masia,G.</GBAuthor>
+        <GBAuthor>Orru,G.</GBAuthor>
+        <GBAuthor>Pilia,F.</GBAuthor>
+        <GBAuthor>Orru,G.</GBAuthor>
+        <GBAuthor>Liciardi,M.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (20-MAR-2009) Dipartimenti di Chirurgia e Scienze Odontostomatologiche, Universita Degli Studi di Cagliari, Via Binaghi 4, Cagliari, CA 09121, Italy</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..154</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>154</GBInterval_to>
+          <GBInterval_accession>FJ850961.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>GM2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>pig</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Italy: Sardinia</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>2007</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>misc_feature</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;154</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>154</GBInterval_to>
+          <GBInterval_accession>FJ850961.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>nonfunctional capsid protein due to mutation</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>cgccgtggtgccgatggtactgccgagctcaccaccacagcggccacgcgatttcatgaaggacttgcatttcgctggcacgaatggggtcggtgaggtgggtcgtggtattgccctgacactgtttaatcttgctgacacgcttctcggtggt</GBSeq_sequence>
+</GBSeq>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>KP640882</GBSeq_locus>
+  <GBSeq_length>324</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>29-APR-2015</GBSeq_update-date>
+  <GBSeq_create-date>29-APR-2015</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus isolate pd13-562F RNA-dependent RNA polymerase gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>KP640882</GBSeq_primary-accession>
+  <GBSeq_accession-version>KP640882.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|KP640882.1|</GBSeqid>
+    <GBSeqid>gi|815015915</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..324</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Lin,J.</GBAuthor>
+        <GBAuthor>Karlsson,M.</GBAuthor>
+        <GBAuthor>Olofson,A.S.</GBAuthor>
+        <GBAuthor>Belak,S.</GBAuthor>
+        <GBAuthor>Malmsten,J.</GBAuthor>
+        <GBAuthor>Dalin,A.M.</GBAuthor>
+        <GBAuthor>Widen,F.</GBAuthor>
+        <GBAuthor>Norder,H.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>High Prevalence of Hepatitis E Virus in Swedish Moose - A Phylogenetic Characterization and Comparison of the Virus from Different Regions</GBReference_title>
+      <GBReference_journal>PLoS ONE 10 (4), E0122102 (2015)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1371/journal.pone.0122102</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>25906163</GBReference_pubmed>
+      <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..324</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Lin,J.</GBAuthor>
+        <GBAuthor>Karlsson,M.</GBAuthor>
+        <GBAuthor>Olofson,A.-S.</GBAuthor>
+        <GBAuthor>Belak,S.</GBAuthor>
+        <GBAuthor>Malmsten,J.</GBAuthor>
+        <GBAuthor>Dalin,A.-M.</GBAuthor>
+        <GBAuthor>Widen,F.</GBAuthor>
+        <GBAuthor>Norder,H.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (14-JAN-2015) Department of Virology, Immunobiology and Parasitology (VIP), The National Veterinary Institute (SVA), Ulls vag 2B, Uppsala, Uppland S-751 89, Sweden</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>##Assembly-Data-START## Sequencing Technology Sanger dideoxy sequencing ##Assembly-Data-END##</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..324</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>324</GBInterval_to>
+          <GBInterval_accession>KP640882.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>pd13-562F</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>feces</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>Alces alces</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Sweden: Vastergotland</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>03-Nov-2013</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;324</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>324</GBInterval_to>
+          <GBInterval_accession>KP640882.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>RNA-dependent RNA polymerase</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AKE47347.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:815015916</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>WSKTMCALFGPWFRSIEKQIVDSLPPTVFYADNFDPSAFSAAIQAAKSSQVFENDFSEFDSTQNDFSLGLECMLMRECGMYEWLVRLYYIIRSAWTLQAPKESLQGSW</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>tggagcaagacyatgtgtgcacttttcgggccgtggttccgatcaattgaaaagcagatcgttgacagcctaccaccaacggtgttttatgccgayaattttgacccgtccgcgttttcggcagccatacaggccgctaagtcatcacaggtctttgagaatgacttttcagagtttgatagcacacagaatgacttctccttagggctcgaatgcatgttgatgagggaatgcggtatgtatgagtggttagtacggctttattacatcataagatcrgcctggacgctacaggccccgaaagagtccctgcagggcagttgg</GBSeq_sequence>
+</GBSeq>

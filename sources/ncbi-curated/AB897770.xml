@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>AB897770</GBSeq_locus>
+  <GBSeq_length>840</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>22-MAY-2014</GBSeq_update-date>
+  <GBSeq_create-date>22-MAY-2014</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus gene for nonstructural polyprotein, partial cds, isolate: ratELOMB-213L_p0</GBSeq_definition>
+  <GBSeq_primary-accession>AB897770</GBSeq_primary-accession>
+  <GBSeq_accession-version>AB897770.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>dbj|AB897770.1|</GBSeqid>
+    <GBSeqid>gi|636801177</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_authors>
+        <GBAuthor>Jirintai,S.</GBAuthor>
+        <GBAuthor>Tanggis</GBAuthor>
+        <GBAuthor>Mulyanto</GBAuthor>
+        <GBAuthor>Suparyatmo,J.B.</GBAuthor>
+        <GBAuthor>Takahashi,M.</GBAuthor>
+        <GBAuthor>Kobayashi,T.</GBAuthor>
+        <GBAuthor>Nagashima,S.</GBAuthor>
+        <GBAuthor>Nishizawa,T.</GBAuthor>
+        <GBAuthor>Okamoto,H.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Rat hepatitis E virus derived from wild rats (Rattus rattus) propagates efficiently in human hepatoma cell lines</GBReference_title>
+      <GBReference_journal>Virus Res. 185, 92-102 (2014)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1016/j.virusres.2014.03.002</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>24631787</GBReference_pubmed>
+      <GBReference_remark>DOI:10.1016/j.virusres.2014.03.002</GBReference_remark>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..840</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Okamoto,H.</GBAuthor>
+        <GBAuthor>Takahashi,M.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (17-DEC-2013) Contact:Hiroaki Okamoto Jichi Medical University, Division of Virology, Department of Infection and Immunity; 3311-1 Yakushiji, Shimotsuke, Tochigi 329-0498, Japan</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..840</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>840</GBInterval_to>
+          <GBInterval_accession>AB897770.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>ratELOMB-213</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>ratELOMB-213L_p0</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>culture supernatant</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..799</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>799</GBInterval_to>
+          <GBInterval_accession>AB897770.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>ORF1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>nonstructural polyprotein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>BAO93184.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:636801178</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>IVASLPEWCFYGDCYVQEKFEAAVAGAKACRVFENDFSEFDSTQNNYSLGLECLLMREAGAPEWLWRLYHLLRSAWVLQAPQESLRGRWKKHSGEPGTLLWNTVWNMAVILHCYQFDGLAVAAFKGDDSVVCCRFYQQRPQAAALITGCGLKLKVNFGDVGSYAGLLVACGLGVTPDVVRFLGRISEKNWGPVKERREDLEQAVRDFVAKLKNVTALSCLLATRFYKLEPGLALNAVAGLKAIAEGRMELKEYTWPVLQLEGKRE</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>catagtcgccagcctgcctgagtggtgtttttatggtgattgctatgttcaggagaagttcgaagccgctgtggcgggggcaaaagcttgcagagtgttcgagaacgactttagtgagtttgatagcacccagaacaactactcgctggggttggagtgtctattaatgagagaggcaggcgcaccggaatggctgtggagactttaccacctcctgcggtctgcatgggtgttacaagccccgcaggaaagcctgcggggtaggtggaagaaacattcgggggagccaggcacgttgctatggaatactgtctggaatatggccgtgatactacattgttaccagtttgatggtttagctgtggccgcctttaagggggacgactctgtggtgtgttgtcggttctatcagcagaggccccaggccgctgcccttattactggctgtggcctcaagcttaaagtgaattttggggatgttgggtcctatgcgggcttgcttgttgcctgcgggcttggtgtgacacctgatgtcgttaggttcctggggagaatatctgagaagaactggggccctgtgaaggaacgtagagaggaccttgagcaggctgtgcgcgactttgtcgcgaagttaaagaatgtcactgctctatcctgcttgttggccaccagattctacaaactggagccgggactggcccttaatgcggtcgccgggcttaaggcgatcgcagaggggcggatggaactcaaagaatatacttggcctgtcttacagctggaggggaagagggaataacactctggcctgtagcatgtgcgcgaaatgtctgtcgttgt</GBSeq_sequence>
+</GBSeq>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>HM772985</GBSeq_locus>
+  <GBSeq_length>334</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>29-APR-2011</GBSeq_update-date>
+  <GBSeq_create-date>25-OCT-2010</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus isolate PT11-08 capsid protein gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>HM772985</GBSeq_primary-accession>
+  <GBSeq_accession-version>HM772985.2</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|HM772985.2|</GBSeqid>
+    <GBSeqid>gi|331263127</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..334</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Halac,U.</GBAuthor>
+        <GBAuthor>Beland,K.</GBAuthor>
+        <GBAuthor>Lapierre,P.</GBAuthor>
+        <GBAuthor>Patey,N.</GBAuthor>
+        <GBAuthor>Ward,P.</GBAuthor>
+        <GBAuthor>Brassard,J.</GBAuthor>
+        <GBAuthor>Houde,A.</GBAuthor>
+        <GBAuthor>Alvarez,F.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Chronic hepatitis E infection in liver transplanted children: viral re-infection, zoonotic transmission and risk of cirrhosis</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..334</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Halac,U.</GBAuthor>
+        <GBAuthor>Beland,K.</GBAuthor>
+        <GBAuthor>Lapierre,P.</GBAuthor>
+        <GBAuthor>Patey,N.</GBAuthor>
+        <GBAuthor>Ward,P.</GBAuthor>
+        <GBAuthor>Brassard,J.</GBAuthor>
+        <GBAuthor>Houde,A.</GBAuthor>
+        <GBAuthor>Alvarez,F.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (16-JUL-2010) Division of Gastroenterology, Hepatology and Nutrition, CHU Sainte-Justine, Universite de Montreal, 3175 Cote-Sainte-Catherine, Montreal, Quebec H3T 1C5, Canada</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>3</GBReference_reference>
+      <GBReference_position>1..334</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Halac,U.</GBAuthor>
+        <GBAuthor>Beland,K.</GBAuthor>
+        <GBAuthor>Lapierre,P.</GBAuthor>
+        <GBAuthor>Patey,N.</GBAuthor>
+        <GBAuthor>Ward,P.</GBAuthor>
+        <GBAuthor>Brassard,J.</GBAuthor>
+        <GBAuthor>Houde,A.</GBAuthor>
+        <GBAuthor>Alvarez,F.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (29-APR-2011) Division of Gastroenterology, Hepatology and Nutrition, CHU Sainte-Justine, Universite de Montreal, 3175 Cote-Sainte-Catherine, Montreal, Quebec H3T 1C5, Canada</GBReference_journal>
+      <GBReference_remark>Sequence update by submitter</GBReference_remark>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>On Apr 29, 2011 this sequence version replaced gi:309323250.</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..334</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>334</GBInterval_to>
+          <GBInterval_accession>HM772985.2</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>PT11-08</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>serum</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>Homo sapiens</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Canada</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>18-May-2008</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;334</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>334</GBInterval_to>
+          <GBInterval_accession>HM772985.2</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>ORF2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>capsid protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>ADO65747.2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:331263128</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>IHGSPVNSYTNTPYTGALGLLDFALELEFRNLTPGNTNTRVSRYTSTARHRLRRGADGTAELTTTAATRFMKDLHFTGTNGVGEVGRGIALTLFNLADTLLGGLPTELISS</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>catacatggctctcctgttaattcttatactaatacaccttacactggtgcattggggcttcttgattttgcattagagcttgaatttagaaatttgacacccgggaacaccaacacccgtgtctccaggtataccagcacagcccgccaccggctgcgtcgtggcgccgatgggaccgctgaacttaccaccacagcggccacacgtttcatgaaggacttgcatttcactggcacgaacggcgttggtgaggtgggccgtggtatcgccctgacactatttaatctcgctgatacgcttctcggtggtttaccgacagaattgatttcgtcg</GBSeq_sequence>
+</GBSeq>

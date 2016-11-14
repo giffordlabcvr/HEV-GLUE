@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>HM055580</GBSeq_locus>
+  <GBSeq_length>148</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>31-MAY-2010</GBSeq_update-date>
+  <GBSeq_create-date>31-MAY-2010</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus strain HEV451/sw/HUN-07 capsid protein gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>HM055580</GBSeq_primary-accession>
+  <GBSeq_accession-version>HM055580.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|HM055580.1|</GBSeqid>
+    <GBSeqid>gi|296883283</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..148</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Forgach,P.</GBAuthor>
+        <GBAuthor>Nowotny,N.</GBAuthor>
+        <GBAuthor>Erdelyi,K.</GBAuthor>
+        <GBAuthor>Boncz,A.</GBAuthor>
+        <GBAuthor>Zentai,J.</GBAuthor>
+        <GBAuthor>Szucs,G.</GBAuthor>
+        <GBAuthor>Reuter,G.</GBAuthor>
+        <GBAuthor>Bakonyi,T.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Detection of Hepatitis E virus in samples of animal origin collected in Hungary</GBReference_title>
+      <GBReference_journal>Vet. Microbiol. 143 (2-4), 106-116 (2010)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1016/j.vetmic.2009.11.004</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>20005644</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..148</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Forgach,P.</GBAuthor>
+        <GBAuthor>Nowotny,N.</GBAuthor>
+        <GBAuthor>Erdelyi,K.</GBAuthor>
+        <GBAuthor>Zentai,J.</GBAuthor>
+        <GBAuthor>Boncz,A.</GBAuthor>
+        <GBAuthor>Szucs,G.</GBAuthor>
+        <GBAuthor>Reuter,G.</GBAuthor>
+        <GBAuthor>Bakonyi,T.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (03-APR-2010) Department of Microbiology and Infectious Diseases, Szent Istvan University Faculty of Veterinary Science, Istvan u. 2., Budapest 1078, Hungary</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..148</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>148</GBInterval_to>
+          <GBInterval_accession>HM055580.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>HEV451/sw/HUN-07</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>feces</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>swine</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Hungary</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>2007</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>subtype</GBQualifier_name>
+          <GBQualifier_value>3e</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>genotype</GBQualifier_name>
+          <GBQualifier_value>3</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;148</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>148</GBInterval_to>
+          <GBInterval_accession>HM055580.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>ORF2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>capsid protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>ADH84002.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:296883284</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>GQLFYSRPVVSANGEPAVKLYTSVENAQQDKGIAIPHDIDLGDSRVVIQ</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>aggtcagctcttttactcccgcccagttgtctcggccaatggcgagccggctgtcaaactatatacctccgtcgagaacgcacagcaggataagggcatcgccataccacatgatatagacctcggggattctcgtgtggtcatccag</GBSeq_sequence>
+</GBSeq>

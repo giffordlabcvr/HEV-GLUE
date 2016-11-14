@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>DQ996399</GBSeq_locus>
+  <GBSeq_length>148</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>30-DEC-2007</GBSeq_update-date>
+  <GBSeq_create-date>30-DEC-2007</GBSeq_create-date>
+  <GBSeq_definition>Swine hepatitis E virus strain NLSWIE3 capsid protein gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>DQ996399</GBSeq_primary-accession>
+  <GBSeq_accession-version>DQ996399.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|DQ996399.1|</GBSeqid>
+    <GBSeqid>gi|119709979</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Swine hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Swine hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..148</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Bouwknegt,M.</GBAuthor>
+        <GBAuthor>Lodder,W.</GBAuthor>
+        <GBAuthor>Lodder-Verschoor,F.</GBAuthor>
+        <GBAuthor>Wellenberg,G.</GBAuthor>
+        <GBAuthor>Van der Poel,W.H.M.</GBAuthor>
+        <GBAuthor>Rutjes,S.A.</GBAuthor>
+        <GBAuthor>De Roda Husman,A.M.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Swine hepatitis E virus sequence from The Netherlands</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..148</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Bouwknegt,M.</GBAuthor>
+        <GBAuthor>Lodder,W.</GBAuthor>
+        <GBAuthor>Lodder-Verschoor,F.</GBAuthor>
+        <GBAuthor>Wellenberg,G.</GBAuthor>
+        <GBAuthor>Van der Poel,W.H.M.</GBAuthor>
+        <GBAuthor>Rutjes,S.A.</GBAuthor>
+        <GBAuthor>De Roda Husman,A.M.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (15-SEP-2006) Microbiological Laboratory for Health Protection, National Institute for Public Health and the Environment, PO Box 1, Bilthoven 3720 BA, Netherlands</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..148</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>148</GBInterval_to>
+          <GBInterval_accession>DQ996399.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Swine hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>NLSWIE3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>swine</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:63421</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Netherlands</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>genotype</GBQualifier_name>
+          <GBQualifier_value>3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>PCR_primers=fwd_name: ORF2conS1, rev_name: ORF2conA1</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;148</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>148</GBInterval_to>
+          <GBInterval_accession>DQ996399.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>ORF2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>capsid protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>ABL96272.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:119709980</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>GQLFYSRPVVSANGEPTVKLYTSVENAQQDKGIAIPHDIDLGDSRVVIQ</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gggccagttattctactcccgccctgtcgtctcggccaatggcgagccgactgtcaagttgtacacatctgtcgagaatgcacagcaggataagggcattgctataccacacgatatagatttaggggactcccgtgtggttatccag</GBSeq_sequence>
+</GBSeq>

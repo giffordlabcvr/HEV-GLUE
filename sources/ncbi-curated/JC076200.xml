@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>JC076200</GBSeq_locus>
+  <GBSeq_length>136</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>DNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>PAT</GBSeq_division>
+  <GBSeq_update-date>27-JAN-2014</GBSeq_update-date>
+  <GBSeq_create-date>27-JAN-2014</GBSeq_create-date>
+  <GBSeq_definition>Sequence 41 from Patent WO2013156432</GBSeq_definition>
+  <GBSeq_primary-accession>JC076200</GBSeq_primary-accession>
+  <GBSeq_accession-version>JC076200.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>emb|JC076200.1|</GBSeqid>
+    <GBSeqid>pat|WO|2013156432|41</GBSeqid>
+    <GBSeqid>gi|576546216</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_authors>
+        <GBAuthor>LEYING,H.</GBAuthor>
+        <GBAuthor>MYERS,T.W.</GBAuthor>
+        <GBAuthor>NEWTON,N.</GBAuthor>
+        <GBAuthor>RUSSMANN,E.</GBAuthor>
+        <GBAuthor>SAN,F.J.</GBAuthor>
+        <GBAuthor>SCHOENBRUNNER,N.</GBAuthor>
+        <GBAuthor>WILTS,H.</GBAuthor>
+        <GBAuthor>WU,X.</GBAuthor>
+        <GBAuthor>YOUNG,K.K.</GBAuthor>
+        <GBAuthor>ZIMMERMANN,D.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>HEV ASSAY</GBReference_title>
+      <GBReference_journal>Patent: WO 2013156432-A1 41 24-OCT-2013; HOFFMANN LA ROCHE [CH], ROCHE DIAGNOSTICS GMBH [DE]</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..136</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>136</GBInterval_to>
+          <GBInterval_accession>JC076200.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>unassigned DNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>misc_feature</GBFeature_key>
+      <GBFeature_location>1..136</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>136</GBInterval_to>
+          <GBInterval_accession>JC076200.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>GT4 5' UTR region</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gcagaccacgtatgtggtcgacgccatggaggcccaccagttcataaaggctcctggcgtcactactgctattgagcaggcagctctagcagcggccaactccgccttggcgaatgctgtggtggttcggcctttc</GBSeq_sequence>
+</GBSeq>

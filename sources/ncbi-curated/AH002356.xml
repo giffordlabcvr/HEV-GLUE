@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>AH002356</GBSeq_locus>
+  <GBSeq_length>979</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>06-APR-2016</GBSeq_update-date>
+  <GBSeq_create-date>27-JAN-1992</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus strain OSH-1852 nucleotide binding protein (nucleotide-binding protein) and RNA polymerase (RNA polymerase) genes, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>AH002356</GBSeq_primary-accession>
+  <GBSeq_accession-version>AH002356.2</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|AH002356.2|</GBSeqid>
+    <GBSeqid>gi|1015600358</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_secondary-accessions>
+    <GBSecondary-accn>M81415</GBSecondary-accn>
+    <GBSecondary-accn>M84803</GBSecondary-accn>
+    <GBSecondary-accn>M84804</GBSecondary-accn>
+  </GBSeq_secondary-accessions>
+  <GBSeq_keywords>
+    <GBKeyword>nucleotide binding protein</GBKeyword>
+  </GBSeq_keywords>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..979</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Tsarev,S.A.</GBAuthor>
+        <GBAuthor>Emerson,S.U.</GBAuthor>
+        <GBAuthor>Reyes,G.R.</GBAuthor>
+        <GBAuthor>Tsareva,T.S.</GBAuthor>
+        <GBAuthor>Legters,L.J.</GBAuthor>
+        <GBAuthor>Malik,I.A.</GBAuthor>
+        <GBAuthor>Iqbal,M.</GBAuthor>
+        <GBAuthor>Purcell,R.H.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Characterization of a prototype strain of hepatitis E virus</GBReference_title>
+      <GBReference_journal>Proc. Natl. Acad. Sci. U.S.A. 89 (2), 559-563 (1992)</GBReference_journal>
+      <GBReference_pubmed>1731327</GBReference_pubmed>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>On or before Apr 6, 2016 this sequence version replaced gi:330012, gi:330013, gi:330014.</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..979</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>979</GBInterval_to>
+          <GBInterval_accession>AH002356.2</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>OSH-1852</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>gene</GBFeature_key>
+      <GBFeature_location>1..423</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>423</GBInterval_to>
+          <GBInterval_accession>AH002356.2</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>nucleotide-binding protein</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;423</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>423</GBInterval_to>
+          <GBInterval_accession>AH002356.2</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>nucleotide-binding protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>nucleotide binding protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AAA45728.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:330015</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>AQRHSLTGNFWFHPEGLLGLFAPFSPGHVWESANPFCGESTLYTRTWSEVDAVSSPARPDLGFASEPSIPSRAATPTPAAPPPLLALDPSPPPSAPAPGEPAPGAVAGAPAITHQTARHRRLLFTYPDGSKVFAGSLFEST</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>gap</GBFeature_key>
+      <GBFeature_location>424..523</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>424</GBInterval_from>
+          <GBInterval_to>523</GBInterval_to>
+          <GBInterval_accession>AH002356.2</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>estimated_length</GBQualifier_name>
+          <GBQualifier_value>unknown</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>gene</GBFeature_key>
+      <GBFeature_location>524..979</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>524</GBInterval_from>
+          <GBInterval_to>979</GBInterval_to>
+          <GBInterval_accession>AH002356.2</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>RNA polymerase</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;524..&gt;979</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>524</GBInterval_from>
+          <GBInterval_to>979</GBInterval_to>
+          <GBInterval_accession>AH002356.2</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>RNA polymerase</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>RNA polymerase</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AAA45729.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:330016</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>STQNNFSLGLECAIMEECGMPQWLIRLYHLIRSAWILQAPKESLRGFWKKHSGEPGTLLWNTVWNMAVITHCYDFRDLQVAAFKGDDSIVLCSEYRQSPGAAVLIAGCGLKLKVDFRPIGLYAGVVVAPGLGALPDVVRFAGRLTEKNWGPG</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gcccagcgccattcgctgaccggtaatttttggttccatcctgaagggctccttggcctctttgccccgttttcgcccgggcatgtttgggagtcggctaatccgttttgtggcgagagcacactttacacccgcacttggtcggaggttgatgctgtttctagcccagcccggcctgacttaggttttgcatctgagccttctatacctagtagggccgccacacctactccggcggcccctccacctctccttgcactggatccttcccctcctccctctgctccggcgcctggtgagccggctcctggcgctgtcgctggggccccggccataactcaccagacggcccggcaccgccgcctgctctttacttatccggatggctctaaggtatttgccggctcgctgtttgagtcgacannnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnntccacccagaataatttttccttgggcctagagtgtgctattatggaggagtgtgggatgccacagtggctcatccgcttgtaccaccttataaggtctgcgtggatcctgcaggccccgaaggagtccctgcgagggttttggaagaaacactccggtgagcccggcactcttctatggaatactgtttggaacatggccgttatcacccattgttacgatttccgcgatctgcaggtggctgcctttaaaggtgatgattcgatagtgctttgcagtgagtaccgtcagagtccaggggctgctgtcctgattgctggctgtggcttaaagctgaaggtggatttccgtccgattggtttgtatgcaggtgttgtggtggcccccggtcttggcgcgcttcccgacgtcgtgcgctttgccggccggcttactgagaagaattggggccctggc</GBSeq_sequence>
+</GBSeq>

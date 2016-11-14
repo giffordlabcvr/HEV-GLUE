@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>HM446470</GBSeq_locus>
+  <GBSeq_length>304</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>01-JUL-2011</GBSeq_update-date>
+  <GBSeq_create-date>01-JUL-2011</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus strain patZ06 capsid protein gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>HM446470</GBSeq_primary-accession>
+  <GBSeq_accession-version>HM446470.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|HM446470.1|</GBSeqid>
+    <GBSeqid>gi|335335268</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..304</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Isaguliants,M.</GBAuthor>
+        <GBAuthor>Tsyganova,E.</GBAuthor>
+        <GBAuthor>Tallo,T.</GBAuthor>
+        <GBAuthor>Solonin,S.</GBAuthor>
+        <GBAuthor>Kyuregyan,K.</GBAuthor>
+        <GBAuthor>Isaeva,O.</GBAuthor>
+        <GBAuthor>Petrakova,N.</GBAuthor>
+        <GBAuthor>Znoiko,O.</GBAuthor>
+        <GBAuthor>Bartosch,B.</GBAuthor>
+        <GBAuthor>Tefanova,V.</GBAuthor>
+        <GBAuthor>Petrova,T.</GBAuthor>
+        <GBAuthor>Kochetkov,S.</GBAuthor>
+        <GBAuthor>Yuschuk,N.</GBAuthor>
+        <GBAuthor>Michailov,M.</GBAuthor>
+        <GBAuthor>Widell,A.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Case report: Identification of hepatitis E virus genotype 1 strain and immune imprints of hepatitis C virus infection in a patient from European part of Russia with acute hepatitis of unknown etiology</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..304</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Isaguliants,M.</GBAuthor>
+        <GBAuthor>Tsyganova,E.</GBAuthor>
+        <GBAuthor>Tallo,T.</GBAuthor>
+        <GBAuthor>Solonin,S.</GBAuthor>
+        <GBAuthor>Kyuregyan,K.</GBAuthor>
+        <GBAuthor>Isaeva,O.</GBAuthor>
+        <GBAuthor>Michailov,M.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (02-JUN-2010) Viral Hepatitis, Chumakov Institute of Poliomyelitis and Viral Encephalitides, Kievskoe Shosse, 27, Moscow, Moscow Region 142782, Russian Federation</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..304</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>304</GBInterval_to>
+          <GBInterval_accession>HM446470.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>patZ06</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>serum</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>Homo sapiens</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Russia</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>2006</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>genotype</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;304</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>304</GBInterval_to>
+          <GBInterval_accession>HM446470.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>ORF2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>capsid protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AEH41014.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:335335269</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>PVNTYTNTPYTGALGLLDFALELEFRNLTPGNTNTRVSRYSSTARHRLRRGADGTAELTTTAATRFMKDLYFTSTNGVGEIGRGIALTLFNLADTLLGGLP</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>cacctgtaaatacctacactaatacaccctataccggtgccctcgggctgttggacttcgccctcgagcttgagttccgcaaccttacccccggtaacaccaatacgcgggtctcccgttactccagcactgctcgccaccgccttcgtcgcggtgcagacgggaccgccgagctcaccaccacggctgctacccgctttatgaaggacctttattttactagtactaatggtgttggtgagatcggccgcgggatagcccttacccttttcaacctcgctgacactttgcttggtggcctgcc</GBSeq_sequence>
+</GBSeq>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>HQ688787</GBSeq_locus>
+  <GBSeq_length>282</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>03-AUG-2011</GBSeq_update-date>
+  <GBSeq_create-date>28-JUN-2011</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus isolate 10Y57 capsid protein gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>HQ688787</GBSeq_primary-accession>
+  <GBSeq_accession-version>HQ688787.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|HQ688787.1|</GBSeqid>
+    <GBSeqid>gi|337730485</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..282</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Renou,C.</GBAuthor>
+        <GBAuthor>Pariente,A.</GBAuthor>
+        <GBAuthor>Cadranel,J.F.</GBAuthor>
+        <GBAuthor>Nicand,E.</GBAuthor>
+        <GBAuthor>Pavio,N.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Clinically silent forms may partly explain the rarity of acute cases of autochthonous genotype 3c hepatitis E infection in France</GBReference_title>
+      <GBReference_journal>J. Clin. Virol. 51 (2), 139-141 (2011)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1016/j.jcv.2011.02.013</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>21435944</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..282</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Tesse,S.</GBAuthor>
+        <GBAuthor>Renou,C.</GBAuthor>
+        <GBAuthor>Nicand,E.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Hepatitis E infection within a couple</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>3</GBReference_reference>
+      <GBReference_position>1..282</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Tesse,S.</GBAuthor>
+        <GBAuthor>Renou,C.</GBAuthor>
+        <GBAuthor>Nicand,E.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (07-DEC-2010) Virology, HIA Val de Grace, 74 Boulevard Port Royal, Paris 75230, France</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..282</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>282</GBInterval_to>
+          <GBInterval_accession>HQ688787.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>10Y57</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>serum</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>Homo sapiens</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>France</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>Jul-2010</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>genotype</GBQualifier_name>
+          <GBQualifier_value>3</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;282</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>282</GBInterval_to>
+          <GBInterval_accession>HQ688787.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>capsid protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AEI70715.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:337730486</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>GSLYFALELEFRNLTPGNTNTRVSRYTSTARHRLRRGADGTAELTTTAATRFMKDLHFTGTNGVGEVGRGIALTLFNLADTLLGGLPTELISS</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>ggggctccttgtatttcgcactcgagcttgaatttagaaatttgacccctgggaacactaacacccgtgtgtcccgttacactagtacagcccggcaccgcctgcgtcgtggtgccgatgggacagctgagctcacaaccactgcagccacacgttttatgaaggacttgcatttcaccgggacaaatggtgttggtgaggtgggtcgtggtatagccctaacgctatttaatcttgctgatacacttctcggtgggttaccgacagaattgatttcgtcaa</GBSeq_sequence>
+</GBSeq>

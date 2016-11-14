@@ -1,0 +1,29 @@
+delete project hev
+
+create project hev "A GLUE project for Hepatitis E virus (HEV)" --minVersion 0.1.50
+
+run file glue/hevFieldDefinitions.glue
+ 
+project hev
+
+  run file glue/hevProjectSettings.glue
+  
+  # create modules from files
+  create module --fileName modules/kuiken2006CodonLabeler.xml kuiken2006CodonLabeler
+  create module --fileName modules/hevCompoundAligner.xml hevCompoundAligner
+  create module --fileName modules/hevGenbankXmlPopulator.xml hevGenbankXmlPopulator
+   
+  # this module downloads all HEV from NCBI
+  create module --fileName modules/ncbiImporter.xml ncbiImporter
+  
+  # Import the reference sequences from files
+  import source sources/ncbi-refseqs 
+  import source sources/ncbi-curated 
+  
+  # build master reference, with features.
+  run file glue/hevFeatures.glue
+  module hevGenbankXmlPopulator populate
+
+
+  validate
+  

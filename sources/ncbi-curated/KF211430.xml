@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>KF211430</GBSeq_locus>
+  <GBSeq_length>279</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>09-JAN-2014</GBSeq_update-date>
+  <GBSeq_create-date>11-DEC-2013</GBSeq_create-date>
+  <GBSeq_definition>Swine hepatitis E virus strain 3100-7 RNA-dependent RNA polymerase gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>KF211430</GBSeq_primary-accession>
+  <GBSeq_accession-version>KF211430.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|KF211430.1|</GBSeqid>
+    <GBSeqid>gi|563580444</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Swine hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Swine hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..279</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Machnowska,P.</GBAuthor>
+        <GBAuthor>Ellerbroek,L.</GBAuthor>
+        <GBAuthor>Johne,R.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Detection and characterization of potentially zoonotic viruses in faeces of pigs at slaughter in Germany</GBReference_title>
+      <GBReference_journal>Vet. Microbiol. 168 (1), 60-68 (2014)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1016/j.vetmic.2013.10.018</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>24247020</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..279</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Machnowska,P.</GBAuthor>
+        <GBAuthor>Johne,R.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (05-JUN-2013) Department Biological Safety, Federal Institute for Risk Assessment, Diedersdorfer Weg 1, Berlin 12277, Germany</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>##Assembly-Data-START## Sequencing Technology Sanger dideoxy sequencing ##Assembly-Data-END##</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..279</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>279</GBInterval_to>
+          <GBInterval_accession>KF211430.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Swine hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>3100-7</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>feces</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>pig</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:63421</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Germany</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>2011</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>genotype</GBQualifier_name>
+          <GBQualifier_value>3i</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;279</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>279</GBInterval_to>
+          <GBInterval_accession>KF211430.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>RNA-dependent RNA polymerase</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AHB61256.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:563580445</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>AIEKKILALLPPNIFYGDAYEESVFAAAVSGAGSCMVFENDFSEFDSTQNNFSLGLECVVMEECGMPQWLIRLYHLVRSVWILQAPKESLKGF</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gctattgaaaaaaagatactagccctgctcccacccaatatcttctacggcgatgcatatgaggagtctgtgtttgctgctgctgtgtctggggcaggttcatgcatggtatttgagaatgatttctcagagtttgatagcacccaaaataatttttcccttggccttgagtgtgtggttatggaggagtgtggtatgccccagtggctaatccggttgtaccacttggttcggtcggtctggattttacaggcaccgaaggagtcccttaaaggcttt</GBSeq_sequence>
+</GBSeq>

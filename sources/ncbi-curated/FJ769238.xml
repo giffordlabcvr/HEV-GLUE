@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>FJ769238</GBSeq_locus>
+  <GBSeq_length>260</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>22-MAR-2013</GBSeq_update-date>
+  <GBSeq_create-date>29-MAR-2009</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus isolate CUB25-2008 truncated RdRp gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>FJ769238</GBSeq_primary-accession>
+  <GBSeq_accession-version>FJ769238.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|FJ769238.1|</GBSeqid>
+    <GBSeqid>gi|225580026</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..260</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>de la Caridad Montalvo Villalba,M.</GBAuthor>
+        <GBAuthor>Owot,J.C.</GBAuthor>
+        <GBAuthor>Corrreia,B.</GBAuthor>
+        <GBAuthor>Corredor,M.B.</GBAuthor>
+        <GBAuthor>Flaquet,P.P.</GBAuthor>
+        <GBAuthor>Frometa,S.S.</GBAuthor>
+        <GBAuthor>Wong,M.S.</GBAuthor>
+        <GBAuthor>Rodriguez Lay Lde,L.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Hepatitis E virus genotype 3 in humans and swine, Cuba</GBReference_title>
+      <GBReference_journal>Infect. Genet. Evol. 14, 335-339 (2013)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1016/j.meegid.2012.12.022</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>23333774</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..260</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Montalvo Villalba,M.C.</GBAuthor>
+        <GBAuthor>Eduardo Correia,B.</GBAuthor>
+        <GBAuthor>Bello Corredor,M.</GBAuthor>
+        <GBAuthor>Sariego Frometa,S.</GBAuthor>
+        <GBAuthor>Sanchez Wong,M.</GBAuthor>
+        <GBAuthor>Gutierrez Moreno,A.</GBAuthor>
+        <GBAuthor>Kouri Cardella,V.</GBAuthor>
+        <GBAuthor>Rodriguez,R.</GBAuthor>
+        <GBAuthor>Rodriguez Lay,L.A.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (20-FEB-2009) Virology, Institute of Tropical Medicine Pedro Kouri, Autopista Nacional Novia del Mediodia km61/2, La Lisa, Havana City 17 100, Cuba</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..260</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>260</GBInterval_to>
+          <GBInterval_accession>FJ769238.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>CUB25-2008</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>stool sample</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>Homo sapiens</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Cuba</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>Feb-2007</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>genotype</GBQualifier_name>
+          <GBQualifier_value>3</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>complement(75..&gt;260)</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>260</GBInterval_from>
+          <GBInterval_to>75</GBInterval_to>
+          <GBInterval_iscomp value="true"/>
+          <GBInterval_accession>FJ769238.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>truncated RdRp</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>ACN94261.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:225580027</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>SAWSKTFCALFGPWFRAIEKEYWPCSRPISFMATPMRSQCLLPLCPGRGHVWYLKMTFRRF</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>agccattggggcatgccgcactctccataaccacacactcaaggccaaggagagaaattattctgggtactggttcaaaacctccgaaaagtcattttcaaataccatacatgaccccgccccggacacagcggcagcaaacactgactcctcataggcgtcgccataaaagatatggggcgggagcagggccaatattctttttcaatggcacggaaccacgggccaaacagagcgcaaaaggtcttactccaggccga</GBSeq_sequence>
+</GBSeq>

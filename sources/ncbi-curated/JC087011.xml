@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>JC087011</GBSeq_locus>
+  <GBSeq_length>181</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>DNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>PAT</GBSeq_division>
+  <GBSeq_update-date>27-JAN-2014</GBSeq_update-date>
+  <GBSeq_create-date>27-JAN-2014</GBSeq_create-date>
+  <GBSeq_definition>Sequence 10 from Patent EP2663328</GBSeq_definition>
+  <GBSeq_primary-accession>JC087011</GBSeq_primary-accession>
+  <GBSeq_accession-version>JC087011.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>emb|JC087011.1|</GBSeqid>
+    <GBSeqid>pat|EP|2663328|10</GBSeqid>
+    <GBSeqid>gi|576551582</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus type 3</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus type 3</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_authors>
+        <GBAuthor>EMERSON,S.U.</GBAuthor>
+        <GBAuthor>SHUKLA,P.</GBAuthor>
+        <GBAuthor>NGUYEN,H.T.</GBAuthor>
+        <GBAuthor>PURCELL,R.H.</GBAuthor>
+        <GBAuthor>DALTON,H.R.</GBAuthor>
+        <GBAuthor>BENDALL,R.P.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>INFECTIOUS HEPATITIS E VIRUS GENOTYPE 3 RECOMBINANTS</GBReference_title>
+      <GBReference_journal>Patent: EP 2663328-A1 10 20-NOV-2013; US GOVERNMENT [US], ROYAL CORNWALL HOSPITAL TRUST [GB]</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..181</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>181</GBInterval_to>
+          <GBInterval_accession>JC087011.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus type 3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>unassigned DNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:509628</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>tgatatttgggcgttaccaccgccctccgaggaggtaaaagacaaagatgatctggggcctgacagattctcaacactcccagccctagactcagtgcgcaagctcaggtggctgaggatattaccatttagaaagaaaggaaaacaagagcaggtcgatgcagcatctgtgccccttacc</GBSeq_sequence>
+</GBSeq>

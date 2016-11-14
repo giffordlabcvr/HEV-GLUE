@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>AB683160</GBSeq_locus>
+  <GBSeq_length>397</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>07-SEP-2013</GBSeq_update-date>
+  <GBSeq_create-date>01-AUG-2012</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus gene for capsid protein, partial cds, isolate: hu/p-N-0508</GBSeq_definition>
+  <GBSeq_primary-accession>AB683160</GBSeq_primary-accession>
+  <GBSeq_accession-version>AB683160.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>dbj|AB683160.1|</GBSeqid>
+    <GBSeqid>gi|399117902</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_authors>
+        <GBAuthor>Ishida,S.</GBAuthor>
+        <GBAuthor>Yoshizumi,S.</GBAuthor>
+        <GBAuthor>Ikeda,T.</GBAuthor>
+        <GBAuthor>Miyoshi,M.</GBAuthor>
+        <GBAuthor>Goto,A.</GBAuthor>
+        <GBAuthor>Matsubayashi,K.</GBAuthor>
+        <GBAuthor>Ikeda,H.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Detection and molecular characterization of hepatitis E virus in clinical, environmental and putative animal sources</GBReference_title>
+      <GBReference_journal>Arch. Virol. 157 (12), 2363-2368 (2012)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1007/s00705-012-1422-8</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>22847755</GBReference_pubmed>
+      <GBReference_remark>DOI:10.1007/s00705-012-1422-8</GBReference_remark>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..397</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Ishida,S.</GBAuthor>
+        <GBAuthor>Yoshizumi,S.</GBAuthor>
+        <GBAuthor>Goto,A.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (16-NOV-2011) Contact:Setsuko Ishida Hokkaido Institute of Public Health, Department of Infectious Diseases; West 12, North 19, Kita-ku, Sapporo, Hokkaido 060-0819, Japan</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..397</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>397</GBInterval_to>
+          <GBInterval_accession>AB683160.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>hu/p-N-0508</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>Homo sapiens</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Japan:Hokkaido</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>Aug-2005</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>genotype: 4</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;397</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>397</GBInterval_to>
+          <GBInterval_accession>AB683160.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>ORF2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>capsid protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>BAM34715.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:399117903</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>TSGLVMLCIHGSPVNSYTNTPYTGALGLLDFALELEFRNLTPGNTNTRVSRYSSSARHKLRRGPDGTAELTTTAATRFMKDLHFTGTNGVGEVGRGIALTLFNLADTLLGGLPTELISSAGGQLFYSRPVVS</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gacctccggccttgtcatgctttgcatccacggatcacctgtgaattcttacaccaatacgccttatactggtgcccttggcttgcttgatttcgcactcgagctcgagttccgcaatttgacacctggtaacacgaacacacgtgtttcccgctactcgagtagtgcgcgccacaagctacgccgagggcctgatggcactgctgagttaactacgactgctgctacacgctttatgaaggaccttcattttacagggactaatggagttggtgaagttggtcgtggtatagcgctaactctgttcaaccttgctgatacgcttctcggcgggctcccgacagaattgatttcgtcggctggtggtcagctattttattctcgccccgtcgtctca</GBSeq_sequence>
+</GBSeq>

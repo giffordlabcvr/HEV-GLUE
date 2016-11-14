@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>JQ065066</GBSeq_locus>
+  <GBSeq_length>557</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>15-APR-2013</GBSeq_update-date>
+  <GBSeq_create-date>30-NOV-2012</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus isolate JS180 capsid protein gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>JQ065066</GBSeq_primary-accession>
+  <GBSeq_accession-version>JQ065066.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|JQ065066.1|</GBSeqid>
+    <GBSeqid>gi|408669687</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..557</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Wang,S.</GBAuthor>
+        <GBAuthor>Dong,C.</GBAuthor>
+        <GBAuthor>Dai,X.</GBAuthor>
+        <GBAuthor>Cheng,X.</GBAuthor>
+        <GBAuthor>Liang,J.</GBAuthor>
+        <GBAuthor>Dong,M.</GBAuthor>
+        <GBAuthor>Purdy,M.A.</GBAuthor>
+        <GBAuthor>Meng,J.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Hepatitis E virus isolated from rabbits is genetically heterogeneous but with very similar antigenicity to human HEV</GBReference_title>
+      <GBReference_journal>J. Med. Virol. 85 (4), 627-635 (2013)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1002/jmv.23504</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>23364756</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..557</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Wang,S.</GBAuthor>
+        <GBAuthor>Dong,C.</GBAuthor>
+        <GBAuthor>Dai,X.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (21-NOV-2011) School of Medicine, Southeast University, 87 DingJiaQiao Road, Nanjing, Jiangsu 210009, China</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..557</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>557</GBInterval_to>
+          <GBInterval_accession>JQ065066.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>JS180</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>bile</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>rabbit</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>China</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;557</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>557</GBInterval_to>
+          <GBInterval_accession>JQ065066.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>capsid protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AFU76463.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:408669688</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>LVPNAVGGYAISISFWPQTTTTPTSVDMNSITSTDVRILVQPGLASELVIPSERLHYRNQGWRSVETSGVAEEEATSGLVMLCIHGSPVNSYTNTPYTGALGLLDFALEIEFRNLTPGNTNTRVSRYTSTARHRLRRGADGTAELTTTAATRFMKDLHFTGMNGVGEIGRGIALTLFNLADTLLGG</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>ttggtgcccaatgcagttggtggctatgcaatttctatttccttctggccccaaaccaccaccacccccacttctgttgatatgaattcaatcacttctactgacgttagaattcttgttcaacccggtctggcctctgaacttgttataccgagtgagcgcctccactatcgcaaccaagggtggcgctctgtggagacctctggtgtggctgaggaagaggccacttccgggcttgttatgctttgcatccacggctcccctgtaaattcatatactaataccccttatacaggtgcactggggctcctagactttgcgcttgagattgagttccggaatttgactccggggaacactaacacccgtgtctcccggtataccagtactgctcgccatcgtttgcgccgtggcgctgacgggaccgctgaactcacaaccacggctgcaacacggtttatgaaagaccttcattttaccggcatgaatggggtcggtgagattggccgcggtatagccctgacgctgtttaacttagctgatacacttcttggtgg</GBSeq_sequence>
+</GBSeq>

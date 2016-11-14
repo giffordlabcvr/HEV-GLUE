@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>AY818322</GBSeq_locus>
+  <GBSeq_length>338</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>mRNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>18-JAN-2012</GBSeq_update-date>
+  <GBSeq_create-date>24-NOV-2004</GBSeq_create-date>
+  <GBSeq_definition>Big liver and spleen disease virus polyprotein mRNA, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>AY818322</GBSeq_primary-accession>
+  <GBSeq_accession-version>AY818322.2</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|AY818322.2|</GBSeqid>
+    <GBSeqid>gi|372468320</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Big liver and spleen disease virus</GBSeq_source>
+  <GBSeq_organism>Big liver and spleen disease virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..338</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Ma,Y.</GBAuthor>
+        <GBAuthor>Yang,D.</GBAuthor>
+        <GBAuthor>Lu,C.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Establishment of a RT-PCR Assay for the BLSV Gene and the Molecular Biological Detection of BLS</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..338</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Ma,Y.</GBAuthor>
+        <GBAuthor>Yang,D.</GBAuthor>
+        <GBAuthor>Lu,C.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (04-NOV-2004) College of Animal Medicine, Nanjing Agricultural University, 1 Tong Wei Road, Nanjing, Jiangsu 210095, P. R. China</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>3</GBReference_reference>
+      <GBReference_position>1..338</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Ma,Y.</GBAuthor>
+        <GBAuthor>Yang,D.</GBAuthor>
+        <GBAuthor>Lu,C.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (18-JAN-2012) College of Animal Medicine, Nanjing Agricultural University, 1 Tong Wei Road, Nanjing, Jiangsu 210095, P. R. China</GBReference_journal>
+      <GBReference_remark>Sequence update by database staff</GBReference_remark>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>On Jan 18, 2012 this sequence version replaced gi:55833089.</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..338</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>338</GBInterval_to>
+          <GBInterval_accession>AY818322.2</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Big liver and spleen disease virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>mRNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>strain</GBQualifier_name>
+          <GBQualifier_value>BLSV-NJ2002</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>liver</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>chicken</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:301242</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>China</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;338</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>338</GBInterval_to>
+          <GBInterval_accession>AY818322.2</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>polyprotein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AAV66965.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:55833090</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>LDLQPTSWRTVSHRCPWDVCMFLRADYPTITTTSRILRSVVFTGETLGQKIVFTQVAKQSNPGSITVHEAQGSTFDQTTIIATLDARGLIASSRAHAIVALTRHRERCSVIDV</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>cttgatttacaacccaccagctggcgcactgtatctcaccgttgtccttgggacgtttgcatgtttttacgtgcagactacccaaccatcactacaaccagcagaatattacgctctgttgtgtttaccggtgagaccctgggccagaaaatagttttcacccaggtggccaagcaatcaaatcccgggtcgattacagttcacgaggctcaaggcagcacttttgaccagactaccataattgccacgttggatgcccgtggcctcatagcctcatcccgtgcgcatgctattgttgcgctaacccgtcaccgtgagcgctgcagtgtgattgatgt</GBSeq_sequence>
+</GBSeq>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>GU994211</GBSeq_locus>
+  <GBSeq_length>334</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>20-MAY-2011</GBSeq_update-date>
+  <GBSeq_create-date>26-APR-2010</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus isolate HEV-Mars_9205733 capsid protein gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>GU994211</GBSeq_primary-accession>
+  <GBSeq_accession-version>GU994211.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|GU994211.1|</GBSeqid>
+    <GBSeqid>gi|294992478</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..334</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Colson,P.</GBAuthor>
+        <GBAuthor>Dhiver,C.</GBAuthor>
+        <GBAuthor>Poizot-Martin,I.</GBAuthor>
+        <GBAuthor>Tamalet,C.</GBAuthor>
+        <GBAuthor>Gerolami,R.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Acute and chronic hepatitis E in patients infected with human immunodeficiency virus</GBReference_title>
+      <GBReference_journal>J. Viral Hepat. 18 (3), 227-228 (2011)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1111/j.1365-2893.2010.01311.x</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>20384963</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..334</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Colson,P.</GBAuthor>
+        <GBAuthor>Dhiver,C.</GBAuthor>
+        <GBAuthor>Poizot-Martin,I.</GBAuthor>
+        <GBAuthor>Tamalet,C.</GBAuthor>
+        <GBAuthor>Gerolami,R.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (11-MAR-2010) Federation de Bacteriologie-Hygiene-Virologie, Pole des Maladies Infectieuses et Tropicales Clinique et Biologique, Centre Hospitalo-Universitaire Timone, 264 rue Saint-Pierre CEDEX 05, Marseille 13385, France</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..334</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>334</GBInterval_to>
+          <GBInterval_accession>GU994211.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>HEV-Mars_9205733</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>serum</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>Homo sapiens</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>France: Marseille</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>Jan-2007</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>genotype</GBQualifier_name>
+          <GBQualifier_value>3f</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;334</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>334</GBInterval_to>
+          <GBInterval_accession>GU994211.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>capsid protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>ADF57369.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:294992479</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>HGSPVNSYTNTPYTGALGLLDFALELEFRNLTPGNTNTRVSRYTSTARHRLRRGADGTAELTTTAATRFMKDLHFTGTNGVGEVGRGIALTLFNLADTLLGGLPTELISSA</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>acatggctcccctgttaattcttacaccaacacgccctatactggggcattggggctcctcgatttcgcactcgagcttgaatttagaaatttgacccctgggaacactaacacccgtgtgtcccgttacaccagtacagcccggcaccgcctacgtcgtggtgctgatgggacagctgagctcacaaccactgcagccacacgtttcatgaaggacttgcatttcaccgggacgaatggtgttggtgaggtgggtcgtggtatagccctaactttatttaaccttgctgatacacttctcggtgggttgccgacagaattgatttcgtcggct</GBSeq_sequence>
+</GBSeq>

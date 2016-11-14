@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>KP755006</GBSeq_locus>
+  <GBSeq_length>242</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>28-MAR-2015</GBSeq_update-date>
+  <GBSeq_create-date>28-MAR-2015</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus isolate CZwbHEV115-12 nonstructural protein gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>KP755006</GBSeq_primary-accession>
+  <GBSeq_accession-version>KP755006.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|KP755006.1|</GBSeqid>
+    <GBSeqid>gi|778040262</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..242</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Kubankova,M.</GBAuthor>
+        <GBAuthor>Kralik,P.</GBAuthor>
+        <GBAuthor>Lamka,J.</GBAuthor>
+        <GBAuthor>Zakovcik,V.</GBAuthor>
+        <GBAuthor>Dolansky,M.</GBAuthor>
+        <GBAuthor>Vasickova,P.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Prevalence of Hepatitis E Virus in Populations of Wild Animals in Comparison with Animals Bred in Game Enclosures</GBReference_title>
+      <GBReference_journal>Food Environ Virol (2015) In press</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1007/s12560-015-9189-1</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>25771162</GBReference_pubmed>
+      <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..242</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Kubankova,M.</GBAuthor>
+        <GBAuthor>Kralik,P.</GBAuthor>
+        <GBAuthor>Lamka,J.</GBAuthor>
+        <GBAuthor>Zakovcik,V.</GBAuthor>
+        <GBAuthor>Dolansky,M.</GBAuthor>
+        <GBAuthor>Vasickova,P.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (06-FEB-2015) Department of Food and Feed Safety, Veterinary Research Institute, Hudcova 70, Brno 62100, Czech Republic</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>##Assembly-Data-START## Sequencing Technology Sanger dideoxy sequencing ##Assembly-Data-END##</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..242</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>242</GBInterval_to>
+          <GBInterval_accession>KP755006.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>CZwbHEV115-12</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>liver</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>wild boar</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Czech Republic</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>2012</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>genotype</GBQualifier_name>
+          <GBQualifier_value>3</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;242</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>242</GBInterval_to>
+          <GBInterval_accession>KP755006.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>ORF1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>nonstructural protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AJY58115.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:778040263</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>VRPFLSRVQTEILINLMQPRQLVFRPEVLWNHPIQRVIHNELEQYCRARAGRCLEIGAHPRSINDNPNVLHRCFLRPVGR</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>tggttcggccgtttctttcccgtgtgcagaccgagattcttattaatctaatgcaacccagacagctggtgtttcgacccgaggtgctttggaatcatcctatccaacgtgttatccacaatgaattagaacagtactgccgggcccgggccggtcgttgcttggaaattggggcccacccaaggtccattaatgataaccccaatgtgctgcaccgatgtttcttgcgaccggttgggagg</GBSeq_sequence>
+</GBSeq>

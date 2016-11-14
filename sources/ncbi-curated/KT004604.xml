@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>KT004604</GBSeq_locus>
+  <GBSeq_length>280</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>15-NOV-2015</GBSeq_update-date>
+  <GBSeq_create-date>15-NOV-2015</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus isolate BD9 structural protein gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>KT004604</GBSeq_primary-accession>
+  <GBSeq_accession-version>KT004604.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|KT004604.1|</GBSeqid>
+    <GBSeqid>gi|950648278</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..280</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Hewitt,P.E.</GBAuthor>
+        <GBAuthor>Ijaz,S.</GBAuthor>
+        <GBAuthor>Brailsford,S.R.</GBAuthor>
+        <GBAuthor>Brett,R.</GBAuthor>
+        <GBAuthor>Dicks,S.</GBAuthor>
+        <GBAuthor>Haywood,B.</GBAuthor>
+        <GBAuthor>Kennedy,I.T.</GBAuthor>
+        <GBAuthor>Kitchen,A.</GBAuthor>
+        <GBAuthor>Patel,P.</GBAuthor>
+        <GBAuthor>Poh,J.</GBAuthor>
+        <GBAuthor>Russell,K.</GBAuthor>
+        <GBAuthor>Tettmar,K.I.</GBAuthor>
+        <GBAuthor>Tossell,J.</GBAuthor>
+        <GBAuthor>Ushiro-Lumb,I.</GBAuthor>
+        <GBAuthor>Tedder,R.S.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Hepatitis E virus in blood components: a prevalence and transmission study in southeast England</GBReference_title>
+      <GBReference_journal>Lancet 384 (9956), 1766-1773 (2014)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1016/S0140-6736(14)61034-5</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>25078306</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..280</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Hewitt,P.E.</GBAuthor>
+        <GBAuthor>Ijaz,S.</GBAuthor>
+        <GBAuthor>Brailsford,S.R.</GBAuthor>
+        <GBAuthor>Brett,R.</GBAuthor>
+        <GBAuthor>Dicks,S.</GBAuthor>
+        <GBAuthor>Haywood,B.</GBAuthor>
+        <GBAuthor>Kennedy,I.T.</GBAuthor>
+        <GBAuthor>Kitchen,A.</GBAuthor>
+        <GBAuthor>Patel,P.</GBAuthor>
+        <GBAuthor>Poh,J.</GBAuthor>
+        <GBAuthor>Russell,K.</GBAuthor>
+        <GBAuthor>Tettmar,K.I.</GBAuthor>
+        <GBAuthor>Tossell,J.</GBAuthor>
+        <GBAuthor>Ushiro-Lumb,I.</GBAuthor>
+        <GBAuthor>Tedder,R.S.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (03-JUN-2015) Virus Reference Department, Public Health England, 61 Colindale Avenue, London NW9 5HT, United Kingdom</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..280</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>280</GBInterval_to>
+          <GBInterval_accession>KT004604.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>BD9</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>plasma</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>Homo sapiens</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>United Kingdom</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>genotype</GBQualifier_name>
+          <GBQualifier_value>3</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;280</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>280</GBInterval_to>
+          <GBInterval_accession>KT004604.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>ORF2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>structural protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>ALN39080.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:950648279</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>TPYTGALGLLDFALELEFRNLTPGNTNTRVSRYTSTARHRLRRGADGTAELTTTAATRFMKDLHFTGTNGVGEVGRGIALTLFNLADTLLGGL</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>accccctataccggggcgcttggactccttgatttcgctttagagcttgagtttaggaacctgacacccgggaacaccaacacccgtgtgtcccggtatacaagcacagcccgtcaccggctgcgtcgcggtgctgatggcactgctgaacttaccaccacagcggccacgcgcttcatgaaggacctgcacttcaccggtacgaatggggtcggtgaggtgggtcgtggtattgctctcacactctttaatcttgctgacacgcttctcggtggtttgc</GBSeq_sequence>
+</GBSeq>

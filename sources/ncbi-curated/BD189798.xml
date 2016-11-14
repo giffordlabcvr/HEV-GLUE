@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>BD189798</GBSeq_locus>
+  <GBSeq_length>19</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>PAT</GBSeq_division>
+  <GBSeq_update-date>05-AUG-2014</GBSeq_update-date>
+  <GBSeq_create-date>17-JUL-2003</GBSeq_create-date>
+  <GBSeq_definition>WO 2003000887-A/33: Polynucleotide probe and primer derived a hepatitis E virus strain from japanese, chip having them, kit having them, and methods of detecting a hepatitis E virus with them</GBSeq_definition>
+  <GBSeq_primary-accession>BD189798</GBSeq_primary-accession>
+  <GBSeq_accession-version>BD189798.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>dbj|BD189798.1|</GBSeqid>
+    <GBSeqid>pat|WO|2003000887|33</GBSeqid>
+    <GBSeqid>gi|32999537</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_keywords>
+    <GBKeyword>WO 2003000887-A/33</GBKeyword>
+  </GBSeq_keywords>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..19</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Takahashi,K.</GBAuthor>
+        <GBAuthor>Mishiro,S.</GBAuthor>
+        <GBAuthor>Ota,Y.</GBAuthor>
+        <GBAuthor>Hashimoto,M.</GBAuthor>
+        <GBAuthor>Maekubo,H.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Polynucleotide probe and primer derived a hepatitis E virus strain from japanese, chip having them, kit having them, and methods of detecting a hepatitis E virus with them</GBReference_title>
+      <GBReference_journal>Patent: WO 2003000887-A 33 03-JAN-2003; TOSHIBA CORP,KAZUAKI TAKAHASHI,SHUNJI MISHIRO,YASUHIKO OTA, MICHIE HASHIMOTO,HIROSHI MAEKUBO</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>OS Hepatitis virus (hepatitis E virus)~PN WO 2003000887-A/33~PD 03-JAN-2003~PF 25-JUN-2002 WO 2002JP006365~PR 25-JUN-2001 JP 01P 191837~PA TOSHIBA CORP,KAZUAKI TAKAHASHI,SHUNJI MISHIRO,YASUHIKO OTA,~PA MICHIE HASHIMOTO,HIROSHI MAEKUBO~PI KAZUAKI TAKAHASHI,SHUNJI MISHIRO,YASUHIKO OTA,MICHIE HASHIMOTO,~PI HIROSHI MAEKUBO~PT "Polynucleotide probe and primer derived a hepatitis E virus~PT strain from~PT japanese, chip having them, kit having them, and methods of~PT detecting a~PT hepatitis E virus with them"~PS~PC C12N15/09,C12Q1/68,G01N33/53~CC Polynucleotide probe and primer derived a hepatitis E virus~CC strain from~CC japanese, chip having them, kit having them, and methods of~CC detecting a~CC hepatitis E virus with them~FH Key Location/Qualifiers~FT source 1..19~FT /organism="Hepatitis virus (hepatitis E virus)"</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..19</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>19</GBInterval_to>
+          <GBInterval_accession>BD189798.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>unassigned RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>tgktcgaygccatggaggc</GBSeq_sequence>
+</GBSeq>

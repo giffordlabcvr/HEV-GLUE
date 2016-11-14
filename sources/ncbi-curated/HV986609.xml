@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>HV986609</GBSeq_locus>
+  <GBSeq_length>24</GBSeq_length>
+  <GBSeq_strandedness>double</GBSeq_strandedness>
+  <GBSeq_moltype>DNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>PAT</GBSeq_division>
+  <GBSeq_update-date>13-FEB-2013</GBSeq_update-date>
+  <GBSeq_create-date>13-FEB-2013</GBSeq_create-date>
+  <GBSeq_definition>JP 2011147449-A/13: Antisense Antiviral Agent and Method for Treating ssRNA Viral Infection</GBSeq_definition>
+  <GBSeq_primary-accession>HV986609</GBSeq_primary-accession>
+  <GBSeq_accession-version>HV986609.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>dbj|HV986609.1|</GBSeqid>
+    <GBSeqid>pat|JP|2011147449|13</GBSeqid>
+    <GBSeqid>gi|449744145</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_keywords>
+    <GBKeyword>JP 2011147449-A/13</GBKeyword>
+  </GBSeq_keywords>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..24</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Smith,A.W.</GBAuthor>
+        <GBAuthor>Stein,D.A.</GBAuthor>
+        <GBAuthor>Skilling,D.E.</GBAuthor>
+        <GBAuthor>Iversen,P.L.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Antisense Antiviral Agent and Method for Treating ssRNA Viral Infection</GBReference_title>
+      <GBReference_journal>Patent: JP 2011147449-A 13 04-AUG-2011; AVI BioPharma Inc</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>OS Hepatitis E virus~PN JP 2011147449-A/13~PD 04-AUG-2011~PF 28-FEB-2011 JP 2011042744~PR 16-OCT-2001 US 60/329815~PA AVI BioPharma Inc~PI alvin w smith,david a stein,douglas e skilling,patrick l PI iversen~PT "Antisense Antiviral Agent and Method for Treating ssRNA Viral PT Infection"~PS N13~CC~FH Key Location/Qualifiers</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..24</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>24</GBInterval_to>
+          <GBInterval_accession>HV986609.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>unassigned DNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>tggaggcccatcagtttattaagg</GBSeq_sequence>
+</GBSeq>

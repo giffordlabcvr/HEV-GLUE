@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>JN983199</GBSeq_locus>
+  <GBSeq_length>266</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>04-JUN-2012</GBSeq_update-date>
+  <GBSeq_create-date>04-JUN-2012</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus isolate Swine_029_feces methyltransferase gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>JN983199</GBSeq_primary-accession>
+  <GBSeq_accession-version>JN983199.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|JN983199.1|</GBSeqid>
+    <GBSeqid>gi|356605759</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..266</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>de Souza,A.J.</GBAuthor>
+        <GBAuthor>Gomes-Gouvea,M.S.</GBAuthor>
+        <GBAuthor>Soares,M.D.</GBAuthor>
+        <GBAuthor>Pinho,J.R.</GBAuthor>
+        <GBAuthor>Malheiros,A.P.</GBAuthor>
+        <GBAuthor>Carneiro,L.A.</GBAuthor>
+        <GBAuthor>Dos Santos,D.R.</GBAuthor>
+        <GBAuthor>Pereira,W.L.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>HEV infection in swine from Eastern Brazilian Amazon: Evidence of co-infection by different subtypes</GBReference_title>
+      <GBReference_journal>Comp. Immunol. Microbiol. Infect. Dis. (2012) In press</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1016/j.cimid.2012.04.004</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>22579295</GBReference_pubmed>
+      <GBReference_remark>Publication Status: Available-Online prior to print</GBReference_remark>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..266</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>de Souza,A.J.S.</GBAuthor>
+        <GBAuthor>Gomes-Gouvea,M.S.</GBAuthor>
+        <GBAuthor>Soares,M.C.P.</GBAuthor>
+        <GBAuthor>Pinho,J.R.R.</GBAuthor>
+        <GBAuthor>Malheiros,A.P.</GBAuthor>
+        <GBAuthor>Carneiro,L.A.</GBAuthor>
+        <GBAuthor>dos Santos,D.R.L.</GBAuthor>
+        <GBAuthor>Pereira,W.L.A.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (02-NOV-2011) Hepatology Section, Evandro Chagas Institute, Av. Almirante Barroso, 492, Belem, Para 66093-020, Brazil</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..266</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>266</GBInterval_to>
+          <GBInterval_accession>JN983199.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>Swine_029_feces</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>feces</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>swine</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Brazil</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>2010</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>genotype</GBQualifier_name>
+          <GBQualifier_value>3c</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;266</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>266</GBInterval_to>
+          <GBInterval_accession>JN983199.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>ORF1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>methyltransferase</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AET24942.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:356605760</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>ANAVVVRPFLSRVQTEILINLMQPRQLVFRPEVLWNHPIQRVIHNELEQYCRARAGRCLEVGAHPRSINDNPNVLHRCFLRPVGRDVQR</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gcgaatgctgtggtagttcggccgtttttatcccgtgtgcaaactgagattcttatcaatttgatgcaaccccgccagctggtgttccgacctgaagtgctttggaatcatcctatccaacgggttattcacaatgaactagaacagtactgccgggcccgggctggccgctgtttagaagtcggtgcccacccgagatccattaacgacaaccccaatgttttgcaccggtgctttctgcgtccagtcggcagggatgttcagcg</GBSeq_sequence>
+</GBSeq>

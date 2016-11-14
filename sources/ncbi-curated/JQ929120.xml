@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>JQ929120</GBSeq_locus>
+  <GBSeq_length>476</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>16-DEC-2013</GBSeq_update-date>
+  <GBSeq_create-date>08-NOV-2013</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus isolate HEV_NL_2011000872 capsid protein gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>JQ929120</GBSeq_primary-accession>
+  <GBSeq_accession-version>JQ929120.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|JQ929120.1|</GBSeqid>
+    <GBSeqid>gi|410718679</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..476</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Riezebos-Brilman,A.</GBAuthor>
+        <GBAuthor>Verschuuren,E.A.</GBAuthor>
+        <GBAuthor>van Son,W.J.</GBAuthor>
+        <GBAuthor>van Imhoff,G.W.</GBAuthor>
+        <GBAuthor>Brugemann,J.</GBAuthor>
+        <GBAuthor>Blokzijl,H.</GBAuthor>
+        <GBAuthor>Niesters,H.G.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>The clinical course of hepatitis E virus infection in patients of a tertiary Dutch hospital over a 5-year period</GBReference_title>
+      <GBReference_journal>J. Clin. Virol. 58 (3), 509-514 (2013)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1016/j.jcv.2013.08.022</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>24055152</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..476</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>van der Heide,R.</GBAuthor>
+        <GBAuthor>Riezebos-Brilman,A.</GBAuthor>
+        <GBAuthor>Niesters,H.G.H.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (13-APR-2012) Department of Medical Microbiology, Division of Clinical Virology, Universal Medical Center Groningen, Hanzeplein 1, Groningen, Groningen 9713 GZ, Netherlands</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..476</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>476</GBInterval_to>
+          <GBInterval_accession>JQ929120.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>HEV_NL_2011000872</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>Homo sapiens</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Netherlands</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>2011</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>genotype</GBQualifier_name>
+          <GBQualifier_value>3</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;476</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>476</GBInterval_to>
+          <GBInterval_accession>JQ929120.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>ORF2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>capsid protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AFV79702.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:410718680</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>PVNSYTNTPYTGALGLLDFALELEFRNLTPGNTNTRVSRYTSTARHRLRRGADGTAELTTTAATRFMKDLHFTGTNGVGEVGRGIALTLFNLADTLLGGLPTELISSAGGQLFYSRPVVSANGEPTVKLYTSVENAQQDKGIAIPHDIDLGDSRVVIQ</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>cccctgttaattcttataccaacacgccctataccggggcattggggctccttgactttgcactcgagcttgaatttagaaatctgacccctgggaacactaacacccgcgtgtcccgttacactagtacagcccggcaccgcctacgtcgtggtgccgatgggacggctgagcttacaactactgcagccacacgttttatgaaggacctgcatttcaccgggacaaatggtgttggcgaggtgggccgtggtatagccctgacgctatttaatcttgctgatacacttcttggcgggctgccgacagaattratttcgtcggctggaggtcaactgttttactcccgcccggttgtctcagccaatggcgagccgactgttaagttatacacctctgtcgagaatgcacagcaggacaagggcattgctataccacacgacatagacttgggagattcccgtgtggttatacaa</GBSeq_sequence>
+</GBSeq>

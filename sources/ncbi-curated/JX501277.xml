@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>JX501277</GBSeq_locus>
+  <GBSeq_length>304</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>21-MAR-2013</GBSeq_update-date>
+  <GBSeq_create-date>05-DEC-2012</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus isolate HB-RE1 capsid protein gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>JX501277</GBSeq_primary-accession>
+  <GBSeq_accession-version>JX501277.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|JX501277.1|</GBSeqid>
+    <GBSeqid>gi|425907119</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..304</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Geng,Y.</GBAuthor>
+        <GBAuthor>Zhang,H.</GBAuthor>
+        <GBAuthor>Li,J.</GBAuthor>
+        <GBAuthor>Huang,W.</GBAuthor>
+        <GBAuthor>Harrison,T.J.</GBAuthor>
+        <GBAuthor>Zhao,C.</GBAuthor>
+        <GBAuthor>Zhou,Y.</GBAuthor>
+        <GBAuthor>Lian,H.</GBAuthor>
+        <GBAuthor>Wang,Y.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Comparison of hepatitis E virus genotypes from rabbits and pigs in the same geographic area: no evidence of natural cross-species transmission between the two animals</GBReference_title>
+      <GBReference_journal>Infect. Genet. Evol. 13, 304-309 (2013)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1016/j.meegid.2012.11.006</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>23183309</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..304</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Geng,Y.</GBAuthor>
+        <GBAuthor>Wang,Y.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (19-AUG-2012) Health Science Center, Hebei University, 342 Yuhua East Road, Baoing, Hebei 071000, China</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..304</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>304</GBInterval_to>
+          <GBInterval_accession>JX501277.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>HB-RE1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>serum</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>farmed rabbit</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>China</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>20-Feb-2012</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;304</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>304</GBInterval_to>
+          <GBInterval_accession>JX501277.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>capsid protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AFY11207.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:425907120</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>PVNSYTNTPYTGALGLLDFALEIEFRNLTPGNTNTRVSRYTSTARHRLRRGADGTAELTTTAATRFMKDLHFTGMNGVGEIGRGIALTLFNIADTLLGGLP</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>cccccgttaattcatacactaataccccttatactggggctctgggccttcttgattttgcgcttgagattgaatttcggaatctgactccagggaacactaacacacgcgtctcccgttacaccagcaccgcccgccatcgcctgcgtcgtggcgccgatggaaccgccgaactcacaactacggcggccacacggtttatgaaagacctccacttcactgggatgaacggggtcggtgaaattggccgtggcatagccctgacgctgttcaacatagctgatacacttcttggtggtctgcc</GBSeq_sequence>
+</GBSeq>

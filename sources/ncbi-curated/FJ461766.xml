@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>FJ461766</GBSeq_locus>
+  <GBSeq_length>304</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>04-JAN-2009</GBSeq_update-date>
+  <GBSeq_create-date>04-JAN-2009</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus isolate WHH3 capsid protein gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>FJ461766</GBSeq_primary-accession>
+  <GBSeq_accession-version>FJ461766.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|FJ461766.1|</GBSeqid>
+    <GBSeqid>gi|218963825</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..304</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Zhao,C.</GBAuthor>
+        <GBAuthor>Liu,X.</GBAuthor>
+        <GBAuthor>Fan,J.</GBAuthor>
+        <GBAuthor>Li,X.</GBAuthor>
+        <GBAuthor>Song,A.</GBAuthor>
+        <GBAuthor>Wang,Y.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>The partial sequence analysis of Hepatitis E virus isolated from patients and pigs in Hubei province</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..304</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Zhao,C.</GBAuthor>
+        <GBAuthor>Liu,X.</GBAuthor>
+        <GBAuthor>Fan,J.</GBAuthor>
+        <GBAuthor>Li,X.</GBAuthor>
+        <GBAuthor>Song,A.</GBAuthor>
+        <GBAuthor>Wang,Y.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (12-NOV-2008) Department of Cell Biology, National Institute for the Control of Pharmaceutical and Biological Products, No. 2 Tiantanxili, Beijing 100050, China</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..304</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>304</GBInterval_to>
+          <GBInterval_accession>FJ461766.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>WHH3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>serum</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>Homo sapiens</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>China</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>Jan-2008</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>genotype</GBQualifier_name>
+          <GBQualifier_value>4</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;304</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>304</GBInterval_to>
+          <GBInterval_accession>FJ461766.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>ORF2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>capsid protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>ACL13580.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:218963826</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>PVNSYTNTPYTGALGLLDFALELEFRNLTPGNTNTRVSRYSSSARHKLRRGPDGTAELTTTAATRFMKDLHFTGTNGVGEVGRGIALTLFNLADTLLGGLP</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>cacctgtaaattcttatactaatacaccttacaccggtgcccttggcttgcttgattttgcactagagcttgagtttcgtaatctgacacctggcaatacgaacacgcgtgtctcccgttattcgagcagcgcgcgtcataagttgcgccgcgggcctgatggcactgctgagttaactaccactgctgctacacgtttcatgaaggatcttcatttcactgggaccaatggtgttggtgaggttgggcgtggtatagcgttaaccctgttcaatcttgctgatacgcttctcggcgggctccc</GBSeq_sequence>
+</GBSeq>

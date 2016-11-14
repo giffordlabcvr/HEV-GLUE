@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>EU107446</GBSeq_locus>
+  <GBSeq_length>98</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>25-OCT-2007</GBSeq_update-date>
+  <GBSeq_create-date>01-OCT-2007</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus isolate ZCY202 capsid protein gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>EU107446</GBSeq_primary-accession>
+  <GBSeq_accession-version>EU107446.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|EU107446.1|</GBSeqid>
+    <GBSeqid>gi|157688502</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..98</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Zhao,C.</GBAuthor>
+        <GBAuthor>Li,Z.</GBAuthor>
+        <GBAuthor>Yan,B.</GBAuthor>
+        <GBAuthor>Harrison,T.J.</GBAuthor>
+        <GBAuthor>Guo,X.</GBAuthor>
+        <GBAuthor>Zhang,F.</GBAuthor>
+        <GBAuthor>Yin,J.</GBAuthor>
+        <GBAuthor>Yan,Y.</GBAuthor>
+        <GBAuthor>Wang,Y.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Comparison of real-time fluorescent RT-PCR and conventional RT-PCR for the detection of hepatitis E virus genotypes prevalent in China</GBReference_title>
+      <GBReference_journal>J. Med. Virol. 79 (12), 1966-1973 (2007)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1002/jmv.21040</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>17935186</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..98</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Zhao,C.</GBAuthor>
+        <GBAuthor>Li,Z.</GBAuthor>
+        <GBAuthor>Yan,B.</GBAuthor>
+        <GBAuthor>Harrison,T.J.</GBAuthor>
+        <GBAuthor>Guo,X.</GBAuthor>
+        <GBAuthor>Zhang,F.</GBAuthor>
+        <GBAuthor>Yin,J.</GBAuthor>
+        <GBAuthor>Yan,Y.</GBAuthor>
+        <GBAuthor>Wang,Y.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (16-AUG-2007) Department of Cell Biology, National Institute for the Control of Pharmaceutical and Biological Products, No. 2 Tiantanxili, Beijing 100050, China</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..98</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>98</GBInterval_to>
+          <GBInterval_accession>EU107446.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>ZCY202</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>patient serum</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>China</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>genotype</GBQualifier_name>
+          <GBQualifier_value>4</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;98</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>98</GBInterval_to>
+          <GBInterval_accession>EU107446.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>ORF2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>capsid protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>ABV64811.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:157688503</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>TVKLYTSVENAQQDKGIAIPHDIDLGESRVVI</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>cgaccgtgaagctctatacttcagtcgagaatgctcagcaggacaagggtatagctatcccgcatgacatcgatcttggtgagtcccgtgtggttatt</GBSeq_sequence>
+</GBSeq>

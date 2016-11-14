@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>HPERNAPOLY</GBSeq_locus>
+  <GBSeq_length>869</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>11-MAR-1993</GBSeq_update-date>
+  <GBSeq_create-date>11-JUN-1993</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus RNA-directed RNA polymerase gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>L10337</GBSeq_primary-accession>
+  <GBSeq_accession-version>L10337.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|L10337.1|HPERNAPOLY</GBSeqid>
+    <GBSeqid>gi|291457</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_keywords>
+    <GBKeyword>RNA polymerase</GBKeyword>
+    <GBKeyword>RNA-dependent RNA polymerase</GBKeyword>
+    <GBKeyword>intraspecific variation</GBKeyword>
+  </GBSeq_keywords>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>sites</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Tam,A.W.</GBAuthor>
+        <GBAuthor>Smith,M.M.</GBAuthor>
+        <GBAuthor>Guerra,M.E.</GBAuthor>
+        <GBAuthor>Huang,C.C.</GBAuthor>
+        <GBAuthor>Bradley,D.W.</GBAuthor>
+        <GBAuthor>Fry,K.E.</GBAuthor>
+        <GBAuthor>Reyes,G.R.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Hepatitis E virus (HEV): molecular cloning and sequencing of the full-length viral genome</GBReference_title>
+      <GBReference_journal>Virology 185 (1), 120-131 (1991)</GBReference_journal>
+      <GBReference_pubmed>1926770</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>sites</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Uchida,T.</GBAuthor>
+        <GBAuthor>Suzuki,K.</GBAuthor>
+        <GBAuthor>Hayashi,N.</GBAuthor>
+        <GBAuthor>Iida,F.</GBAuthor>
+        <GBAuthor>Hara,T.</GBAuthor>
+        <GBAuthor>Oo,S.S.</GBAuthor>
+        <GBAuthor>Wang,C.-K.</GBAuthor>
+        <GBAuthor>Shikata,T.</GBAuthor>
+        <GBAuthor>Ichikawa,M.</GBAuthor>
+        <GBAuthor>Rikihisa,T.</GBAuthor>
+        <GBAuthor>Mizuno,K.</GBAuthor>
+        <GBAuthor>Win,K.M.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Hepatitis E virus: cDNA cloning and expression</GBReference_title>
+      <GBReference_journal>Microbiol. Immunol. 36 (1), 67-79 (1992)</GBReference_journal>
+      <GBReference_pubmed>1584074</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>3</GBReference_reference>
+      <GBReference_position>sites</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Aye,T.T.</GBAuthor>
+        <GBAuthor>Uchida,T.</GBAuthor>
+        <GBAuthor>Ma,X.Z.</GBAuthor>
+        <GBAuthor>Iida,F.</GBAuthor>
+        <GBAuthor>Shikata,T.</GBAuthor>
+        <GBAuthor>Zhuang,H.</GBAuthor>
+        <GBAuthor>Win,K.M.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Complete nucleotide sequence of a hepatitis E virus isolated from the Xinjiang epidemic (1986-1988) of China</GBReference_title>
+      <GBReference_journal>Nucleic Acids Res. 20 (13), 3512 (1992)</GBReference_journal>
+      <GBReference_pubmed>1630924</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>4</GBReference_reference>
+      <GBReference_position>sites</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Tsarev,S.A.</GBAuthor>
+        <GBAuthor>Emerson,S.U.</GBAuthor>
+        <GBAuthor>Reyes,G.R.</GBAuthor>
+        <GBAuthor>Tsareva,T.S.</GBAuthor>
+        <GBAuthor>Legters,L.J.</GBAuthor>
+        <GBAuthor>Malik,I.A.</GBAuthor>
+        <GBAuthor>Iqbal,M.</GBAuthor>
+        <GBAuthor>Purcell,R.H.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Characterization of a prototype strain of hepatitis E virus</GBReference_title>
+      <GBReference_journal>Proc. Natl. Acad. Sci. U.S.A. 89 (2), 559-563 (1992)</GBReference_journal>
+      <GBReference_pubmed>1731327</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>5</GBReference_reference>
+      <GBReference_position>sites</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Huang,C.C.</GBAuthor>
+        <GBAuthor>Nguyen,D.</GBAuthor>
+        <GBAuthor>Fernandez,J.</GBAuthor>
+        <GBAuthor>Yun,K.Y.</GBAuthor>
+        <GBAuthor>Fry,K.E.</GBAuthor>
+        <GBAuthor>Bradley,D.W.</GBAuthor>
+        <GBAuthor>Tam,A.W.</GBAuthor>
+        <GBAuthor>Reyes,G.R.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Molecular cloning and sequencing of the Mexico isolate of hepatitis E virus (HEV)</GBReference_title>
+      <GBReference_journal>Virology 191 (2), 550-558 (1992)</GBReference_journal>
+      <GBReference_pubmed>1448913</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>6</GBReference_reference>
+      <GBReference_position>1..869</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Fry,K.E.</GBAuthor>
+        <GBAuthor>Tam,A.W.</GBAuthor>
+        <GBAuthor>Smith,M.W.</GBAuthor>
+        <GBAuthor>Kim,J.P.</GBAuthor>
+        <GBAuthor>Luk,K.-C.</GBAuthor>
+        <GBAuthor>Young,L.M.</GBAuthor>
+        <GBAuthor>Piatak,M.</GBAuthor>
+        <GBAuthor>Feldman,R.A.</GBAuthor>
+        <GBAuthor>Yun,K.Y.</GBAuthor>
+        <GBAuthor>Purdy,M.A.</GBAuthor>
+        <GBAuthor>McCaustland,K.A.</GBAuthor>
+        <GBAuthor>Bradley,D.W.</GBAuthor>
+        <GBAuthor>Reyes,G.R.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Hepatitis E virus (HEV): strain variation in the nonstructural gene region encoding consensus motifs for an RNA-dependent RNA polymerase and an ATP/GTP binding site</GBReference_title>
+      <GBReference_journal>Virus Genes 6 (2), 173-185 (1992)</GBReference_journal>
+      <GBReference_pubmed>1589964</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>7</GBReference_reference>
+      <GBReference_position>sites</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Sheng-Li,B.</GBAuthor>
+        <GBAuthor>Purdy,M.A.</GBAuthor>
+        <GBAuthor>McCaustland,K.A.</GBAuthor>
+        <GBAuthor>Margolis,H.S.</GBAuthor>
+        <GBAuthor>Bradley,D.W.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>The sequence of Hepatitis E virus isolated directly from a single source during an outbreak in China</GBReference_title>
+      <GBReference_journal>Virus Res. (1993) In press</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>Original source text: Hepatitis E virus (library: Lambda gt10) cDNA to genomic RNA.; /note= "sequence corresponds to bp 4042-4910 of sequence M73218"</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..869</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>869</GBInterval_to>
+          <GBInterval_accession>L10337.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>tissue_lib</GBQualifier_name>
+          <GBQualifier_value>Lambda gt10</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>From patient stool #1435.</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;869</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>869</GBInterval_to>
+          <GBInterval_accession>L10337.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>putative</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>RNA-directed RNA polymerase</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AAA45733.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:291458</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>GPVQVTTCELYELVEAMVEKGQDGSAVLELDLCNRDVSRITFFQKDCNKFTTGETIAHGKVGQGISAWSKTFCALFGPWFRAIEKAILALLPQGVFYGDAFDDTVFSARVAAAKASMVFENDFSEFDSTQNNFSLGLECAIMEKCGMPKWLIRLYHLIRSAWILQAPKESLRGCWKKHSGEPGTLLWNTVWNMAVITHCYDFRDLQVAAFKGDDSIVLCSEYRQSPGAAVLIAGCGLKLKVGFRPIGLYAGVVVTPGLGALPDVVRLSGRLTEKNWGPGPERAEQLRLAV</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>ggccccgtacaggtcacaacctgtgagttgtacgagctagtggaggccatggtcgagaaaggccaggatggctccgccgtccttgagctcgatctctgcaaccgtgacgtgtccaggatcacctttttccagaaagattgcaataagttcaccacgggagagaccatcgcccatggtaaagtgggccagggcatttcggcctggagtaagaccttctgtgcccttttcggcccctggttccgtgctattgagaaggctattctggccctgctccctcagggtgtgttttatggggatgcctttgatgacaccgtcttctcggcgcgtgtggccgcagcaaaggcgtccatggtgtttgagaatgacttttctgagtttgactccacccagaataatttttccctgggcctagagtgtgctattatggagaagtgtgggatgccgaagtggctcatccgcttgtaccaccttataaggtctgcgtggatcctgcaggccccgaaggagtccctgcgagggtgttggaagaaacactccggtgagcccggcactcttctatggaatactgtctggaacatggccgttatcacccattgttacgatttccgcgatttgcaggtggctgcctttaaaggtgatgattcgatagtgctttgcagtgagtaccgtcagagtccaggggctgctgtcctgattgctggctgtggcttaaagctgaaggtgggtttccgtccgattggtttgtatgcaggtgttgtggtgacccccggccttggcgcgcttcccgacgtcgtgcgcttgtccggccggcttactgagaagaattggggccctggccctgagcgggcggagcagctccgccttgctgt</GBSeq_sequence>
+</GBSeq>

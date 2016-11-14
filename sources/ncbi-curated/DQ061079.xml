@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>DQ061079</GBSeq_locus>
+  <GBSeq_length>336</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>15-APR-2009</GBSeq_update-date>
+  <GBSeq_create-date>13-JUN-2005</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus isolate KDI183 capsid protein (ORF2) gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>DQ061079</GBSeq_primary-accession>
+  <GBSeq_accession-version>DQ061079.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|DQ061079.1|</GBSeqid>
+    <GBSeqid>gi|67043566</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..336</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Chausov,E.V.</GBAuthor>
+        <GBAuthor>Ternovoi,V.A.</GBAuthor>
+        <GBAuthor>Kochneva,G.V.</GBAuthor>
+        <GBAuthor>Svyatchenko,V.A.</GBAuthor>
+        <GBAuthor>Sivolobova,G.F.</GBAuthor>
+        <GBAuthor>Grazhdantseva,A.A.</GBAuthor>
+        <GBAuthor>Kiselev,N.N.</GBAuthor>
+        <GBAuthor>Sakharova,E.G.</GBAuthor>
+        <GBAuthor>Netesov,S.V.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Detection of Hepatitis E Virus in Acute Hepatitis in Siberia</GBReference_title>
+      <GBReference_journal>Mol. Gen. Microbiol. Virol. 22 (3), 131-136 (2007)</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..336</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Chausov,E.V.</GBAuthor>
+        <GBAuthor>Ternovoi,V.A.</GBAuthor>
+        <GBAuthor>Kochneva,G.V.</GBAuthor>
+        <GBAuthor>Sivolobova,G.F.</GBAuthor>
+        <GBAuthor>Grazhdantseva,A.A.</GBAuthor>
+        <GBAuthor>Sakharova,E.G.</GBAuthor>
+        <GBAuthor>Drobeniuc,J.</GBAuthor>
+        <GBAuthor>Robertson,B.</GBAuthor>
+        <GBAuthor>Favorov,M.O.</GBAuthor>
+        <GBAuthor>Netesov,S.V.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Revealing of Hepatitis E Virus in West Siberia</GBReference_title>
+      <GBReference_journal>Unpublished</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>3</GBReference_reference>
+      <GBReference_position>1..336</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Chausov,E.V.</GBAuthor>
+        <GBAuthor>Ternovoi,V.A.</GBAuthor>
+        <GBAuthor>Kochneva,G.V.</GBAuthor>
+        <GBAuthor>Sivolobova,G.F.</GBAuthor>
+        <GBAuthor>Grazhdantseva,A.A.</GBAuthor>
+        <GBAuthor>Sakharova,E.G.</GBAuthor>
+        <GBAuthor>Drobeniuc,J.</GBAuthor>
+        <GBAuthor>Robertson,B.</GBAuthor>
+        <GBAuthor>Favorov,M.O.</GBAuthor>
+        <GBAuthor>Netesov,S.V.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (13-MAY-2005) SRC VB 'Vector', Institute of Molecular Biology, Koltsovo 630559, Russia</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..336</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>336</GBInterval_to>
+          <GBInterval_accession>DQ061079.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>KDI183</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>Russia</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>gene</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;336</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>336</GBInterval_to>
+          <GBInterval_accession>DQ061079.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>ORF2</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;336</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>336</GBInterval_to>
+          <GBInterval_accession>DQ061079.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>gene</GBQualifier_name>
+          <GBQualifier_value>ORF2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>capsid protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AAY63889.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:67043567</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>MFCIHGSPVNSYTNTPYTGALGLLDFALELEFRNLTPGNTNTRVSRYSSTARHRLRRGADGTAELTTTAATRFMKDLYFTSTNGVGEIGRGIALTLFNLADTLLGGLPTEL</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>tatgttttgcatacatggctcacctgtaaattcttatactaatacaccctataccggtgccctcgggctgctggattttgcccttgagcttgagttccgcaatctcacccccggtaataccaatacgcgggtctcccgctattctagcactgctcgccaccgccttcgtcgcggtgcggacgggactgctgagctcactaccacggctgccacccgctttatgaaggacctctatttcactagtactaatggtgtcggtgagatcggccgtgggatagcccttaccctgtttaatcttgctgacactctgcttggcggcctgccgacagaattaat</GBSeq_sequence>
+</GBSeq>

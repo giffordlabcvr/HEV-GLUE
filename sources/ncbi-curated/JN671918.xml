@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>JN671918</GBSeq_locus>
+  <GBSeq_length>415</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>17-OCT-2012</GBSeq_update-date>
+  <GBSeq_create-date>05-FEB-2012</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus isolate VSMU_HEV_10 capsid protein gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>JN671918</GBSeq_primary-accession>
+  <GBSeq_accession-version>JN671918.1</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|JN671918.1|</GBSeqid>
+    <GBSeqid>gi|374304628</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..415</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Wiratsudakul,A.</GBAuthor>
+        <GBAuthor>Sariya,L.</GBAuthor>
+        <GBAuthor>Prompiram,P.</GBAuthor>
+        <GBAuthor>Tantawet,S.</GBAuthor>
+        <GBAuthor>Suraruangchai,D.</GBAuthor>
+        <GBAuthor>Sedwisai,P.</GBAuthor>
+        <GBAuthor>Sangkachai,N.</GBAuthor>
+        <GBAuthor>Suksai,P.</GBAuthor>
+        <GBAuthor>Ratanakorn,P.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Detection and phylogenetic characterization of hepatitis E virus genotype 3 in a captive wild boar in Thailand</GBReference_title>
+      <GBReference_journal>J. Zoo Wildl. Med. 43 (3), 640-644 (2012)</GBReference_journal>
+      <GBReference_pubmed>23082533</GBReference_pubmed>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..415</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Wiratsudakul,A.</GBAuthor>
+        <GBAuthor>Sariya,L.</GBAuthor>
+        <GBAuthor>Prompiram,P.</GBAuthor>
+        <GBAuthor>Tantawet,S.</GBAuthor>
+        <GBAuthor>Suraruangchai,D.</GBAuthor>
+        <GBAuthor>Sedwisai,P.</GBAuthor>
+        <GBAuthor>Sangkachai,N.</GBAuthor>
+        <GBAuthor>Ratanakorn,P.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (11-SEP-2011) Faculty of Veterinary Science, Mahidol University, 999 Phuttamonthol 4 Rd., Salaya, Phuttamonthol, Nakhon Pathom 73170, Thailand</GBReference_journal>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..415</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>415</GBInterval_to>
+          <GBInterval_accession>JN671918.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>VSMU_HEV_10</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>stool</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>captive wild boar</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>genotype</GBQualifier_name>
+          <GBQualifier_value>3</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;415</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>415</GBInterval_to>
+          <GBInterval_accession>JN671918.1</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>ORF2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>3</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>capsid protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AEZ06304.1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:374304629</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>ETSGVAEEEATSGLVMLCIHGSPANSYTNTPYTGALGLLDFALELEFRNLTPGNTNTRVSRYTSTARHRLRRGADGTAELTTTAATRFMKDLHFTGTNGVGEVGRGIALTLFNLADTLLGGLPTELISSAGGQLFYSR</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>ttgagacatcgggtgtggccgaggaggaggcgacatcaggcttagttatgctttgtattcatggttctcctgcaaattcctacaccaatacgccctatactggggcattggggctactcgactttgcactcgagcttgaatttagaaatttgacccccgggaacactaacacccgcgtgtcccgttacactagcacagcccgacaccgcttgcgtcgtggtgccgatggaacagctgagcttacaaccactgcagccacacgttttatgaaggacttgcacttcaccgggacaaatggcgttggtgaggtgggtcgtggcatagccctaacactatttaatcttgctgatacacttctcggcgggctaccgacagaattgatttcgtcggctggaggccaactgttctactcccg</GBSeq_sequence>
+</GBSeq>

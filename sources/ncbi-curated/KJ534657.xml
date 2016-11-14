@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+  <GBSeq_locus>KJ534657</GBSeq_locus>
+  <GBSeq_length>348</GBSeq_length>
+  <GBSeq_strandedness>single</GBSeq_strandedness>
+  <GBSeq_moltype>RNA</GBSeq_moltype>
+  <GBSeq_topology>linear</GBSeq_topology>
+  <GBSeq_division>VRL</GBSeq_division>
+  <GBSeq_update-date>01-APR-2015</GBSeq_update-date>
+  <GBSeq_create-date>19-MAY-2014</GBSeq_create-date>
+  <GBSeq_definition>Hepatitis E virus isolate CHN-HB-HD-L4 capsid protein gene, partial cds</GBSeq_definition>
+  <GBSeq_primary-accession>KJ534657</GBSeq_primary-accession>
+  <GBSeq_accession-version>KJ534657.2</GBSeq_accession-version>
+  <GBSeq_other-seqids>
+    <GBSeqid>gb|KJ534657.2|</GBSeqid>
+    <GBSeqid>gi|723455602</GBSeqid>
+  </GBSeq_other-seqids>
+  <GBSeq_source>Hepatitis E virus</GBSeq_source>
+  <GBSeq_organism>Hepatitis E virus</GBSeq_organism>
+  <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage; Hepeviridae; Hepevirus</GBSeq_taxonomy>
+  <GBSeq_references>
+    <GBReference>
+      <GBReference_reference>1</GBReference_reference>
+      <GBReference_position>1..348</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Yang,Y.</GBAuthor>
+        <GBAuthor>Shi,R.</GBAuthor>
+        <GBAuthor>She,R.</GBAuthor>
+        <GBAuthor>Mao,J.</GBAuthor>
+        <GBAuthor>Zhao,Y.</GBAuthor>
+        <GBAuthor>Du,F.</GBAuthor>
+        <GBAuthor>Liu,C.</GBAuthor>
+        <GBAuthor>Liu,J.</GBAuthor>
+        <GBAuthor>Cheng,M.</GBAuthor>
+        <GBAuthor>Zhu,R.</GBAuthor>
+        <GBAuthor>Li,W.</GBAuthor>
+        <GBAuthor>Wang,X.</GBAuthor>
+        <GBAuthor>Soomro,M.H.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Fatal disease associated with Swine Hepatitis E virus and Porcine circovirus 2 co-infection in four weaned pigs in China</GBReference_title>
+      <GBReference_journal>BMC Vet. Res. 11 (1), 77 (2015)</GBReference_journal>
+      <GBReference_xref>
+        <GBXref>
+          <GBXref_dbname>doi</GBXref_dbname>
+          <GBXref_id>10.1186/s12917-015-0375-z</GBXref_id>
+        </GBXref>
+      </GBReference_xref>
+      <GBReference_pubmed>25889526</GBReference_pubmed>
+      <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>2</GBReference_reference>
+      <GBReference_position>1..348</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Yang,Y.</GBAuthor>
+        <GBAuthor>Shi,R.</GBAuthor>
+        <GBAuthor>She,R.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (05-MAR-2014) Basic Veterinary Medicine, College of Veterinary Medicine, China Algriculture University, 2 Yuanmingyuan West Road, Beijing, Beijing 100193, China</GBReference_journal>
+    </GBReference>
+    <GBReference>
+      <GBReference_reference>3</GBReference_reference>
+      <GBReference_position>1..348</GBReference_position>
+      <GBReference_authors>
+        <GBAuthor>Yang,Y.</GBAuthor>
+        <GBAuthor>Shi,R.</GBAuthor>
+        <GBAuthor>She,R.</GBAuthor>
+      </GBReference_authors>
+      <GBReference_title>Direct Submission</GBReference_title>
+      <GBReference_journal>Submitted (18-NOV-2014) Basic Veterinary Medicine, College of Veterinary Medicine, China Algriculture University, 2 Yuanmingyuan West Road, Beijing, Beijing 100193, China</GBReference_journal>
+      <GBReference_remark>Sequence update by submitter</GBReference_remark>
+    </GBReference>
+  </GBSeq_references>
+  <GBSeq_comment>On Nov 18, 2014 this sequence version replaced gi:635010754.; ##Assembly-Data-START## Sequencing Technology Sanger dideoxy sequencing ##Assembly-Data-END##</GBSeq_comment>
+  <GBSeq_feature-table>
+    <GBFeature>
+      <GBFeature_key>source</GBFeature_key>
+      <GBFeature_location>1..348</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>348</GBInterval_to>
+          <GBInterval_accession>KJ534657.2</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>organism</GBQualifier_name>
+          <GBQualifier_value>Hepatitis E virus</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>mol_type</GBQualifier_name>
+          <GBQualifier_value>genomic RNA</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolate</GBQualifier_name>
+          <GBQualifier_value>CHN-HB-HD-L4</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>isolation_source</GBQualifier_name>
+          <GBQualifier_value>liver</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>host</GBQualifier_name>
+          <GBQualifier_value>swine</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>taxon:12461</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>country</GBQualifier_name>
+          <GBQualifier_value>China: Hebei</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collection_date</GBQualifier_name>
+          <GBQualifier_value>27-Dec-2013</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>collected_by</GBQualifier_name>
+          <GBQualifier_value>Yang Yifei</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>genotype</GBQualifier_name>
+          <GBQualifier_value>4</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+    <GBFeature>
+      <GBFeature_key>CDS</GBFeature_key>
+      <GBFeature_location>&lt;1..&gt;348</GBFeature_location>
+      <GBFeature_intervals>
+        <GBInterval>
+          <GBInterval_from>1</GBInterval_from>
+          <GBInterval_to>348</GBInterval_to>
+          <GBInterval_accession>KJ534657.2</GBInterval_accession>
+        </GBInterval>
+      </GBFeature_intervals>
+      <GBFeature_partial5 value="true"/>
+      <GBFeature_partial3 value="true"/>
+      <GBFeature_quals>
+        <GBQualifier>
+          <GBQualifier_name>note</GBQualifier_name>
+          <GBQualifier_value>ORF2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>codon_start</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>transl_table</GBQualifier_name>
+          <GBQualifier_value>1</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>product</GBQualifier_name>
+          <GBQualifier_value>capsid protein</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>protein_id</GBQualifier_name>
+          <GBQualifier_value>AHZ63738.2</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>db_xref</GBQualifier_name>
+          <GBQualifier_value>GI:723455603</GBQualifier_value>
+        </GBQualifier>
+        <GBQualifier>
+          <GBQualifier_name>translation</GBQualifier_name>
+          <GBQualifier_value>VMLCIHGSPVNSYTNTPYTGALGLLDFALELEFRNLTPGNTNTRVSRYSSSARHKLRRGPDGTAELTTTAATRFMKDLHFTGTNGVGEVGRGIALTLFNLADTLLGGLPTELISSA</GBQualifier_value>
+        </GBQualifier>
+      </GBFeature_quals>
+    </GBFeature>
+  </GBSeq_feature-table>
+  <GBSeq_sequence>gtaatgctctgcatacatggctcacctgtgaactcttacactaatacaccctacaccggtgccctcggcttacttgattttgcactcgagcttgagtttcgcaatttaacacctggtaacactaatacgcgtgtttctcgctactcgagtagcgcgcgccataaattgcgccgagggcctgatggtactgctgagttaactactactgctgccacacgctttatgaaagatctccattttacgggaaccaatggtgttggtgaggtcggtcgtggtatagcgctaactttgtttaaccttgctgatacgcttctcggcgggcttccgacagaattgatttcgtcggct</GBSeq_sequence>
+</GBSeq>
