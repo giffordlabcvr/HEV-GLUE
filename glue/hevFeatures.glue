@@ -4,7 +4,7 @@
     create feature 5UTR -p whole_genome "5' UTR"
 
     create feature ORF1_polyprotein -p whole_genome "ORF1 polyprotein"
-feature ORF1_polyprotein set metatag OWN_CODON_NUMBERING true
+      feature ORF1_polyprotein set metatag OWN_CODON_NUMBERING true
       feature ORF1_polyprotein set metatag CODES_AMINO_ACIDS true
       feature ORF1_polyprotein set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
@@ -75,8 +75,8 @@ feature ORF1_polyprotein set metatag OWN_CODON_NUMBERING true
     create feature 3UTR -p whole_genome "3' UTR"
 
 
-  create reference L08816 ncbi-refseqs L08816
-  reference L08816
+  create reference REF_MASTER ncbi-curated L08816
+  reference REF_MASTER
   
     add feature-location 5UTR
     feature-location 5UTR
