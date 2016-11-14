@@ -12,18 +12,29 @@ project hev
   create module --fileName modules/kuiken2006CodonLabeler.xml kuiken2006CodonLabeler
   create module --fileName modules/hevCompoundAligner.xml hevCompoundAligner
   create module --fileName modules/hevGenbankXmlPopulator.xml hevGenbankXmlPopulator
+  create module --fileName modules/blastFastaAlignmentImporter.xml blastFastaAlignmentImporter
+  create module --fileName modules/ncbiImporter.xml ncbiImporter
+  create module --fileName modules/fastaProteinAlignmentExporter.xml fastaProteinAlignmentExporter
    
   # this module downloads all HEV from NCBI
-  create module --fileName modules/ncbiImporter.xml ncbiImporter
+  #ncbiImporter import;
   
   # Import the reference sequences from files
-  import source sources/ncbi-refseqs 
   import source sources/ncbi-curated 
   
   # build master reference, with features.
   run file glue/hevFeatures.glue
   module hevGenbankXmlPopulator populate
 
+  # import unconstrained alignment  
+  module blastFastaAlignmentImporter import AL_UNCONSTRAINED -f alignments/GiffordHEValign.fasta
 
-  validate
+  create alignment AL_MASTER -r REF_MASTER
+  alignment AL_MASTER
+    derive segments AL_UNCONSTRAINED -a
+    exit
+    
+  #module fastaProteinAlignmentExporter export AL_MASTER -r REF_MASTER -f ORF1_polyprotein -a -o alignments/hev_polyprotein_refs.faa
+
+validate
   
