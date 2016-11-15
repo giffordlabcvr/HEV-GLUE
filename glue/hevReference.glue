@@ -1,0 +1,59 @@
+  create reference REF_MASTER ncbi-curated L08816
+  reference REF_MASTER
+  
+    add feature-location 5UTR
+    feature-location 5UTR
+      add segment 1 3
+      exit
+
+    add feature-location ORF1_polyprotein
+    feature-location ORF1_polyprotein
+      add segment 4 5085
+      exit
+
+    add feature-location MT
+    feature-location MT
+      add segment 169 714
+      exit
+      
+    add feature-location Y
+    feature-location Y
+      add segment 649 1299
+      exit
+      
+    add feature-location PCP
+    feature-location PCP
+      add segment 1300 1779
+      exit
+
+    add feature-location HVR
+    feature-location HVR
+      add segment 2137 2337
+      exit
+
+    add feature-location X
+    feature-location X
+      add segment 2356 2829
+      exit
+
+    add feature-location Hel
+    feature-location Hel
+      add segment 2881 3615
+      exit
+
+    add feature-location RdRp
+    feature-location RdRp
+      add segment 3622 5082
+      exit
+
+    add feature-location JR
+    feature-location JR
+      add segment 5085 5123
+      exit
+
+    add feature-location CP
+    feature-location CP
+      add segment 5123 7105
+      exit
+
+  exit  

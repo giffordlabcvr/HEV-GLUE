@@ -58,10 +58,10 @@ hevApp.config(['$routeProvider', 'projectBrowserStandardRoutesProvider',
 hevApp.controller('hevAppCtrl', 
   [ '$scope', 'glueWS', 'glueWebToolConfig',
 function ($scope, glueWS, glueWebToolConfig) {
-	$scope.brand = "BTV-GLUE";
+	$scope.brand = "HEV-GLUE";
 	$scope.homeMenuTitle = "Home";
 	$scope.projectBrowserMenuTitle = "Sequence Database";
-	$scope.projectBrowserAlignmentMenuTitle = "Segment Clade Trees";
+	$scope.projectBrowserAlignmentMenuTitle = "Clade Tree";
 	$scope.projectBrowserSequenceMenuTitle = "Sequences";
 	glueWS.setProjectURL("../../../gluetools-ws/project/hev");
 	glueWebToolConfig.setProjectBrowserURL("../gluetools-web/www/projectBrowser");

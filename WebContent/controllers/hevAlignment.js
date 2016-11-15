@@ -16,7 +16,8 @@ hevApp.controller('hevAlignmentCtrl',
 					 "sequence.gb_collection_year",
 					 "sequence.gb_length",
 					 "sequence.gb_create_date",
-					 "sequence.pmid_reference",
+					 "sequence.gb_pubmed_id",
+					 "sequence.gb_host",
 					 "sequence.gb_isolate"
 					 ]);
 
@@ -31,7 +32,8 @@ hevApp.controller('hevAlignmentCtrl',
 	            { property:"sequence.gb_country_official", displayName: "Country of Origin" },
 	            { property:"sequence.gb_collection_year", displayName: "Collection Year" },
 	            { property:"sequence.gb_isolate", displayName: "Isolate ID" },
-	            { property:"sequence.pmid_reference", displayName: "PubMed ID" },
+	            { property:"sequence.gb_pubmed_id", displayName: "PubMed ID" },
+	            { property:"sequence.gb_host", displayName: "Host Species" },
 	            { property:"sequence.gb_length", displayName: "Sequence Length" }
 	        ]);
 

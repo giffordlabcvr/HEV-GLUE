@@ -9,15 +9,16 @@ projectBrowser.controller('hevSequencesCtrl',
 
 			console.log("initializing hev sequences");
 
-			$scope.init("source.name = 'ncbi-curated' and excluded = null", 
+			$scope.init("source.name = 'ncbi-curated'", 
 					["source.name",
                      "sequenceID",
                      "gb_country_official",
-                     "gb_segment",
                      "gb_collection_year",
                      "gb_length",
                      "gb_create_date",
-                     "gb_isolate"] );
+                     "gb_isolate",
+                     "gb_host",
+                     "gb_pubmed_id"] );
 			
 			
 			$scope.pagingContext.setDefaultSortOrder([
@@ -31,8 +32,8 @@ projectBrowser.controller('hevSequencesCtrl',
   	            { property:"gb_country_official", displayName: "Country of Origin" },
   	            { property:"gb_collection_year", displayName: "Collection Year" },
   	            { property:"gb_isolate", displayName: "Isolate ID" },
-  	            { property:"gb_segment", displayName: "Segment" },
-  	            { property:"pmid_reference", displayName: "PubMed ID" },
+  	            { property:"gb_host", displayName: "Host Species" },
+  	            { property:"gb_pubmed_id", displayName: "PubMed ID" },
   	            { property:"gb_length", displayName: "Sequence Length" }
               ]);
 

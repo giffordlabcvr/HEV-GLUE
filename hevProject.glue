@@ -2,7 +2,7 @@ delete project hev
 
 create project hev "A GLUE project for Hepatitis E virus (HEV)" --minVersion 0.1.74
 
-run file glue/hevFieldDefinitions.glue
+run file glue/hevSchemaExtensions.glue
  
 project hev
 
@@ -16,14 +16,20 @@ project hev
   create module --fileName modules/ncbiImporter.xml ncbiImporter
   create module --fileName modules/fastaProteinAlignmentExporter.xml fastaProteinAlignmentExporter
    
+  create module --fileName modules/hevAlignmentRenderer.xml --loadResources hevAlignmentRenderer
+  create module --fileName modules/hevSequenceRenderer.xml --loadResources hevSequenceRenderer
+   
+   
   # this module downloads all HEV from NCBI
   #ncbiImporter import;
   
   # Import the reference sequences from files
   import source sources/ncbi-curated 
   
-  # build master reference, with features.
+  # build master reference, with feature locations.
   run file glue/hevFeatures.glue
+  run file glue/hevReference.glue
+
   module hevGenbankXmlPopulator populate
 
   # import unconstrained alignment  
@@ -31,6 +37,7 @@ project hev
 
   create alignment AL_MASTER -r REF_MASTER
   alignment AL_MASTER
+    set field displayName "Hepatitis E virus"
     derive segments AL_UNCONSTRAINED -a
     exit
     
