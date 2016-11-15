@@ -1,0 +1,52 @@
+<div ng-cloak ng-app="hevApp">
+	<h2>{{renderResult.alignment.renderedName}}</h2>
+	
+	<div>
+		<p>
+			Clade reference sequence: <a href="#project/reference/{{renderResult.alignment.constrainingReference.name}}">
+			{{renderResult.alignment.constrainingReference.renderedName}}</a>
+		</p>
+		<p>
+			Parent clade: 
+			<a ng-show="renderResult.alignment.parent" href="#project/alignment/{{renderResult.alignment.parent.name}}">
+				{{renderResult.alignment.parent.renderedName}}
+			</a>
+			<span ng-show="!renderResult.alignment.parent">-</span>
+		</p>
+		<p>
+			Child clades: <span ng-show="!renderResult.alignment.child">None</span>
+			<div ng-repeat="child in renderResult.alignment.child track by $index">
+				<a href="#project/alignment/{{child.name}}">
+					{{child.renderedName}}
+				</a>
+			</div>
+		</p>
+	</div>
+	<h3>Clade member sequences</h3>
+	<span ng-show="memberList.length == 0">None</span>
+	<div ng-show="memberList.length > 0">
+		<paging-buttons paging-context="pagingContext"></paging-buttons>
+		<p>Members {{pagingContext.firstItemIndex}} to {{pagingContext.lastItemIndex}} of {{pagingContext.totalItems}}</p>
+		<table class="table table-striped table-bordered">
+			<thead>
+				<th>NCBI Nucleotide ID</th>
+				<th>Creation Date</th>
+				<th>Sequence Length</th>
+				<th>Isolate ID</th>
+				<th>Country of Origin</th>
+				<th>Collection Year</th>
+			</thead>
+			<tbody>
+				<tr ng-repeat="member in memberList track by $index">
+					<td><a href="#project/sequence/ncbi-curated/{{member['sequence.sequenceID']}}">
+							{{member['sequence.sequenceID']}} </a></td>
+					<td>{{member['sequence.gb_create_date']}}</td>
+					<td>{{member['sequence.gb_length']}}</td>
+					<td>{{handleNull(member['sequence.gb_isolate'])}}</td>
+					<td>{{handleNull(member['sequence.gb_country_official'])}}</td>
+					<td>{{handleNull(member['sequence.gb_collection_year'])}}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
