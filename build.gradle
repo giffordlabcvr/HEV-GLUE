@@ -45,16 +45,16 @@ war {
 	archiveName 'hevGlue.war'
 }
 
-task deployBtvWebAppWarGlueHome(dependsOn: ['war']) {
-  ext.glueBtvWebAppWarFile = new File(buildDir, '/libs/hevGlue.war')
-  ext.glueBtvWebAppWarTouchfile = new File(buildDir, '/deployBtvWebAppWarGlueHome.touchfile')
-  inputs.file glueBtvWebAppWarFile
-  outputs.file glueBtvWebAppWarTouchfile
+task deployHevWebAppWarGlueHome(dependsOn: ['war']) {
+  ext.glueHevWebAppWarFile = new File(buildDir, '/libs/hevGlue.war')
+  ext.glueHevWebAppWarTouchfile = new File(buildDir, '/deployHevWebAppWarGlueHome.touchfile')
+  inputs.file glueHevWebAppWarFile
+  outputs.file glueHevWebAppWarTouchfile
   doLast {
-	  println "Uploading "+glueBtvWebAppWarFile.name
+	  println "Uploading "+glueHevWebAppWarFile.name
 	  ssh.run {
 	    session(remotes.gluehome) {
-	      put from: glueBtvWebAppWarFile.absolutePath, into: '/tmp/hevGlue.war'
+	      put from: glueHevWebAppWarFile.absolutePath, into: '/tmp/hevGlue.war'
 	      execute 'sudo -n systemctl stop tomcat'
 	      execute 'sudo -n rm -rf /usr/share/tomcat/webapps/hevGlue'
 	      execute 'sudo -n rm -rf /usr/share/tomcat/webapps/hevGlue.war'
@@ -63,9 +63,9 @@ task deployBtvWebAppWarGlueHome(dependsOn: ['war']) {
 	      execute 'sudo -n systemctl start tomcat'
 	    }
 	  }
-	  glueBtvWebAppWarTouchfile.delete()
+	  glueHevWebAppWarTouchfile.delete()
 	  buildDir.mkdirs()
-	  glueBtvWebAppWarTouchfile.createNewFile()
+	  glueHevWebAppWarTouchfile.createNewFile()
   }
 }
 
@@ -84,10 +84,10 @@ task copyGluetoolsWsWar(type: Copy) {
 
 task deployAll(dependsOn: ['deployGluetoolsWebWarGlueHomeAWS',
 	'deployGluetoolsWsWarGlueHomeAWS',
-	'deployBtvGlueWarGlueHomeAWS',
-	'deployBtvGlueGluetoolsWsContextXmlGlueHomeAWS',
-	'deployBtvGlueConfigGlueHomeAWS',
-	'deployBtvGlueDbToGlueHomeAWS'])
+	'deployHevGlueWarGlueHomeAWS',
+	'deployHevGlueGluetoolsWsContextXmlGlueHomeAWS',
+	'deployHevGlueConfigGlueHomeAWS',
+	'deployHevGlueDbToGlueHomeAWS'])
 
 task deployGluetoolsWebWarGlueHomeAWS(type: DeployWarTask, dependsOn: 'copyGluetoolsWebWar') {
     warFile = new File(buildDir, 'runtimeWars/gluetools-web.war')
@@ -111,7 +111,7 @@ task deployGluetoolsWsWarGlueHomeAWS(type: DeployWarTask, dependsOn: 'copyGlueto
     taskSsh = ssh
 }
 
-task deployBtvGlueWarGlueHomeAWS(type: DeployWarTask, dependsOn: war) {
+task deployHevGlueWarGlueHomeAWS(type: DeployWarTask, dependsOn: war) {
     warFile = new File(buildDir, '/libs/hevGlue.war')
     remote = remotes.gluehome_aws
     taskBuildDir = buildDir
@@ -169,7 +169,7 @@ class DeployWarTask extends DefaultTask {
 
 
 // config for HEV-GLUE gluetools-ws webapp 
-task deployBtvGlueGluetoolsWsContextXmlGlueHomeAWS() {
+task deployHevGlueGluetoolsWsContextXmlGlueHomeAWS() {
   ext.file = new File(projectDir, '/gluehome_aws/gluetools-ws-context.xml')
   ext.touchfile = new File(buildDir, '/deployGlueWSConfigGlueHomeAWS.touchfile')
   inputs.file file
@@ -192,9 +192,9 @@ task deployBtvGlueGluetoolsWsContextXmlGlueHomeAWS() {
 }
 
 // config for HEV-GLUE glue engine which tells it where to find its database. 
-task deployBtvGlueConfigGlueHomeAWS {
+task deployHevGlueConfigGlueHomeAWS {
   ext.file = new File(projectDir, '/gluehome_aws/hev-glue-gluetools-config.xml')
-  ext.touchfile = new File(buildDir, '/deployBtvGlueConfigGlueHomeAWS.touchfile')
+  ext.touchfile = new File(buildDir, '/deployHevGlueConfigGlueHomeAWS.touchfile')
   inputs.file file
   outputs.file touchfile
   doLast {
@@ -212,7 +212,7 @@ task deployBtvGlueConfigGlueHomeAWS {
   }
 }
 
-task initBtvGlueDBGlueHomeAWS {
+task initHevGlueDBGlueHomeAWS {
   doLast {
 	  ssh.run {
 	    session(remotes.gluehome_aws) {
@@ -236,7 +236,7 @@ task zipGlueDB(type: Exec, dependsOn: 'dumpGlueDB') {
 	commandLine '/usr/bin/gzip', '-f', '/tmp/gluedb.sql'
 }
 
-task deployBtvGlueDbToGlueHomeAWS(dependsOn: 'zipGlueDB') {
+task deployHevGlueDbToGlueHomeAWS(dependsOn: 'zipGlueDB') {
   doLast {
 	  println "Uploading HEV-GLUE DB"
 	  ssh.run {
