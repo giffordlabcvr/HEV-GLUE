@@ -225,26 +225,24 @@ task initHevGlueDBGlueHomeAWS {
   }
 }
 
-// consider using a separate local GLUE db for this.
-
-task dumpGlueDB(type: Exec) {
-	standardOutput = new FileOutputStream(new File('/tmp/gluedb.sql'))
-	commandLine '/usr/local/mysql/bin/mysqldump', '-u', 'gluetools', '--password=gluetools', 'GLUE_TOOLS'
+task dumpHevGlueDB(type: Exec) {
+	standardOutput = new FileOutputStream(new File('/tmp/hev_glue.sql'))
+	commandLine '/usr/local/mysql/bin/mysqldump', '-u', 'hevglue', '--password=hevglue', 'HEV_GLUE'
 }
 
-task zipGlueDB(type: Exec, dependsOn: 'dumpGlueDB') {
-	commandLine '/usr/bin/gzip', '-f', '/tmp/gluedb.sql'
+task zipHevGlueDB(type: Exec, dependsOn: 'dumpHevGlueDB') {
+	commandLine '/usr/bin/gzip', '-f', '/tmp/hev_glue.sql'
 }
 
-task deployHevGlueDbToGlueHomeAWS(dependsOn: 'zipGlueDB') {
+task deployHevGlueDbToGlueHomeAWS(dependsOn: 'zipHevGlueDB') {
   doLast {
 	  println "Uploading HEV-GLUE DB"
 	  ssh.run {
 	    session(remotes.gluehome_aws) {
-	 	  put from: '/tmp/gluedb.sql.gz', into: '/tmp/gluedb.sql.gz'
+	 	  put from: '/tmp/hev_glue.sql.gz', into: '/tmp/hev_glue.sql.gz'
 	      execute 'echo "drop database HEV_GLUE; create database HEV_GLUE;" | mysql -u hevglue --password=hevglue HEV_GLUE'
-	      execute 'gunzip -c /tmp/gluedb.sql.gz | mysql -u hevglue --password=hevglue HEV_GLUE'
-	      execute 'rm /tmp/gluedb.sql.gz'
+	      execute 'gunzip -c /tmp/hev_glue.sql.gz | mysql -u hevglue --password=hevglue HEV_GLUE'
+	      execute 'rm /tmp/hev_glue.sql.gz'
 	    }
 	  }
   }
