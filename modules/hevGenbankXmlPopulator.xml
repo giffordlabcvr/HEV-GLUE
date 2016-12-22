@@ -47,6 +47,9 @@
 		<gbQualifier name="isolate">
 			<fieldPopulator fieldName="gb_isolate"/>
 		</gbQualifier>
+		<gbQualifier name="isolation_source">
+			<fieldPopulator fieldName="gb_isolation_source"/>
+		</gbQualifier>
 		<gbQualifier name="country">
 			<isoCountryFieldPopulator fieldName="gb_country_iso" codeStyle="ALPHA_3"/>
 			<isoCountryFieldPopulator fieldName="gb_country_official" codeStyle="OFFICIAL"/>
@@ -59,6 +62,7 @@
 				<valueConverter>
 					<matchPattern>.*[Hh]omo [Ss]apiens.*</matchPattern>
 					<matchPattern>.*[Hh]uman.*</matchPattern>
+					<matchPattern>.*humna.*</matchPattern>
 					<outputTemplate>Homo sapiens</outputTemplate>
 				</valueConverter>
 				<valueConverter>
@@ -175,7 +179,15 @@
 				<!-- #### Ovine -->																																													
  				<valueConverter>
 					<matchPattern>.*[Ss]heep.*</matchPattern>
+					<matchPattern>.*[Oo]vine.*</matchPattern>
 					<outputTemplate>Ovis aries</outputTemplate>
+				</valueConverter>								
+
+				<!-- #### Caprine -->																																													
+ 				<valueConverter>
+					<matchPattern>.*[Gg]oat.*</matchPattern>
+					<matchPattern>.*[Cc]aprine.*</matchPattern>
+					<outputTemplate>Capra hircus</outputTemplate>
 				</valueConverter>								
 
 				<!-- #### Cervids -->																																													
@@ -185,7 +197,13 @@
 				</valueConverter>
  				<valueConverter>
 					<matchPattern>.*[Aa]lces alces.*</matchPattern>
+					<matchPattern>.*[Mm]oose.*</matchPattern>
+					<matchPattern>.*[Ee]lk.*</matchPattern>
 					<outputTemplate>Alces alces</outputTemplate>
+				</valueConverter>
+ 				<valueConverter>
+					<matchPattern>.*[R]oe [Dd]eer.*</matchPattern>
+					<outputTemplate>Capreolus capreolus</outputTemplate>
 				</valueConverter>
 
 				<!-- #### Avian -->																																													
@@ -212,6 +230,12 @@
 					<matchPattern>.*[Cc]rowned crane.*</matchPattern>
 					<outputTemplate>Balearica regulorum</outputTemplate>
 				</valueConverter>	
+ 				<valueConverter>
+					<matchPattern>.*Egretta garzetta.*</matchPattern>
+					<outputTemplate>Egretta garzetta</outputTemplate>
+				</valueConverter>	
+				
+				
 
 			</fieldPopulator>
 		</gbQualifier>
