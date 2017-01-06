@@ -37,5 +37,18 @@ hevApp.controller('hevAlignmentCtrl',
 	            { property:"sequence.gb_length", displayName: "Sequence Length" }
 	        ]);
 
+			$scope.pagingContext.setFilterProperties([
+           		{ property:"sequence.sequenceID", displayName: "NCBI Nucleotide ID", filterHints: {type: "String"} },
+          		{ property:"sequence.gb_length", displayName: "Sequence Length", filterHints: {type: "Integer"} },
+          		{ property:"sequence.gb_create_date", displayName: "Creation Date", filterHints: {type: "Date"} },
+  	            { property:"sequence.gb_country_official", displayName: "Country of Origin", filterHints: {type: "String"} },
+  	            { property:"sequence.gb_collection_year", displayName: "Collection Year", filterHints: {type: "Integer"} },
+  	            { property:"sequence.gb_isolate", displayName: "Isolate ID", filterHints: {type: "String"} },
+  	            { property:"sequence.gb_host", displayName: "Host Species", filterHints: {type: "String"} },
+  	            { property:"sequence.gb_pubmed_id", displayName: "PubMed ID", filterHints: {type: "String"} }
+  			]);
+
+			$scope.pagingContext.setDefaultFilterElems([]);
+
 			
 		}]);
