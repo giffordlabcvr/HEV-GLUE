@@ -25,6 +25,10 @@ project hev
   
   # Import the reference sequences from files
   import source sources/ncbi-curated 
+
+  # update gb_country_short based on gb_country_iso
+  run file glue/hevCountryUpdate.glue
+
   
   # build master reference, with feature locations.
   run file glue/hevFeatures.glue
