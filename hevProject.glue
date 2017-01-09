@@ -26,15 +26,14 @@ project hev
   # Import the reference sequences from files
   import source sources/ncbi-curated 
 
-  # update gb_country_short based on gb_country_iso
-  run file glue/hevCountryUpdate.glue
-
-  
   # build master reference, with feature locations.
   run file glue/hevFeatures.glue
   run file glue/hevReference.glue
 
   module hevGenbankXmlPopulator populate
+
+  # update gb_country_short based on gb_country_iso
+  run file glue/hevCountryUpdate.glue
 
   # import unconstrained alignment  
   module blastFastaAlignmentImporter import AL_UNCONSTRAINED -f alignments/GiffordHEValign.fasta
