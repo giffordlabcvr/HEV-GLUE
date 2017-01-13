@@ -32,6 +32,10 @@ project hev
 
   module hevGenbankXmlPopulator populate
 
+  # if there's no evidence it's a lab construct, it isn't.
+  multi-set field sequence -w "source.name = 'ncbi-curated' and gb_lab_construct = null" gb_lab_construct false
+
+
   # update gb_country_short based on gb_country_iso
   run file glue/hevCountryUpdate.glue
 
