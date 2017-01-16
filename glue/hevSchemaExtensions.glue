@@ -18,6 +18,7 @@ schema-project hev
     create field gb_country VARCHAR 200
     create field gb_country_iso VARCHAR
     create field gb_country_short VARCHAR 50
+    create field gb_place_sampled VARCHAR 500
     create field gb_create_date DATE
     create field gb_update_date DATE
     exit
