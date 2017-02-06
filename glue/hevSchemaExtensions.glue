@@ -21,6 +21,8 @@ schema-project hev
     create field gb_place_sampled VARCHAR 500
     create field gb_create_date DATE
     create field gb_update_date DATE
+    create field genotype VARCHAR 10
+    create field subtype VARCHAR 10
     exit
     
     

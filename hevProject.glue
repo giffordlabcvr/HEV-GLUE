@@ -8,47 +8,28 @@ project hev
 
   run file glue/hevProjectSettings.glue
   
-  # create modules from files
-  create module --fileName modules/kuiken2006CodonLabeler.xml kuiken2006CodonLabeler
-  create module --fileName modules/hevCompoundAligner.xml hevCompoundAligner
-  create module --fileName modules/hevGenbankXmlPopulator.xml hevGenbankXmlPopulator
-  create module --fileName modules/blastFastaAlignmentImporter.xml blastFastaAlignmentImporter
-  create module --fileName modules/ncbiImporter.xml ncbiImporter
-  create module --fileName modules/fastaProteinAlignmentExporter.xml fastaProteinAlignmentExporter
-   
-  create module --fileName modules/hevAlignmentRenderer.xml --loadResources hevAlignmentRenderer
-  create module --fileName modules/hevSequenceRenderer.xml --loadResources hevSequenceRenderer
-   
-   
-  # this module downloads all HEV from NCBI
-  #ncbiImporter import;
+  run file glue/hevModules.glue
   
-  # Import the reference sequences from files
   import source sources/ncbi-curated 
 
-  # build master reference, with feature locations.
   run file glue/hevFeatures.glue
-  run file glue/hevReference.glue
+  run file glue/hevReferences.glue
 
-  module hevGenbankXmlPopulator populate
+  # REINSTATE
+  # module hevGenbankXmlPopulator populate
 
   # if there's no evidence it's a lab construct, it isn't.
   multi-set field sequence -w "source.name = 'ncbi-curated' and gb_lab_construct = null" gb_lab_construct false
-
 
   # update gb_country_short based on gb_country_iso
   run file glue/hevCountryUpdate.glue
 
   # import unconstrained alignment  
-  module blastFastaAlignmentImporter import AL_UNCONSTRAINED -f alignments/GiffordHEValign.fasta
+  # alignment has been modified to:
+  # 1. Replace NN's with --'s for KJ873911 in order to make blast fasta importer worker.
+  module unconstrainedAlignmentImporter import AL_UNCONSTRAINED -f alignments/SmithAlignment_23_1_2016_modified.fna
 
-  create alignment AL_MASTER -r REF_MASTER
-  alignment AL_MASTER
-    set field displayName "Hepatitis E virus"
-    derive segments AL_UNCONSTRAINED -a
-    exit
-    
-  #module fastaProteinAlignmentExporter export AL_MASTER -r REF_MASTER -f ORF1_polyprotein -a -o alignments/hev_polyprotein_refs.faa
+  run file glue/hevAlignmentTree.glue
 
 validate
   

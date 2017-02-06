@@ -1,0 +1,18 @@
+<textFilePopulator>
+	<columnDelimiterRegex>,</columnDelimiterRegex>
+	<textFileColumn>
+		<identifier>true</identifier>
+		<header>sequenceID</header>
+		<fieldName>sequenceID</fieldName>
+	</textFileColumn>
+	<textFileColumn>
+		<header>genotype</header>
+		<fieldName>genotype</fieldName>
+		<nullRegex>-</nullRegex>
+	</textFileColumn>
+	<textFileColumn>
+		<header>subtype</header>
+		<fieldName>subtype</fieldName>
+		<nullRegex>-</nullRegex>
+	</textFileColumn>
+</textFilePopulator>
