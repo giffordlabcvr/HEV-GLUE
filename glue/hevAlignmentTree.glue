@@ -22,18 +22,30 @@
     
   alignment AL_1
     set field displayName "Genotype 1"
+    extract child AL_1abcf --refName REF_1abcf_M73218
+    demote member AL_1abcf --whereClause "sequence.subtype in ('a','b','c','f')" 
+    extract child AL_1de --refName REF_1de_AY230202
+    demote member AL_1de --whereClause "sequence.subtype in ('d','e')" 
+    exit
+
+  alignment AL_1abcf
+    set field displayName "Clade 1abcf"
     extract child AL_1a --refName REF_1a_M73218
     demote member AL_1a --whereClause "sequence.subtype = 'a'" 
     extract child AL_1b --refName REF_1b_D11092
     demote member AL_1b --whereClause "sequence.subtype = 'b'" 
     extract child AL_1c --refName REF_1c_X98292
     demote member AL_1c --whereClause "sequence.subtype = 'c'" 
+    extract child AL_1f --refName REF_1f_JF443721
+    demote member AL_1f --whereClause "sequence.subtype = 'f'" 
+    exit
+  
+  alignment AL_1de
+    set field displayName "Clade 1de"
     extract child AL_1d --refName REF_1d_AY230202
     demote member AL_1d --whereClause "sequence.subtype = 'd'" 
     extract child AL_1e --refName REF_1e_AY204877
     demote member AL_1e --whereClause "sequence.subtype = 'e'" 
-    extract child AL_1f --refName REF_1f_JF443721
-    demote member AL_1f --whereClause "sequence.subtype = 'f'" 
     exit
 
   alignment AL_1a set field displayName "Subtype 1a"
@@ -53,26 +65,38 @@
 
   alignment AL_3  
     set field displayName "Genotype 3"
+    extract child AL_3abchij --refName REF_3abchij_AF082843
+    demote member AL_3abchij --whereClause "sequence.subtype in ('a','b','c','h','i','j')" 
+    extract child AL_3efg --refName REF_3efg_AB248521
+    demote member AL_3efg --whereClause "sequence.subtype in ('e','f','g')" 
+    extract child AL_3ra --refName REF_3ra_FJ906895
+    demote member AL_3ra --whereClause "sequence.subtype = 'ra'" 
+    exit
+
+  alignment AL_3abchij 
+    set field displayName "Clade 3abchij"
     extract child AL_3a --refName REF_3a_AF082843
     demote member AL_3a --whereClause "sequence.subtype = 'a'" 
     extract child AL_3b --refName REF_3b_AP003430
     demote member AL_3b --whereClause "sequence.subtype = 'b'" 
     extract child AL_3c --refName REF_3c_FJ705359
     demote member AL_3c --whereClause "sequence.subtype = 'c'" 
-    extract child AL_3e --refName REF_3e_AB248521
-    demote member AL_3e --whereClause "sequence.subtype = 'e'" 
-    extract child AL_3f --refName REF_3f_AB369687
-    demote member AL_3f --whereClause "sequence.subtype = 'f'" 
-    extract child AL_3g --refName REF_3g_AF455784
-    demote member AL_3g --whereClause "sequence.subtype = 'g'" 
     extract child AL_3h --refName REF_3h_JQ013794
     demote member AL_3h --whereClause "sequence.subtype = 'h'" 
     extract child AL_3i --refName REF_3i_FJ998008
     demote member AL_3i --whereClause "sequence.subtype = 'i'" 
     extract child AL_3j --refName REF_3j_AY115488
     demote member AL_3j --whereClause "sequence.subtype = 'j'" 
-    extract child AL_3ra --refName REF_3ra_FJ906895
-    demote member AL_3ra --whereClause "sequence.subtype = 'ra'" 
+    exit
+
+  alignment AL_3efg 
+    set field displayName "Clade 3efg"
+    extract child AL_3e --refName REF_3e_AB248521
+    demote member AL_3e --whereClause "sequence.subtype = 'e'" 
+    extract child AL_3f --refName REF_3f_AB369687
+    demote member AL_3f --whereClause "sequence.subtype = 'f'" 
+    extract child AL_3g --refName REF_3g_AF455784
+    demote member AL_3g --whereClause "sequence.subtype = 'g'" 
     exit
 
   alignment AL_3a set field displayName "Subtype 3a"

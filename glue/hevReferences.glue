@@ -26,6 +26,12 @@
   create reference REF_7_KJ496143 ncbi-curated KJ496143
 
 
+  create reference REF_1abcf_M73218 ncbi-curated M73218
+  create reference REF_1de_AY230202 ncbi-curated AY230202
+
+  create reference REF_3abchij_AF082843 ncbi-curated AF082843
+  create reference REF_3efg_AB248521 ncbi-curated AB248521
+
   create reference REF_1a_M73218 ncbi-curated M73218
   create reference REF_1b_D11092 ncbi-curated D11092
   create reference REF_1c_X98292 ncbi-curated X98292
