@@ -1,21 +1,66 @@
-  create reference REF_MASTER_M73218 ncbi-curated M73218
-  reference REF_MASTER_M73218
+
+  create reference REF_FEATURES_L08816 ncbi-curated L08816
+  reference REF_FEATURES_L08816
+  
     add feature-location ORF1
     feature-location ORF1
-      add segment 28 5109
+      add segment 4 5085
       exit
 
-    add feature-location ORF2
-    feature-location ORF2
-      add segment 5106 5477
+    add feature-location MT
+    feature-location MT
+      add segment 169 714
+      exit
+      
+    add feature-location Y
+    feature-location Y
+      add segment 649 1299
+      exit
+      
+    add feature-location PCP
+    feature-location PCP
+      add segment 1300 1779
+      exit
+
+    add feature-location PPR
+    feature-location PPR
+      add segment 2137 2337
+      exit
+
+    add feature-location X
+    feature-location X
+      add segment 2356 2829
+      exit
+
+    add feature-location Hel
+    feature-location Hel
+      add segment 2881 3615
+      exit
+
+    add feature-location RdRp
+    feature-location RdRp
+      add segment 3622 5082
+      exit
+
+    add feature-location JR
+    feature-location JR
+      add segment 5086 5122
       exit
 
     add feature-location ORF3
     feature-location ORF3
-      add segment 5147 7129
+      add segment 5082 5453
+      exit
+
+    add feature-location ORF2
+    feature-location ORF2
+      add segment 5123 7105
       exit
 
   exit  
+
+
+  create reference REF_MASTER_M73218 ncbi-curated M73218
 
   create reference REF_1_M73218 ncbi-curated M73218
   create reference REF_2_M74506 ncbi-curated M74506
@@ -78,5 +123,18 @@
   
   module hevReferenceGenotypesPopulator populate -f tabular/referenceGenotypes.txt
 
+  ## we use a constrained "features" alignment to inherit features.
+  ## ideally the inherit features command would work directly from an unconstrained alignment
+  create alignment AL_FEATURES -r REF_FEATURES_L08816
   
+  alignment AL_FEATURES
+    add member -w "referenceSequences.name != null"
+    derive segments AL_UNCONSTRAINED --existingMembersOnly --allMembers
+    exit
+
+  run file glue/inheritFeatureLocations.glue
+  
+  delete alignment AL_FEATURES
+
+
   

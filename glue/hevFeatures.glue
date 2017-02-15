@@ -23,5 +23,44 @@
   feature ORF3 set metatag CODES_AMINO_ACIDS true
   feature ORF3 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
+  create feature MT -p ORF1 "Methyltransferase"
+  feature MT set field displayName "Methyltransferase"
+  feature MT set metatag INCLUDE_IN_SUMMARY true
+  feature MT set metatag CODES_AMINO_ACIDS true
+
+  create feature Y -p ORF1 "Y domain"
+  feature Y set field displayName "Y domain"
+  feature Y set metatag INCLUDE_IN_SUMMARY true
+  feature Y set metatag CODES_AMINO_ACIDS true
+
+  create feature PCP -p ORF1 "Papain-like cysteine protease"
+  feature PCP set field displayName "Papain-like cysteine protease"
+  feature PCP set metatag INCLUDE_IN_SUMMARY true
+  feature PCP set metatag CODES_AMINO_ACIDS true
+
+  create feature PPR -p ORF1 "Polyproline hypervariable region"
+  feature PPR set field displayName "Polyproline hypervariable region"
+  feature PPR set metatag INCLUDE_IN_SUMMARY true
+  feature PPR set metatag CODES_AMINO_ACIDS true
+
+  create feature X -p ORF1 "Macro domain"
+  feature X set field displayName "Macro domain"
+  feature X set metatag INCLUDE_IN_SUMMARY true
+  feature X set metatag CODES_AMINO_ACIDS true
+
+  create feature Hel -p ORF1 "Helicase"
+  feature Hel set field displayName "Helicase"
+  feature Hel set metatag INCLUDE_IN_SUMMARY true
+  feature Hel set metatag CODES_AMINO_ACIDS true
+
+  create feature RdRp -p ORF1 "RNA-dependent RNA polymerase"
+  feature RdRp set field displayName "Polymerase"
+  feature RdRp set metatag INCLUDE_IN_SUMMARY true
+  feature RdRp set metatag CODES_AMINO_ACIDS true
+
+  create feature JR -p whole_genome "Junction region"
+  feature JR set metatag INCLUDE_IN_SUMMARY true
+  feature JR set field displayName "Junction region"
+
 
 
