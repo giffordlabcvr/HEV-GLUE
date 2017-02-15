@@ -123,18 +123,9 @@
   
   module hevReferenceGenotypesPopulator populate -f tabular/referenceGenotypes.txt
 
-  ## we use a constrained "features" alignment to inherit features.
-  ## ideally the inherit features command would work directly from an unconstrained alignment
-  create alignment AL_FEATURES -r REF_FEATURES_L08816
-  
-  alignment AL_FEATURES
-    add member -w "referenceSequences.name != null"
-    derive segments AL_UNCONSTRAINED --existingMembersOnly --allMembers
-    exit
+  run file glue/hevFeaturesAlignment.glue
 
   run file glue/inheritFeatureLocations.glue
   
   delete alignment AL_FEATURES
-
-
   

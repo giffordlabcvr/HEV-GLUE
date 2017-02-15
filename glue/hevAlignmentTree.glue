@@ -166,4 +166,8 @@
 
   alignment AL_7a set field displayName "Subtype 7a"
 
+  # derive constrained segments throughout the tree from unconstrained AL_MASTER   
+  alignment AL_MASTER
+    derive segments AL_UNCONSTRAINED --recursive --existingMembersOnly --allMembers 
+    exit
     
