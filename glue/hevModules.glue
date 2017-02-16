@@ -9,3 +9,8 @@
    
   create module --fileName modules/hevAlignmentRenderer.xml --loadResources
   create module --fileName modules/hevSequenceRenderer.xml --loadResources 
+
+  create module --fileName modules/hevPhylogenyColumnsSelector.xml
+  
+  create module --moduleType fastaAlignmentExporter
+  
