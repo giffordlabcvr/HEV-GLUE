@@ -9,12 +9,12 @@
     derive segments AL_UNCONSTRAINED --existingMembersOnly --allMembers
     
     # remove first 1-2 NTs in homology, to ensure correct ORF1 feature inheritance 
-    member ncbi-curated AY204877
+    member ncbi-hev AY204877
       remove segment 18 2334 1 2317
       add segment 19 2334 2 2317
       exit
 
-    member ncbi-curated JQ013794
+    member ncbi-hev JQ013794
       remove segment 38 2334 1 2297
       add segment 40 2334 3 2297
       exit

@@ -9,7 +9,7 @@ projectBrowser.controller('hevSequencesCtrl',
 
 			console.log("initializing hev sequences");
 
-			$scope.init("source.name = 'ncbi-curated'", 
+			$scope.init("source.name = 'ncbi-hev'", 
 					["source.name",
                      "sequenceID",
                      "gb_country_iso",

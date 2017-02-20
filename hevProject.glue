@@ -10,13 +10,16 @@ project hev
   
   run file glue/hevModules.glue
   
-  import source sources/ncbi-curated 
+  import source sources/ncbi-hev 
+  import source sources/ncbi-outgroup 
 
   # import unconstrained alignment  
-  # alignment has been modified to:
-  # 1. Replace NN's with --'s for KJ873911 in order to make blast fasta importer worker.
-  module unconstrainedAlignmentImporter import AL_UNCONSTRAINED -f alignments/SmithAlignment_23_1_2016_modified.fna
+  # The alignment is based on Smith, et. al 2016, but has also been modified to:
+  # 1. Replace internal NN's with --'s for KJ873911 in order to make blast fasta importer work properly.
   # 2. Add a row for sequence RR_L08816 -- this sequence is present in order to provide feature locations
+  # 3. Add a row for sequence OO_AM943647 -- this sequence is present in order to provide an outgroup.
+
+  module unconstrainedAlignmentImporter import AL_UNCONSTRAINED -f alignments/SmithAlignment_23_1_2016_modified.fna
 
   run file glue/hevFeatures.glue
   run file glue/hevReferences.glue
@@ -25,7 +28,7 @@ project hev
   # module hevGenbankXmlPopulator populate
 
   # if there's no evidence it's a lab construct, it isn't.
-  multi-set field sequence -w "source.name = 'ncbi-curated' and gb_lab_construct = null" gb_lab_construct false
+  multi-set field sequence -w "source.name = 'ncbi-hev' and gb_lab_construct = null" gb_lab_construct false
 
   # update gb_country_short based on gb_country_iso
   run file glue/hevCountryUpdate.glue

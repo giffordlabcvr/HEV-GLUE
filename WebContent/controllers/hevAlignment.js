@@ -9,7 +9,7 @@ hevApp.controller('hevAlignmentCtrl',
 				dialogs: dialogs});
 
 			$scope.init($routeParams.alignmentName, 
-					"hevAlignmentRenderer", "sequence.source.name = 'ncbi-curated'",
+					"hevAlignmentRenderer", "sequence.source.name = 'ncbi-hev'",
 					[
 					 "sequence.sequenceID",
                      "sequence.gb_country_iso",

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ncbiImporter>
+    <sourceName>ncbi-outgroup</sourceName>
+	<sequenceFormat>GENBANK_XML</sequenceFormat>
+	<sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+	<specificPrimaryAccessions>
+		<!-- Outgroup: Orthohepevirus B, a.k.a. Avian Hepatitis E virus -->
+		<primaryAccession>AM943647</primaryAccession>
+	</specificPrimaryAccessions>
+	<eFetchBatchSize>20</eFetchBatchSize>
+</ncbiImporter>

@@ -2,6 +2,6 @@
 <blastFastaAlignmentImporter>
   <idClauseExtractorFormatter>
     <matchPattern><![CDATA[[A-Za-z0-9]+_(?<primaryAcc>[A-Z]{1,2}[0-9]+)]]></matchPattern>
-    <outputTemplate>source.name = 'ncbi-curated' and sequenceID = '${primaryAcc}'</outputTemplate>
+    <outputTemplate>source.name = 'ncbi-hev' and sequenceID = '${primaryAcc}'</outputTemplate>
   </idClauseExtractorFormatter>
 </blastFastaAlignmentImporter>

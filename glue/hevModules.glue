@@ -3,9 +3,11 @@
   create module --fileName modules/hevCompoundAligner.xml 
   create module --fileName modules/hevGenbankXmlPopulator.xml
   create module --fileName modules/unconstrainedAlignmentImporter.xml
-  create module --fileName modules/ncbiImporter.xml 
+  create module --fileName modules/ncbiHevImporter.xml 
+  create module --fileName modules/ncbiOutgroupImporter.xml
+  
   create module --fileName modules/fastaProteinAlignmentExporter.xml 
-  create module --fileName modules/hevReferenceGenotypesPopulator.xml 
+  create module --fileName modules/hevReferenceMetadataPopulator.xml 
    
   create module --fileName modules/hevAlignmentRenderer.xml --loadResources
   create module --fileName modules/hevSequenceRenderer.xml --loadResources 

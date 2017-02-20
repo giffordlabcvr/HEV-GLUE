@@ -15,4 +15,9 @@
 		<fieldName>subtype</fieldName>
 		<nullRegex>-</nullRegex>
 	</textFileColumn>
+	<textFileColumn>
+		<header>reference_type</header>
+		<fieldName>reference_type</fieldName>
+		<nullRegex>-</nullRegex>
+	</textFileColumn>
 </textFilePopulator>
