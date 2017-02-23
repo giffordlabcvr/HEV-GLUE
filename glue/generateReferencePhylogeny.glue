@@ -1,0 +1,18 @@
+project hev
+
+  module hevRaxmlPhylogenyGenerator
+    # with outgroup
+    generate nucleotide phylogeny AL_UNCONSTRAINED -s hevPhylogenyColumnsSelector -w "sequence.source.name in ('ncbi-hev', 'ncbi-outgroup') and sequence.reference_type in ('confirmed','outgroup')" -o trees/referencePhylogeny.tree NEWICK_BOOTSTRAPS -d referencePhylogenyData
+    exit
+  
+  module hevFigTreeAnnotationExporter 
+    export figtree-annotation AL_UNCONSTRAINED -w "sequence.source.name = 'ncbi-hev' and sequence.reference_type = 'confirmed'" -f trees/figtreeAnnotationsUnconstrained.txt
+    export figtree-annotation AL_MASTER -c -w "sequence.source.name = 'ncbi-hev' and sequence.reference_type = 'confirmed' and referenceMember = false" -f trees/figtreeAnnotationsConstrained.txt
+    exit
+    
+   module hevPhyloUtility 
+     # outgroup rooting
+     reroot-phylogeny --inputFile trees/referencePhylogeny.tree NEWICK_BOOTSTRAPS --outgroup alignment/AL_UNCONSTRAINED/member/ncbi-outgroup/AM943647 --removeOutgroup --outputFile trees/referencePhylogenyRerooted.tree NEWICK_BOOTSTRAPS
+     exit
+     
+  exit
