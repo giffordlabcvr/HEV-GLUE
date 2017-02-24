@@ -1,0 +1,8 @@
+project hev
+
+  module hevMaxLikelihoodPlacer
+    place sequence -w "source.name = 'ncbi-hev'" --batchSize 500 -o placements/ncbiHev.xml -d ncbiHevPlacementData
+    exit
+ 
+ 
+  exit
