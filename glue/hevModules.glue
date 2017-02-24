@@ -21,3 +21,6 @@
   
   create module --moduleType fastaAlignmentExporter
   
+  create module --fileName modules/hevMaxLikelihoodPlacer.xml
+  create module --fileName modules/hevMaxLikelihoodGenotyper.xml
+  
