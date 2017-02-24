@@ -31,10 +31,10 @@ FJ906895,3,-,ra,confirmed
 FJ998008,3,abchij,i,confirmed
 GU119961,4,-,h,confirmed
 JF443721,1,abcf,f,confirmed
-JQ013791,3,-,-,confirmed
+JQ013791,3,-,ra,confirmed
 JQ013794,3,abchij,h,confirmed
 JQ953664,3,abchij,-,confirmed
-KJ013415,3,-,-,confirmed
+KJ013415,3,-,ra,confirmed
 KJ496143,7,-,a,confirmed
 KJ496144,7,-,-,confirmed
 KJ873911,3,efg,-,confirmed

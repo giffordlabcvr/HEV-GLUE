@@ -31,10 +31,10 @@ alignment/AL_UNCONSTRAINED/member/ncbi-hev/FJ906895	3	3/ra	3/ra/FJ906895
 alignment/AL_UNCONSTRAINED/member/ncbi-hev/FJ998008	3	3/i	3/i/FJ998008
 alignment/AL_UNCONSTRAINED/member/ncbi-hev/GU119961	4	4/h	4/h/GU119961
 alignment/AL_UNCONSTRAINED/member/ncbi-hev/JF443721	1	1/f	1/f/JF443721
-alignment/AL_UNCONSTRAINED/member/ncbi-hev/JQ013791	3	3/-	3/-/JQ013791
+alignment/AL_UNCONSTRAINED/member/ncbi-hev/JQ013791	3	3/ra	3/ra/JQ013791
 alignment/AL_UNCONSTRAINED/member/ncbi-hev/JQ013794	3	3/h	3/h/JQ013794
 alignment/AL_UNCONSTRAINED/member/ncbi-hev/JQ953664	3	3/-	3/-/JQ953664
-alignment/AL_UNCONSTRAINED/member/ncbi-hev/KJ013415	3	3/-	3/-/KJ013415
+alignment/AL_UNCONSTRAINED/member/ncbi-hev/KJ013415	3	3/ra	3/ra/KJ013415
 alignment/AL_UNCONSTRAINED/member/ncbi-hev/KJ496143	7	7/a	7/a/KJ496143
 alignment/AL_UNCONSTRAINED/member/ncbi-hev/KJ496144	7	7/-	7/-/KJ496144
 alignment/AL_UNCONSTRAINED/member/ncbi-hev/KJ873911	3	3/-	3/-/KJ873911

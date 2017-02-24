@@ -18,6 +18,8 @@ project hev
   # 1. Replace internal NN's with --'s for KJ873911 in order to make blast fasta importer work properly.
   # 2. Add a row for sequence RR_L08816 -- this sequence is present in order to provide feature locations
   # 3. Add a row for sequence OO_AM943647 -- this sequence is present in order to provide an outgroup.
+  # 4. The missing subtype has been added for JQ013791 and KJ013415
+  
 
   module unconstrainedAlignmentImporter import AL_UNCONSTRAINED -f alignments/SmithAlignment_23_1_2016_modified.fna
 
