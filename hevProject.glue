@@ -35,5 +35,7 @@ project hev
 
   run file glue/hevAlignmentTree.glue
 
+  run file glue/importPhylogeny.glue
+
   validate
   

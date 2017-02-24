@@ -11,6 +11,11 @@
 		<nullRegex>-</nullRegex>
 	</textFileColumn>
 	<textFileColumn>
+		<header>intermediate_clade</header>
+		<fieldName>intermediate_clade</fieldName>
+		<nullRegex>-</nullRegex>
+	</textFileColumn>
+	<textFileColumn>
 		<header>subtype</header>
 		<fieldName>subtype</fieldName>
 		<nullRegex>-</nullRegex>

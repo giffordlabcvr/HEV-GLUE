@@ -1,0 +1,5 @@
+module hevPhyloImporter
+
+  import phylogeny AL_MASTER --recursive --anyAlignment --whereClause "sequence.source.name = 'ncbi-hev' and sequence.reference_type = 'confirmed'  and referenceMember = false" --inputFile trees/referencePhylogenyRerootedMidpoint.tree NEWICK_BOOTSTRAPS --fieldName phylogeny
+
+  exit

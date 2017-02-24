@@ -23,9 +23,9 @@
   alignment AL_1
     set field displayName "Genotype 1"
     extract child AL_1abcf --refName REF_1abcf_M73218
-    demote member AL_1abcf --whereClause "sequence.subtype in ('a','b','c','f')" 
+    demote member AL_1abcf --whereClause "sequence.intermediate_clade = 'abcf'" 
     extract child AL_1de --refName REF_1de_AY230202
-    demote member AL_1de --whereClause "sequence.subtype in ('d','e')" 
+    demote member AL_1de --whereClause "sequence.intermediate_clade = 'de'" 
     exit
 
   alignment AL_1abcf
@@ -66,9 +66,9 @@
   alignment AL_3  
     set field displayName "Genotype 3"
     extract child AL_3abchij --refName REF_3abchij_AF082843
-    demote member AL_3abchij --whereClause "sequence.subtype in ('a','b','c','h','i','j')" 
+    demote member AL_3abchij --whereClause "sequence.intermediate_clade = 'abchij'" 
     extract child AL_3efg --refName REF_3efg_AB248521
-    demote member AL_3efg --whereClause "sequence.subtype in ('e','f','g')" 
+    demote member AL_3efg --whereClause "sequence.intermediate_clade = 'efg'" 
     extract child AL_3ra --refName REF_3ra_FJ906895
     demote member AL_3ra --whereClause "sequence.subtype = 'ra'" 
     exit

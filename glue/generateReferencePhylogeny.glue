@@ -12,7 +12,10 @@ project hev
     
    module hevPhyloUtility 
      # outgroup rooting
-     reroot-phylogeny --inputFile trees/referencePhylogeny.tree NEWICK_BOOTSTRAPS --outgroup alignment/AL_UNCONSTRAINED/member/ncbi-outgroup/AM943647 --removeOutgroup --outputFile trees/referencePhylogenyRerooted.tree NEWICK_BOOTSTRAPS
+     reroot-phylogeny --inputFile trees/referencePhylogeny.tree NEWICK_BOOTSTRAPS --outgroup alignment/AL_UNCONSTRAINED/member/ncbi-outgroup/AM943647 --removeOutgroup --outputFile trees/referencePhylogenyRerootedOutgroup.tree NEWICK_BOOTSTRAPS
+	 # The outgroup rooting seems ananomolous at the moment, as it places Orthohepevirus B inside Geno 3.
+	 # As a fallback we will using a midpoint rooted tree.     
+     reroot-phylogeny --inputFile trees/referencePhylogenyRerootedOutgroup.tree NEWICK_BOOTSTRAPS --midpoint --outputFile trees/referencePhylogenyRerootedMidpoint.tree NEWICK_BOOTSTRAPS
      exit
      
   exit

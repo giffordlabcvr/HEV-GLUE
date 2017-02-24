@@ -22,9 +22,13 @@ schema-project hev
     create field gb_create_date DATE
     create field gb_update_date DATE
     create field genotype VARCHAR 10
+    create field intermediate_clade VARCHAR 20
     create field subtype VARCHAR 10
     create field reference_type VARCHAR 20
     exit
-    
+
+  table alignment
+    create field phylogeny VARCHAR 50000
+    exit
     
   exit
