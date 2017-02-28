@@ -13,7 +13,7 @@
 		<displayName>Subtype</displayName>	
 		<whereClause>displayName like 'Subtype%'</whereClause>
 		<distanceScalingExponent>-4.5</distanceScalingExponent>
-		<distanceCutoff>0.26</distanceCutoff>
-		<finalCladeCutoff>65.0</finalCladeCutoff>
+	    <distanceCutoff>0.26</distanceCutoff>
+		<finalCladeCutoff>61.0</finalCladeCutoff>
 	</cladeCategory>
 </maxLikelihoodGenotyper>

@@ -1,0 +1,24 @@
+<textFilePopulator>
+	<columnDelimiterRegex>\t</columnDelimiterRegex>
+	<textFileColumn>
+		<identifier>true</identifier>
+		<header>sequenceID</header>
+		<fieldName>sequenceID</fieldName>
+		<matchPattern>([0-9A-Za-z_]+)</matchPattern>
+		<outputTemplate>${g1}</outputTemplate>
+	</textFileColumn>
+	<textFileColumn>
+		<header>smith_genotype_final_clade</header>
+		<fieldName>smith_genotype_final_clade</fieldName>
+		<matchPattern>(AL_[0-9A-Za-z_]+)</matchPattern>
+		<outputTemplate>${g1}</outputTemplate>
+		<nullRegex>-</nullRegex>
+	</textFileColumn>
+	<textFileColumn>
+		<header>smith_subtype_final_clade</header>
+		<fieldName>smith_subtype_final_clade</fieldName>
+		<matchPattern>(AL_[0-9A-Za-z_]+)</matchPattern>
+		<outputTemplate>${g1}</outputTemplate>
+		<nullRegex>-</nullRegex>
+	</textFileColumn>
+</textFilePopulator>

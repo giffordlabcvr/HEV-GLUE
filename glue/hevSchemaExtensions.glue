@@ -22,13 +22,21 @@ schema-project hev
     create field gb_create_date DATE
     create field gb_update_date DATE
     create field genotype VARCHAR 10
-    create field intermediate_clade VARCHAR 20
     create field subtype VARCHAR 10
+    # confirmed / outgroup etc.
     create field reference_type VARCHAR 20
+    create field epa_genotype VARCHAR 10
+    create field epa_subtype VARCHAR 10
+    create field epa_genotype_final_clade VARCHAR 200
+    create field epa_subtype_final_clade VARCHAR 200
+    create field smith_genotype_final_clade VARCHAR 200
+    create field smith_subtype_final_clade VARCHAR 200
     exit
 
   table alignment
+    # confirmed / unassigned etc.
+    create field status VARCHAR 20
     create field phylogeny VARCHAR 50000
     exit
-    
+
   exit

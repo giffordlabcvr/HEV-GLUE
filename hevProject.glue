@@ -18,7 +18,7 @@ project hev
   # 1. Replace internal NN's with --'s for KJ873911 in order to make blast fasta importer work properly.
   # 2. Add a row for sequence RR_L08816 -- this sequence is present in order to provide feature locations
   # 3. Add a row for sequence OO_AM943647 -- this sequence is present in order to provide an outgroup.
-  # 4. The missing subtype has been added for JQ013791 and KJ013415
+  # 4. The missing subtype has been added for JQ013791 (3ra) KJ013415 (3ra) and EU723513 (3f)
   
 
   module unconstrainedAlignmentImporter import AL_UNCONSTRAINED -f alignments/SmithAlignment_23_1_2016_modified.fna
@@ -26,8 +26,7 @@ project hev
   run file glue/hevFeatures.glue
   run file glue/hevReferences.glue
 
-  # REINSTATE
-  # module hevGenbankXmlPopulator populate
+  module hevGenbankXmlPopulator populate
 
   # if there's no evidence it's a lab construct, it isn't.
   multi-set field sequence -w "source.name = 'ncbi-hev' and gb_lab_construct = null" gb_lab_construct false
@@ -38,6 +37,10 @@ project hev
   run file glue/hevAlignmentTree.glue
 
   run file glue/importPhylogeny.glue
+
+  # module hevSmithGenotypingPopulator populate --whereClause "source.name = 'ncbi-hev'" -f tabular/Smith_full_length_genotypes.txt
+  # module hevEpaGenotypingResultsPopulator populate --whereClause "source.name = 'ncbi-hev'" -f tabular/ncbiHevGenotypes.txt
+
 
   validate
   

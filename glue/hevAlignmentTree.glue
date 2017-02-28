@@ -23,9 +23,9 @@
   alignment AL_1
     set field displayName "Genotype 1"
     extract child AL_1abcf --refName REF_1abcf_M73218
-    demote member AL_1abcf --whereClause "sequence.intermediate_clade = 'abcf'" 
+    demote member AL_1abcf --whereClause "sequence.subtype in ('a','b','c','f') or sequence.sequenceID = 'FJ457024' or sequence.epa_subtype_final_clade = 'AL_1_FJ457024'" 
     extract child AL_1de --refName REF_1de_AY230202
-    demote member AL_1de --whereClause "sequence.intermediate_clade = 'de'" 
+    demote member AL_1de --whereClause "sequence.subtype in ('d','e')" 
     exit
 
   alignment AL_1abcf
@@ -38,6 +38,12 @@
     demote member AL_1c --whereClause "sequence.subtype = 'c'" 
     extract child AL_1f --refName REF_1f_JF443721
     demote member AL_1f --whereClause "sequence.subtype = 'f'" 
+
+    # unassigned subtypes
+    # FJ457024 is thought to be a 1a/1f recombinant: not given its own clade for the time being
+    # extract child AL_1_FJ457024 --refName REF_1_FJ457024
+    # demote member AL_1_FJ457024 --whereClause "sequence.epa_subtype_final_clade = 'AL_1_FJ457024' or sequence.sequenceID = 'FJ457024'" 
+
     exit
   
   alignment AL_1de
@@ -49,11 +55,20 @@
     exit
 
   alignment AL_1a set field displayName "Subtype 1a"
+  alignment AL_1a set field status confirmed
   alignment AL_1b set field displayName "Subtype 1b"
+  alignment AL_1b set field status confirmed
   alignment AL_1c set field displayName "Subtype 1c"
+  alignment AL_1c set field status confirmed
   alignment AL_1d set field displayName "Subtype 1d"
+  alignment AL_1d set field status confirmed
   alignment AL_1e set field displayName "Subtype 1e"
+  alignment AL_1e set field status confirmed
   alignment AL_1f set field displayName "Subtype 1f"
+  alignment AL_1f set field status confirmed
+  # FJ457024 is thought to be a 1a/1f recombinant: not given its own clade for the time being
+  # alignment AL_1_FJ457024 set field displayName "Subtype 1_FJ457024 (unassigned)"
+  # alignment AL_1_FJ457024 set field status unassigned
 
   alignment AL_2
     set field displayName "Genotype 2"
@@ -62,13 +77,14 @@
     exit
 
   alignment AL_2a set field displayName "Subtype 2a"
+  alignment AL_2a set field status confirmed
 
   alignment AL_3  
     set field displayName "Genotype 3"
     extract child AL_3abchij --refName REF_3abchij_AF082843
-    demote member AL_3abchij --whereClause "sequence.intermediate_clade = 'abchij'" 
+    demote member AL_3abchij --whereClause "sequence.subtype in ('a','b','c','h','i','j') or sequence.sequenceID in ('AB290312','JQ953664','AB369689') or sequence.epa_subtype_final_clade in ('AL_3_AB290312','AL_3_JQ953664','AL_3_AB369689')" 
     extract child AL_3efg --refName REF_3efg_AB248521
-    demote member AL_3efg --whereClause "sequence.intermediate_clade = 'efg'" 
+    demote member AL_3efg --whereClause "sequence.subtype in ('e','f','g') or sequence.sequenceID in ('EU360977','AB290313','KJ873911') or sequence.epa_subtype_final_clade in ('AL_3_EU723513','AL_3_EU360977','AL_3_AB290313','AL_3_KJ873911')" 
     extract child AL_3ra --refName REF_3ra_FJ906895
     demote member AL_3ra --whereClause "sequence.subtype = 'ra'" 
     exit
@@ -87,6 +103,15 @@
     demote member AL_3i --whereClause "sequence.subtype = 'i'" 
     extract child AL_3j --refName REF_3j_AY115488
     demote member AL_3j --whereClause "sequence.subtype = 'j'" 
+    
+    # unassigned subtypes
+    extract child AL_3_AB369689 --refName REF_3_AB369689
+    demote member AL_3_AB369689 --whereClause "sequence.epa_subtype_final_clade = 'AL_3_AB369689' or sequence.sequenceID = 'AB369689'" 
+    extract child AL_3_AB290312 --refName REF_3_AB290312
+    demote member AL_3_AB290312 --whereClause "sequence.epa_subtype_final_clade = 'AL_3_AB290312' or sequence.sequenceID = 'AB290312'" 
+    extract child AL_3_JQ953664 --refName REF_3_JQ953664
+    demote member AL_3_JQ953664 --whereClause "sequence.epa_subtype_final_clade = 'AL_3_JQ953664' or sequence.sequenceID = 'JQ953664'" 
+    
     exit
 
   alignment AL_3efg 
@@ -96,19 +121,52 @@
     extract child AL_3f --refName REF_3f_AB369687
     demote member AL_3f --whereClause "sequence.subtype = 'f'" 
     extract child AL_3g --refName REF_3g_AF455784
-    demote member AL_3g --whereClause "sequence.subtype = 'g'" 
+    demote member AL_3g --whereClause "sequence.subtype = 'g'"
+    
+    # unassigned subtypes
+    extract child AL_3_EU360977 --refName REF_3_EU360977
+    demote member AL_3_EU360977 --whereClause "sequence.epa_subtype_final_clade = 'AL_3_EU360977' or sequence.sequenceID = 'EU360977'" 
+    extract child AL_3_AB290313 --refName REF_3_AB290313
+    demote member AL_3_AB290313 --whereClause "sequence.epa_subtype_final_clade = 'AL_3_AB290313' or sequence.sequenceID = 'AB290313'" 
+    extract child AL_3_KJ873911 --refName REF_3_KJ873911
+    demote member AL_3_KJ873911 --whereClause "sequence.epa_subtype_final_clade = 'AL_3_KJ873911' or sequence.sequenceID = 'KJ873911'" 
+    
     exit
 
   alignment AL_3a set field displayName "Subtype 3a"
+  alignment AL_3a set field status confirmed
   alignment AL_3b set field displayName "Subtype 3b"
+  alignment AL_3b set field status confirmed
   alignment AL_3c set field displayName "Subtype 3c"
+  alignment AL_3c set field status confirmed
   alignment AL_3e set field displayName "Subtype 3e"
+  alignment AL_3e set field status confirmed
   alignment AL_3f set field displayName "Subtype 3f"
+  alignment AL_3f set field status confirmed
   alignment AL_3g set field displayName "Subtype 3g"
+  alignment AL_3g set field status confirmed
   alignment AL_3h set field displayName "Subtype 3h"
+  alignment AL_3h set field status confirmed
   alignment AL_3i set field displayName "Subtype 3i"
+  alignment AL_3i set field status confirmed
   alignment AL_3j set field displayName "Subtype 3j"
+  alignment AL_3j set field status confirmed
   alignment AL_3ra set field displayName "Subtype 3ra"
+  alignment AL_3ra set field status confirmed
+  
+  alignment AL_3_AB369689 set field displayName "Subtype 3_AB369689 (unassigned)"
+  alignment AL_3_AB369689 set field status unassigned
+  alignment AL_3_AB290312 set field displayName "Subtype 3_AB290312 (unassigned)"
+  alignment AL_3_AB290312 set field status unassigned
+  alignment AL_3_JQ953664 set field displayName "Subtype 3_JQ953664 (unassigned)"
+  alignment AL_3_JQ953664 set field status unassigned
+
+  alignment AL_3_EU360977 set field displayName "Subtype 3_EU360977 (unassigned)"
+  alignment AL_3_EU360977 set field status unassigned
+  alignment AL_3_AB290313 set field displayName "Subtype 3_AB290313 (unassigned)"
+  alignment AL_3_AB290313 set field status unassigned
+  alignment AL_3_KJ873911 set field displayName "Subtype 3_KJ873911 (unassigned)"
+  alignment AL_3_KJ873911 set field status unassigned
 
   alignment AL_4
     set field displayName "Genotype 4"
@@ -130,17 +188,33 @@
     demote member AL_4h --whereClause "sequence.subtype = 'h'" 
     extract child AL_4i --refName REF_4i_DQ450072
     demote member AL_4i --whereClause "sequence.subtype = 'i'" 
+
+    # unassigned subtypes
+    extract child AL_4_AB369688 --refName REF_4_AB369688
+    demote member AL_4_AB369688 --whereClause "sequence.epa_subtype_final_clade = 'AL_4_AB369688' or sequence.sequenceID = 'AB369688'" 
+
     exit
 
   alignment AL_4a set field displayName "Subtype 4a"
+  alignment AL_4a set field status confirmed
   alignment AL_4b set field displayName "Subtype 4b"
+  alignment AL_4b set field status confirmed
   alignment AL_4c set field displayName "Subtype 4c"
+  alignment AL_4c set field status confirmed
   alignment AL_4d set field displayName "Subtype 4d"
+  alignment AL_4d set field status confirmed
   alignment AL_4e set field displayName "Subtype 4e"
+  alignment AL_4e set field status confirmed
   alignment AL_4f set field displayName "Subtype 4f"
+  alignment AL_4f set field status confirmed
   alignment AL_4g set field displayName "Subtype 4g"
+  alignment AL_4g set field status confirmed
   alignment AL_4h set field displayName "Subtype 4h"
+  alignment AL_4h set field status confirmed
   alignment AL_4i set field displayName "Subtype 4i"
+  alignment AL_4i set field status confirmed
+  alignment AL_4_AB369688 set field displayName "Subtype 4_AB369688 (unassigned)"
+  alignment AL_4_AB369688 set field status unassigned
 
   alignment AL_5
     set field displayName "Genotype 5"
@@ -149,22 +223,39 @@
     exit
 
   alignment AL_5a set field displayName "Subtype 5a"
+  alignment AL_5a set field status confirmed
 
   alignment AL_6  
     set field displayName "Genotype 6"
     extract child AL_6a --refName REF_6a_AB602441
     demote member AL_6a --whereClause "sequence.subtype = 'a'" 
+
+    # unassigned subtypes
+    extract child AL_6_AB856243 --refName REF_6_AB856243
+    demote member AL_6_AB856243 --whereClause "sequence.epa_subtype_final_clade = 'AL_6_AB856243' or sequence.sequenceID = 'AB856243'" 
+
     exit
 
   alignment AL_6a set field displayName "Subtype 6a"
+  alignment AL_6a set field status confirmed
+  alignment AL_6_AB856243 set field displayName "Subtype 6_AB856243 (unassigned)"
+  alignment AL_6_AB856243 set field status unassigned
 
   alignment AL_7  
     set field displayName "Genotype 7"
     extract child AL_7a --refName REF_7a_KJ496143
     demote member AL_7a --whereClause "sequence.subtype = 'a'" 
+    
+    # unassigned subtypes
+    extract child AL_7_KJ496144 --refName REF_7_KJ496144
+    demote member AL_7_KJ496144 --whereClause "sequence.epa_subtype_final_clade = 'AL_7_KJ496144' or sequence.sequenceID = 'KJ496144'" 
+    
     exit
 
   alignment AL_7a set field displayName "Subtype 7a"
+  alignment AL_7a set field status confirmed
+  alignment AL_7_KJ496144 set field displayName "Subtype 7_KJ496144 (unassigned)"
+  alignment AL_7_KJ496144 set field status unassigned
 
   # derive constrained segments throughout the tree from unconstrained AL_MASTER   
   alignment AL_MASTER
