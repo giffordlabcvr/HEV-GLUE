@@ -34,12 +34,15 @@ project hev
   # update gb_country_short based on gb_country_iso
   run file glue/hevCountryUpdate.glue
 
+  module hevSmithGenotypingPopulator populate --whereClause "source.name = 'ncbi-hev'" -f tabular/Smith_full_length_genotypes.txt
+  module hevEpaGenotypingResultsPopulator populate --whereClause "source.name = 'ncbi-hev'" -f tabular/ncbiHevGenotypes.txt
+  multi-copy field sequence -w "source.name = 'ncbi-hev'" epa_genotype genotype
+  multi-copy field sequence -w "source.name = 'ncbi-hev'" epa_subtype subtype
+
   run file glue/hevAlignmentTree.glue
 
   run file glue/importPhylogeny.glue
 
-  # module hevSmithGenotypingPopulator populate --whereClause "source.name = 'ncbi-hev'" -f tabular/Smith_full_length_genotypes.txt
-  # module hevEpaGenotypingResultsPopulator populate --whereClause "source.name = 'ncbi-hev'" -f tabular/ncbiHevGenotypes.txt
 
 
   validate

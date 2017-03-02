@@ -1,7 +1,7 @@
   create alignment AL_MASTER -r REF_MASTER_M73218
 
   alignment AL_MASTER
-    add member --allSequences
+    add member --whereClause "gb_lab_construct = false"
     set field displayName "Hepatitis E Virus (HEV)"
     extract child AL_1 --refName REF_1_M73218
     demote member AL_1 --whereClause "sequence.genotype = '1'" 
@@ -261,4 +261,6 @@
   alignment AL_MASTER
     derive segments AL_UNCONSTRAINED --recursive --existingMembersOnly --allMembers 
     exit
+  
+  run file glue/hevComputeTipAlignments.glue
     

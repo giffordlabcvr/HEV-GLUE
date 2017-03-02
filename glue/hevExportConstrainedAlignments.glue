@@ -1,0 +1,58 @@
+module fastaAlignmentExporter
+
+  export AL_MASTER -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_MASTER.fna
+
+  export AL_1 -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_1.fna
+  export AL_2 -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_2.fna
+  export AL_3 -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_3.fna
+  export AL_4 -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_4.fna
+  export AL_5 -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_5.fna
+  export AL_6 -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_6.fna
+  export AL_7 -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_7.fna
+
+  export AL_1abcf -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_1abcf.fna
+  export AL_1de -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_1de.fna
+  export AL_3abchij -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_3abchij.fna
+  export AL_3efg -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_3efg.fna
+
+  export AL_1a -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_1a.fna
+  export AL_1b -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_1b.fna
+  export AL_1c -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_1c.fna
+  export AL_1d -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_1d.fna
+  export AL_1e -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_1e.fna
+  export AL_1f -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_1f.fna
+  export AL_2a -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_2a.fna
+  export AL_3a -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_3a.fna
+  export AL_3b -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_3b.fna
+  export AL_3c -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_3c.fna
+  export AL_3e -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_3e.fna
+  export AL_3f -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_3f.fna
+  export AL_3g -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_3g.fna
+  export AL_3h -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_3h.fna
+  export AL_3i -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_3i.fna
+  export AL_3j -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_3j.fna
+  export AL_3ra -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_3ra.fna
+  export AL_3_AB290312 -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_3_AB290312.fna
+  export AL_3_AB290313 -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_3_AB290313.fna
+  export AL_3_AB369689 -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_3_AB369689.fna
+  export AL_3_EU360977 -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_3_EU360977.fna
+  export AL_3_JQ953664 -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_3_JQ953664.fna
+  export AL_3_KJ873911 -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_3_KJ873911.fna
+  export AL_4a -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_4a.fna
+  export AL_4b -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_4b.fna
+  export AL_4c -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_4c.fna
+  export AL_4d -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_4d.fna
+  export AL_4e -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_4e.fna
+  export AL_4f -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_4f.fna
+  export AL_4g -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_4g.fna
+  export AL_4h -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_4h.fna
+  export AL_4i -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_4i.fna
+  export AL_4_AB369688 -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_4_AB369688.fna
+  export AL_5a -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_5a.fna
+  export AL_6a -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_6a.fna
+  export AL_6_AB856243 -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_6_AB856243.fna
+  export AL_7a -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_7a.fna
+  export AL_7_KJ496144 -a --orderStrategy increasing_start_segment --fileName alignments/constrained/AL_7_KJ496144.fna
+
+  exit
+  
