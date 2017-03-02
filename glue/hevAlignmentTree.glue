@@ -262,5 +262,5 @@
     derive segments AL_UNCONSTRAINED --recursive --existingMembersOnly --allMembers 
     exit
   
-  run file glue/hevComputeTipAlignments.glue
+  run file glue/hevComputeAlignments.glue
     
