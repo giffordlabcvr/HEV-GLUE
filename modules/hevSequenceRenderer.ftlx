@@ -26,6 +26,7 @@
 	<@elem tag="collectionYear" expr="gb_collection_year"/>
 	<@elem tag="length" expr="gb_length"/>
 	<@elem tag="labConstruct" expr="gb_lab_construct" type="Boolean"/>
+	<@elem tag="fullGenome" expr="full_genome" type="Boolean"/>
 	<creationDate>${renderProperty('gb_create_date')}</creationDate>
 	<updateDate>${renderProperty('gb_update_date')}</updateDate>
 	<@elem tag="pubmedId" expr="gb_pubmed_id"/>

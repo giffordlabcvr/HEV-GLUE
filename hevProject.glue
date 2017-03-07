@@ -27,6 +27,9 @@ project hev
   run file glue/hevReferences.glue
 
   module hevGenbankXmlPopulator populate
+  # identify full genome sequences.
+  multi-set field sequence -w "gb_length >= 6500" full_genome true
+  multi-set field sequence -w "full_genome = null" full_genome false
 
   # if there's no evidence it's a lab construct, it isn't.
   multi-set field sequence -w "source.name = 'ncbi-hev' and gb_lab_construct = null" gb_lab_construct false

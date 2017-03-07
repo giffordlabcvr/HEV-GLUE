@@ -42,6 +42,7 @@ projectBrowser.controller('hevSequencesCtrl',
 
 			$scope.pagingContext.setFilterProperties([
          		{ property:"sequenceID", displayName: "NCBI Nucleotide ID", filterHints: {type: "String"} },
+          		{ property:"full_genome", displayName: "Full Genome (>= 6500nt)", filterHints: {type: "Boolean"} },
         		{ property:"gb_length", displayName: "Sequence Length", filterHints: {type: "Integer"} },
         		{ property:"gb_create_date", displayName: "NCBI Entry Creation Date", filterHints: {type: "Date"} },
         		{ property:"gb_update_date", displayName: "NCBI Last Update Date", filterHints: {type: "Date"} },

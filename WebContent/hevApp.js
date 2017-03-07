@@ -1,5 +1,6 @@
 var hevApp = angular.module('hevApp', [
     'ngRoute',
+    'analysisTool', 
     'projectBrowser', 
     'home',
     'glueWS',
@@ -44,6 +45,13 @@ hevApp.config(['$routeProvider', 'projectBrowserStandardRoutesProvider',
 	  templateUrl: 'views/hevSequence.html',
 	  controller: 'hevSequenceCtrl'
     });
+
+	
+    $routeProvider.
+    when('/analysisTool', {
+      templateUrl: '../gluetools-web/www/analysisTool/analysisTool.html',
+      controller: 'analysisToolCtrl'
+    });
 	
     $routeProvider.
       when('/home', {
@@ -63,7 +71,11 @@ function ($scope, glueWS, glueWebToolConfig) {
 	$scope.projectBrowserMenuTitle = "Sequence Database";
 	$scope.projectBrowserAlignmentMenuTitle = "Clade Tree";
 	$scope.projectBrowserSequenceMenuTitle = "Sequences";
+	$scope.analysisMenuTitle = "Analysis";
+	$scope.analysisToolMenuTitle = "Genotyping and Interpretation";
 	glueWS.setProjectURL("../../../gluetools-ws/project/hev");
+	glueWebToolConfig.setAnalysisToolURL("../gluetools-web/www/analysisTool");
+	glueWebToolConfig.setAnalysisModuleName("hevWebAnalysisTool");
 	glueWebToolConfig.setProjectBrowserURL("../gluetools-web/www/projectBrowser");
 	glueWebToolConfig.setGlueWSURL("../gluetools-web/www/glueWS");
 } ]);

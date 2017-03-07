@@ -31,6 +31,7 @@ schema-project hev
     create field epa_subtype_final_clade VARCHAR 200
     create field smith_genotype_final_clade VARCHAR 200
     create field smith_subtype_final_clade VARCHAR 200
+    create field full_genome BOOLEAN
     exit
 
   table alignment
