@@ -1,6 +1,6 @@
 delete project hev
 
-create project hev "A GLUE project for Hepatitis E virus (HEV)" --minVersion 0.1.95
+create project hev "A GLUE project for Hepatitis E virus (HEV)" --minVersion 0.1.96
 
 run file glue/hevSchemaExtensions.glue
  
