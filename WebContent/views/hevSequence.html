@@ -40,11 +40,14 @@
 				</tr>
 			</table>
 			
-			<div ng-show="renderResult.sequence.pubmedId">
+			<div ng-show="renderResult.sequence.referenceText">
 			<h4>Reference</h4>
-			<a href="https://www.ncbi.nlm.nih.gov/pubmed/{{renderResult.sequence.pubmedId}}" target="_blank">
-				PubMed {{renderResult.sequence.pubmedId}}  <i class="glyphicon glyphicon-link"></i>
+			<a ng-show="renderResult.sequence.referenceUrl" href="{{renderResult.sequence.referenceUrl}}" target="_blank">
+				{{renderResult.sequence.referenceText}}  <i class="glyphicon glyphicon-link"></i>
 			</a>
+			<div ng-show="renderResult.sequence.referenceUrl == null">				
+				{{renderResult.sequence.referenceText}}
+			</div>
 			</div>
 		</tr>
 	</table>	
@@ -66,10 +69,10 @@
 					<td><b>Country of Origin</b></td><td>{{renderResult.sequence.country ? (renderResult.sequence.country+" ("+renderResult.sequence.country_iso+")"):"-"}}</td>
 				</tr>
 				<tr>
-					<td><b>Collection Year</b></td><td>{{handleNull(renderResult.sequence.collectionYear)}}</td>
+					<td><b>Collection Year Range</b></td><td>{{handleNull(renderResult.sequence.collectionYearRange)}}</td>
 				</tr>
 				<tr>
-					<td><b>Host species</b></td><td><em>{{handleNull(renderResult.sequence.host)}}</em></td>
+					<td><b>Host Species</b></td><td><em>{{handleNull(renderResult.sequence.host)}}</em></td>
 				</tr>
 			</table>	
 	    </div>

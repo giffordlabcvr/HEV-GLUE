@@ -14,7 +14,7 @@
 				<th>Isolate ID</th>
 				<th>Country of Origin</th>
 				<th>Host Species</th>
-				<th>Collection Year</th>
+				<th>Collection Year Range</th>
 				<th>Reference</th>
 			</thead>
 			<colgroup>
@@ -23,10 +23,10 @@
 		       <col span="1" style="width: 10%;">
 		       <col span="1" style="width: 10%;">
 		       <col span="1" style="width: 12%;">
+		       <col span="1" style="width: 13%;">
+		       <col span="1" style="width: 13%;">
 		       <col span="1" style="width: 10%;">
-		       <col span="1" style="width: 15%;">
-		       <col span="1" style="width: 8%;">
-		       <col span="1" style="width: 15%;">
+		       <col span="1" style="width: 12%;">
 			</colgroup>
 			<tbody>
 				<tr ng-repeat="sequenceResult in listSequenceResult track by $index">
@@ -37,7 +37,7 @@
 					<td>{{handleNull(sequenceResult.gb_isolate)}}</td>
 					<td>{{sequenceResult.gb_country_short ? (sequenceResult.gb_country_short+" ("+sequenceResult.gb_country_iso+")"):"-"}}</td>
 					<td><em>{{handleNull(sequenceResult.gb_host)}}</em></td>
-					<td>{{handleNull(sequenceResult.gb_collection_year)}}</td>
+					<td>{{collectionYearRange(sequenceResult.earliest_collection_year, sequenceResult.latest_collection_year)}}</td>
 					<td ng-show="!sequenceResult.gb_pubmed_id">-</td>
 					<td ng-show="sequenceResult.gb_pubmed_id">
 						<a href="https://www.ncbi.nlm.nih.gov/pubmed/{{sequenceResult.gb_pubmed_id}}" target="_blank">PubMed {{sequenceResult.gb_pubmed_id}} <span class="glyphicon glyphicon-link"></span></a>

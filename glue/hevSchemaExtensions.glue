@@ -32,6 +32,9 @@ schema-project hev
     create field smith_genotype_final_clade VARCHAR 200
     create field smith_subtype_final_clade VARCHAR 200
     create field full_genome BOOLEAN
+    create field earliest_collection_year INTEGER
+    create field latest_collection_year INTEGER
+    create field alternative_reference_url VARCHAR 500
     exit
 
   table alignment

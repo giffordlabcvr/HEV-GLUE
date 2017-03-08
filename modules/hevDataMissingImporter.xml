@@ -1,0 +1,82 @@
+<textFilePopulator>
+	<columnDelimiterRegex>\t</columnDelimiterRegex>
+	<textFileColumn>
+		<identifier>true</identifier>
+		<fieldName>sequenceID</fieldName>
+		<header>sequenceID</header>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>gb_isolate</fieldName>
+		<header>gb_isolate_missing</header>
+		<nullRegex>^(?:N/A)|(?: *)$</nullRegex>
+		<matchPattern>^.*?([\p{Graph} ]+).*?$</matchPattern>
+		<outputTemplate>${g1?trim}</outputTemplate>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>gb_host</fieldName>
+		<header>gb_host_missing</header>
+		<nullRegex>^(?:N/A)|(?: *)|(?:cell line)|(?:deer)|(?:Monkey)|(?:wild mongoose)$</nullRegex>
+		<outputTemplate>${g0?trim}</outputTemplate>
+		<valueConverter>
+			<matchPattern>^[Ss]wine [Pp]ig$</matchPattern>
+			<matchPattern>^[Pp]ig [Ss]wine$</matchPattern>
+			<matchPattern>^[Pp]ig$</matchPattern>
+			<matchPattern>^[Pp]iglet$</matchPattern>
+			<matchPattern>^[Ww]ild [Bb]oar$</matchPattern>
+			<outputTemplate>Sus scrofa</outputTemplate>
+		</valueConverter>
+		<valueConverter>
+			<matchPattern>^[Rr]hesus [Mm]onkey$</matchPattern>
+			<matchPattern>^[Rr]hesus [Mm]acaque$</matchPattern>
+			<matchPattern>.*[Mm]acaca [Mm]ulatta.*</matchPattern>
+			<outputTemplate>Macaca mulatta</outputTemplate>
+		</valueConverter>
+		<valueConverter>
+			<matchPattern>^Homo sapienss$</matchPattern>
+			<outputTemplate>Homo sapiens</outputTemplate>
+		</valueConverter>
+		<valueConverter>
+			<matchPattern>.*cynomolgous monkey.*</matchPattern>
+			<matchPattern>.*cynomolgus macaques monkey.*</matchPattern>
+			<outputTemplate>Macaca fascicularis</outputTemplate>
+		</valueConverter>
+	</textFileColumn>
+	<isoCountryTextFileColumn codeStyle="ALPHA_3">
+		<fieldName>gb_country_iso</fieldName>
+		<header>gb_country_missing</header>
+		<nullRegex>^(?:N/A)|(?: *)$</nullRegex>
+	</isoCountryTextFileColumn>
+	<textFileColumn>
+		<fieldName>gb_pubmed_id</fieldName>
+		<header>gb_pubmed_id_missing</header>
+		<nullRegex>^(?:N/A)|(?: *)$</nullRegex>
+		<matchPattern>^PMID: *(\d+)$</matchPattern>
+		<outputTemplate>${g1?trim}</outputTemplate>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>earliest_collection_year</fieldName>
+		<header>gb_collection_year_missing</header>
+		<nullRegex>^(?:N/A)|(?: *)$</nullRegex>
+		<matchPattern>^ *(\d{4}) *$</matchPattern>
+		<matchPattern>^ *(?:(?:[Bb]etween)|(?:[Ff]rom))? *(\d{4}) *(?:(?:to)|(?:and)|-) *(?:\d{4}) *$</matchPattern>
+		<outputTemplate>${g1}</outputTemplate>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>latest_collection_year</fieldName>
+		<header>gb_collection_year_missing</header>
+		<nullRegex>^(?:N/A)|(?: *)$</nullRegex>
+		<matchPattern>^ *(\d{4}) *$</matchPattern>
+		<matchPattern>^ *(?:(?:[Bb]etween)|(?:[Ff]rom))? *(?:\d{4}) *(?:(?:to)|(?:and)|-) *(\d{4}) *$</matchPattern>
+		<outputTemplate>${g1}</outputTemplate>
+	</textFileColumn>
+	<textFileColumn>
+		<fieldName>alternative_reference_url</fieldName>
+		<header>alternative_reference_url_missing</header>
+		<nullRegex>^(?:N/A)|(?: *)$</nullRegex>
+		<outputTemplate>${g0?trim}</outputTemplate>
+	</textFileColumn>
+	
+	
+	
+	
+</textFilePopulator>

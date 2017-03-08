@@ -237,9 +237,6 @@
 					<matchPattern>.*Egretta garzetta.*</matchPattern>
 					<outputTemplate>Egretta garzetta</outputTemplate>
 				</valueConverter>	
-				
-				
-
 			</fieldPopulator>
 		</gbQualifier>
 		<gbQualifier name="collection_date">
@@ -252,6 +249,15 @@
 				<outputTemplate>${g1?upper_case}</outputTemplate>
 			</fieldPopulator>
 			<fieldPopulator fieldName="gb_collection_year">
+				<matchPattern>(\d{4})</matchPattern>
+				<outputTemplate>${g1}</outputTemplate>
+			</fieldPopulator>
+			<!-- if collection year is specified here then we have tight bounds on the earliest / latest collection year -->
+			<fieldPopulator fieldName="earliest_collection_year">
+				<matchPattern>(\d{4})</matchPattern>
+				<outputTemplate>${g1}</outputTemplate>
+			</fieldPopulator>
+			<fieldPopulator fieldName="latest_collection_year">
 				<matchPattern>(\d{4})</matchPattern>
 				<outputTemplate>${g1}</outputTemplate>
 			</fieldPopulator>

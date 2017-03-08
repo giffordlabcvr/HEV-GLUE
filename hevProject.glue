@@ -27,6 +27,10 @@ project hev
   run file glue/hevReferences.glue
 
   module hevGenbankXmlPopulator populate
+  # Missing data for some full genome NCBI sequences
+  module hevDataMissingImporter populate --fileName tabular/AhmedAlnamrotyFullGenomeMissing.txt
+  module hevCollectionBoundsPopulator populate
+  
   # identify full genome sequences.
   multi-set field sequence -w "gb_length >= 6500" full_genome true
   multi-set field sequence -w "full_genome = null" full_genome false

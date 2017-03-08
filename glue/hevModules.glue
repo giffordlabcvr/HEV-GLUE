@@ -2,6 +2,10 @@
   create module --fileName modules/kuiken2006CodonLabeler.xml 
   create module --fileName modules/hevCompoundAligner.xml 
   create module --fileName modules/hevGenbankXmlPopulator.xml
+  create module --fileName modules/hevCollectionBoundsPopulator.xml
+  
+  create module --fileName modules/hevDataMissingImporter.xml 
+  
   create module --fileName modules/unconstrainedAlignmentImporter.xml
   create module --fileName modules/ncbiHevImporter.xml 
   create module --fileName modules/ncbiOutgroupImporter.xml
@@ -27,4 +31,6 @@
   create module --fileName modules/hevEpaGenotypingResultsPopulator.xml
   create module --fileName modules/hevSequenceReporter.xml
   create module --fileName modules/hevWebAnalysisTool.xml
+  
+  
   

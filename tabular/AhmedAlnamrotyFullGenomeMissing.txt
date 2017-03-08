@@ -1,0 +1,296 @@
+sequenceID	gb_isolate_missing	gb_host_missing	gb_country_missing	gb_place_sampled	gb_collection_year_missing	gb_collection_month_missing	gb_collection_day_missing	gb_pubmed_id_missing	alternative_reference_url_missing	gb_isolation_source_missing
+AB073912		Pig			N/A	N/A	N/A			Serum
+AB074915					N/A	N/A	N/A			Serum
+AB074917					N/A	N/A	N/A			Serum
+AB074918					N/A	N/A	N/A			Serum
+AB074920					N/A	N/A	N/A			Serum
+AB080575					2000	3	N/A			Serum
+AB089824					1993	9	N/A			Serum
+AB091394					2002	3	N/A			Serum
+AB091395					2002	3	N/A			Serum
+AB097811		Pig			2002	N/A	N/A			Serum
+AB097812		Homo sapiens			1997	N/A	N/A			Serum
+AB099347					2002	4	N/A			Serum
+AB108537		Homo sapiens			2000	6	N/A			Serum
+AB161717		Homo sapiens			1995	N/A	N/A			Serum
+AB161718		Homo sapiens			2000	N/A	N/A			Serum
+AB161719		Homo sapiens			2002	N/A	N/A			Serum
+AB189070		wild boar			2004	4	8			Liver and Serum
+AB189071		deer			2003	2	22			N/A
+AB189072		Homo sapiens			2003	4	29			Serum
+AB189073		Homo sapiens			2003	4	29			Serum
+AB189074		Homo sapiens			2003	4	29			Serum
+AB189075		Homo sapiens			2003	4	29			Serum
+AB193176					2003	3	12	N/A	https://www.jstage.jst.go.jp/article/kanzo/46/6/46_6_389/_article	Serum
+AB193177					2001	12	23	N/A	https://www.jstage.jst.go.jp/article/kanzo/46/6/46_6_389/_article	Serum
+AB193178					2002	4	30	N/A	https://www.jstage.jst.go.jp/article/kanzo/46/6/46_6_389/_article	Serum
+AB197673					1998	10	27	N/A	N/A	Serum
+AB197674					2001	4	12	N/A	N/A	Serum
+AB200239					2002	3	21			Serum
+AB220971					1998-2004	N/A	N/A			Serum
+AB220972					1998-2004	N/A	N/A			Serum
+AB220973					1998-2004	N/A	N/A			Serum
+AB220974					1998-2004	N/A	N/A			Serum
+AB220975					1998-2004	N/A	N/A			Serum
+AB220976					1998-2004	N/A	N/A			Serum
+AB220977					1998-2004	N/A	N/A			Serum
+AB220978					1998-2004	N/A	N/A			Serum
+AB220979					1998-2004	N/A	N/A			Serum
+AB222182		wild boar			2004-2005	11 to 05	N/A			Serum & Liver
+AB222183		wild boar			2004-2005	11 to 05	N/A			Serum & Liver
+AB222184		wild boar			2004-2005	11 to 05	N/A			Serum & Liver
+AB236320		wild mongoose			2002	N/A	N/A			Serum
+AB246676		N/A	Japan		N/A	N/A	N/A	N/A	N/A	N/A
+AB248520					2004	7	N/A			Serum
+AB248521		Pig			2004	7	N/A			Serum
+AB248522		Pig			2004	7	N/A			Serum
+AB253420		N/A			N/A	N/A	N/A	N/A	N/A	N/A
+AB290312	swMN06-A1288	pig			2006	N/A	N/A			Serum
+AB290313	swMN06-C1056	pig			2006	N/A	N/A			Serum
+AB291951		Homo sapiens			1997	4	29			Serum
+AB291952		Homo sapiens			2005	6	24			Serum
+AB291953		Homo sapiens			2005	7	31			Serum
+AB291954		Homo sapiens			2004	12	24			Serum
+AB291955		Homo sapiens			2006	9	5			Serum
+AB291956		Homo sapiens			2004	1	19			Serum
+AB291957		Homo sapiens			2004	5	18			Serum
+AB291958		Homo sapiens			2004	6	17			Serum
+AB291959		Homo sapiens			2004	9	24			Serum
+AB291960		Homo sapiens			2006	3	23			Serum
+AB291961		Homo sapiens			2004	3	10			Serum
+AB291962		Homo sapiens			2004	6	16			Serum
+AB291963		Homo sapiens			2005	11	28			Serum
+AB291964		Homo sapiens			2003	6	9			Serum
+AB291965		Homo sapiens			2004	9	20			Serum
+AB291966		Homo sapiens			2004	10	12			Serum
+AB291967		Homo sapiens			2006	3	10			Serum
+AB291968		Homo sapiens			2006	3	9			Serum
+AB301710		Homo sapiens				N/A	N/A			Feces
+AB362839		cell line	Japan		N/A	N/A	N/A			culture supernatant
+AB362840		cell line	Japan		N/A	N/A	N/A			culture supernatant
+AB362841		cell line	Japan		N/A	N/A	N/A			culture supernatant
+AB362842		cell line	Japan		N/A	N/A	N/A			culture supernatant
+AB362843		cell line	Japan		N/A	N/A	N/A			culture supernatant
+AB369687	E116-YKH98C	Homo sapiens			1998	N/A	N/A	N/A	N/A	Serum
+AB369688	E087-SAP04C	Homo sapiens			2004	N/A	N/A	N/A	N/A	Serum
+AB369689	E088-STM04C	Homo sapiens			2004	N/A	N/A	N/A	N/A	Serum
+AB369690	E067-SIJ05C	Homo sapiens			2005	N/A	N/A	N/A	N/A	Serum
+AB369691	E097-OSA05C	Homo sapiens			2005	N/A	N/A	N/A	N/A	Serum
+AB425830		cell line	Japan		N/A	N/A	N/A			cultural supernatant
+AB425831		cell line	Japan		N/A	N/A	N/A			cultural supernatant
+AB437316					N/A	N/A	N/A			Feces
+AB437317					N/A	N/A	N/A			Feces
+AB437318					N/A	N/A	N/A			Feces
+AB443623		Pig			N/A	N/A	N/A			Serum
+AB443624		Pig			N/A	N/A	N/A			Serum
+AB443625		Pig			N/A	N/A	N/A			Serum
+AB443626		Pig			N/A	N/A	N/A			Serum
+AB443627		Pig			N/A	N/A	N/A			Serum
+AB480825		cell line	Japan		2002	N/A	N/A			culture supernatant
+AB481226		Pig			N/A	N/A	N/A	N/A	https://pdfs.semanticscholar.org/b27e/c89bdf8f664870c1baaff43538cc4b133346.pdf	Feces
+AB481227		Pig			N/A	N/A	N/A	N/A	https://pdfs.semanticscholar.org/b27e/c89bdf8f664870c1baaff43538cc4b133346.pdf	Feces
+AB481228		Pig			N/A	N/A	N/A	N/A	https://pdfs.semanticscholar.org/b27e/c89bdf8f664870c1baaff43538cc4b133346.pdf	Feces
+AB481229		Pig			N/A	N/A	N/A	N/A	https://pdfs.semanticscholar.org/b27e/c89bdf8f664870c1baaff43538cc4b133346.pdf	Feces
+AB521805					2007	3	12	N/A	https://www.jstage.jst.go.jp/article/kanzo/51/8/51_8_418/_article	Serum
+AB521806					2008	2	8	N/A	https://www.jstage.jst.go.jp/article/kanzo/51/8/51_8_418/_article	Serum
+AB573435					2009	2	1	N/A	https://www.jstage.jst.go.jp/article/kanzo/51/9/51_9_536/_article	Serum
+AB591733	JMNG26-Oki08	mongoose "Herpestes javanicus"			2008	1	25	N/A	N/A	Bile
+AB591734	JMNG36-Oki08	mongoose "Herpestes javanicus"			2008	2	8	N/A	N/A	Bile
+AB593690		cell line	Japan		N/A	N/A	N/A			culture supernatant 
+AB602439					2005	3	8			Serum
+AB602440					2008	9	14			Serum
+AB602441					2006	1	12			Liver
+AB630970					2007	10	N/A			Serum
+AB630971					2003	8	N/A			Serum
+AB698071	Type III Highland/2000	Pig			2000	N/A	N/A	N/A	N/A	Liver
+AB698654					2011	3	17	N/A	N/A	Serum
+AB720034					2010	2	10			Serum
+AB720035					2010	2	11			Serum
+AB740220	rbIM199				2011	N/A	N/A			Serum
+AB740221	rbIM022				2011	N/A	N/A			Serum
+AB740222	rbIM004				2011	N/A	N/A			Serum
+AB740232					N/A	N/A	N/A			Liver tissue
+AB780450					2010	12	8			Serum
+AB780451					2011	1	4			Serum
+AB780452					2011	1	18			Serum
+AB780453					2011	2	12			Serum
+AB850879					2012	N/A	N/A			Serum
+AB856243					2013	3	16			Serum
+AB909124					2012	10	16	N/A	N/A	Serum
+AB909125					2013	2	12	N/A	N/A	Serum
+AF051830	TK15/92	cynomolgous monkey	USA		N/A	N/A	N/A			Bile
+AF060668	HEV-US1	Homo sapiens	USA		N/A	N/A	N/A			Serum
+AF060669	HEV-US2	Homo sapiens	USA		N/A	N/A	N/A			Serum
+AF076239	pSGI-HEV(I)	rhesus monkey			N/A	N/A	N/A			Serum
+AF082843	Swine HEV "Meng"	swine pig	USA		N/A	N/A	N/A			Serum
+AF185822	Abb-2B	Homo sapiens			1988	N/A	N/A			Feces
+AF444002	 pSK-HEV-2	Rhesus monkeys (Macaca mulatta) and chimpanzees (Pan troglodytes)	USA		N/A	N/A	N/A			Serum and Feces
+AF444003	pSK-HEV-3	Rhesus monkeys (Macaca mulatta) and chimpanzees (Pan troglodytes)	USA		N/A	N/A	N/A			Serum and Feces
+AF455784	Kyrgyz	Piglet			N/A	N/A	N/A			Feces
+AF459438	Yam-67	Monkey			1991	9	N/A			Bile
+AJ272108		Homo sapiens			N/A	N/A	N/A			Feces
+AP003430			Japan		N/A	N/A	N/A			Serum
+AY115488	swine HEV strain Arkell	Pig swine			N/A	N/A	N/A			N/A
+AY204877	T3	Homo sapienss			1983	N/A	N/A			N/A
+AY230202		cell line			N/A	N/A	N/A	PMID: 15237431		cultural supernatant
+AY575857	pSHEV-1	Pig			1997	N/A	N/A			N/A
+AY575858	pSHEV-2	Pig			1997	N/A	N/A			N/A
+AY575859	pSHEV-3	Pig			1997	N/A	N/A			N/A
+AY594199	swCH25	Pig			N/A	N/A	N/A	N/A	N/A	Feces
+AY723745		Pig			N/A	N/A	N/A			Feces
+D10330		cynomolgus macaques monkey 	USA		N/A	N/A	N/A			Liver
+D11092	N/A	Rhesus Monkey	China		1988	N/A	N/A			Feces
+D11093		N/A	N/A		N/A	N/A	N/A	N/A	N/A	N/A
+DQ279091		swine pig			N/A	N/A	N/A	N/A	N/A	N/A
+DQ450072					N/A	N/A	N/A	N/A	N/A	N/A
+DQ459342	PM2000				2000	N/A	N/A			Feces
+EF077630		N/A	China		N/A	N/A	N/A	N/A	N/A	Bile
+EF570133		Pig			N/A	N/A	N/A			Feces
+EU360977					N/A	N/A	N/A			Feces
+EU366959		Pig			N/A	N/A	N/A			Feces
+EU375463		Pig	Thailand		2006 to 2007	9 to 1	N/A			fecal
+EU495148			france		N/A	N/A	N/A			Serum
+EU676172					2007	N/A	N/A	PMID: 19490423		Feces
+EU723512					N/A	N/A	N/A			Bile
+EU723513					N/A	N/A	N/A			Bile
+EU723514					N/A	N/A	N/A			Bile
+EU723515					N/A	N/A	N/A			Bile
+EU723516					N/A	N/A	N/A			Bile
+FJ426403					2007	N/A	N/A			Feces
+FJ426404					2007	N/A	N/A			Feces
+FJ457024					2005	5	7			Bile
+FJ527832					2008	1	7	PMID: 19393700		Feces
+FJ610232					2008	3	18			Feces
+FJ653660					2008	2	13			Serum
+FJ705359					2006	N/A	N/A			Liver
+FJ763142					N/A	N/A	N/A			Serum
+FJ906895					N/A	N/A	N/A			Serum
+FJ906896					N/A	N/A	N/A			Serum
+FJ956757					2005	7	7			plasma
+FJ998008					2007	11	25			Bile
+FJ998015					2007	12	1			Liver
+GU119960					2009	11	N/A			Feces
+GU119961					2009	11	N/A			Feces
+GU188851					2009	3	27	N/A	N/A	Feces
+GU206559					2008	2	N/A			Feces
+GU361892	HEV HB-3				2008	5	N/A			swine anal swab or Liver
+GU937805					2009	9	N/A			Feces
+HM055578	HEV072/sw/HUN-05				2005	N/A	N/A	N/A	N/A	Feces
+HM152568					2008	2	N/A	N/A	N/A	Feces
+HM439284					2008	N/A	N/A			Serum
+HQ389543	Kernow-C1				2009	9	N/A			Feces
+HQ389544	Kernow-C1	 cell line			2010	5	12			cultural supernatant
+HQ634346	TW6196E				N/A	N/A	N/A			Feces and Serum
+HQ709170	Kernow-C1	cell line			2010	7	26			cultural supernatant
+JF443717					1991	N/A	N/A			Feces
+JF443718					1998	N/A	N/A			Feces
+JF443719					2000	N/A	N/A			Feces
+JF443720					2006	N/A	N/A			Serum
+JF443721					2010	N/A	N/A			Feces
+JF443722					2003	N/A	N/A			Feces
+JF443723					2004	N/A	N/A			Serum
+JF443724					2005	N/A	N/A			Serum
+JF443725					2006	N/A	N/A			Feces
+JF443726					2007	N/A	N/A			Feces
+JF915746					2009	3	7			Feces
+JN564006	LBPR-000379				2010	12	8			Serum
+JN837481					2008	3	10			Feces
+JN906974	FR-HuHEVF3f				2010	N/A	N/A			Feces
+JN906975	FR-SHEVF3f				2010	N/A	N/A			Feces
+JN906976	FR-SHEVB3f				2010	N/A	N/A			Bile
+JQ013791	W1-11				2007	N/A	N/A			Bile
+JQ013792	 W7–57				2007	N/A	N/A			Liver and Bile
+JQ013793	 TLS- 18516-Homo sapiens				2008	N/A	N/A			Serum
+JQ013794	 TR19				2007	N/A	N/A			Serum
+JQ013795	 TR02 				2006	N/A	N/A			Serum
+JQ026407	Inuyama				2009	11	N/A			Serum
+JQ655733					N/A	N/A	N/A			Serum
+JQ655734					N/A	N/A	N/A			Serum
+JQ655735					N/A	N/A	N/A			Serum
+JQ655736					N/A	N/A	N/A			Serum
+JQ679013	Kernow-C1				2010	July	N/A			Liver hepatocytes
+JQ679014	Kernow-C1				2010	1	13			Liver hepatocytes
+JQ740781					2009	7	N/A			Feces
+JQ768461					N/A	N/A	N/A	N/A	N/A	N/A
+JQ953664	FR-SHEV3c-like				2006	N/A	N/A			Feces
+JQ953665	FR-SHEV3e				2006	N/A	N/A			Bile
+JQ953666	FR-SHEV3f				2008	N/A	N/A			Bile
+JQ993308	HEV-ZJ1				2009	N/A	N/A			Feces
+JX109834					2011	4	17			Feces
+JX121233					2011	12	9			Feces of one cynomolgus monkey
+JX565469					2010	9	12			Feces
+JX855794	SS19				2011	10	N/A			Bile and Serum
+KC163335					2012	3	20			Feces
+KC166967					2004	11	22			plasma
+KC166968					2005	11	24			plasma
+KC166969					2006	11	27			plasma
+KC166970					2007	11	29			plasma
+KC166971					2008	11	24			plasma
+KC492825	CH-YT-HEV02				2011	11	17			Feces
+KC618402					2011	N/A	N/A			Serum
+KC618403			Germany		2011	N/A	N/A			Serum
+KC692453	CH-YT-sHEV01				2011	9	18			Bile
+KF176351					2011	N/A	N/A			Liver
+KF303502					2006	N/A	N/A			Feces
+KF736234					2013	8	N/A	N/A	N/A	N/A
+KF922359					between 2009-2010	N/A	N/A			Serum
+KF951328					2012	N/A	N/A			Liver
+KJ013414					2013	2	15	PMID: 24937350		Feces
+KJ013415					2013	2	7	PMID: 24937350		Feces
+KJ155502					2010	7	20			Feces
+KJ496143					2013	2	11			Feces
+KJ496144					2013	2	11			Feces
+KJ507955	swSTHY12-VAS19/2003/CA				2003	N/A	N/A	PMID: 25916609		Feces
+KJ507956	swSTHY42-VAS49/2003/CA				2003	N/A	N/A	PMID: 25916609		Feces
+KJ701409					between 2009-2010	N/A	N/A			Serum
+KJ873911					2013	N/A	N/A			plasma
+KM253769					N/A	N/A	N/A			Feces
+KP294371	MWP_2010				2010	12	1	N/A	N/A	Bile
+KP698919					2012	N/A	N/A			Feces
+KR872414					2014	10	1	N/A	N/A	Feces
+KR872415					2015	1	1	N/A	N/A	Serum
+KR872416					2014	10	1	N/A	N/A	Feces
+KR872417					2015	1	1	N/A	N/A	Serum
+KT159771					2012	10	30	PMID: 25018853		Serum
+KT447526					2010	4	10	N/A	N/A	Serum
+KT447527					2011	10	10	N/A	N/A	Serum
+KT447528					2012	2	11	N/A	N/A	Serum
+KT591532					2013	5	N/A	N/A	http://onlinelibrary.wiley.com/doi/10.1111/jvh.190_12425/abstract	plasma
+KT591533					2013	11	N/A	N/A	http://onlinelibrary.wiley.com/doi/10.1111/jvh.190_12425/abstract	plasma
+KT591534					2014	1	N/A	N/A	http://onlinelibrary.wiley.com/doi/10.1111/jvh.190_12425/abstract	plasma
+KT633715	ZhJ-PJ050-3				2011	6	N/A	N/A	N/A	swine herd
+KT727028					2015	5	17	N/A	N/A	Feces
+KT818608					2011	N/A	N/A			Serum
+KU356182					2015	9	27	N/A	N/A	Feces
+KU356183					2015	9	27	N/A	N/A	Feces
+KU356184					2015	9	27	N/A	N/A	Feces
+KU356185					2015	9	27	N/A	N/A	Feces
+KU356186					2015	9	27	N/A	N/A	Feces
+KU356187					2015	9	28	N/A	N/A	N/A
+KU356188					2015	9	28	N/A	N/A	N/A
+KU356189					2015	9	28	N/A	N/A	N/A
+KU513561					2011	N/A	N/A	N/A	N/A	Serum and Feces
+KU670940	kestrel/MR22/2014/HUN				2014	6	N/A	PMID: 27282471	N/A	Feces
+KU670941					2012	N/A	N/A	N/A	N/A	Liver
+KU670942					2010	N/A	N/A	N/A	N/A	Liver
+KX227751					2015	7	21	N/A	N/A	Feces
+KX462160					2014	9	20	N/A	N/A	blood
+L08816	CHN-BJ-R14	Oryctolagus cuniculus	China		2011	N/A	N/A	N/A	N/A	liver
+L25547	KS2-87	rhesus monkey	USA		1987	N/A	N/A	PMID: 7871758		Bile
+L25595	K52-87	rhesus monkey	USA		1987	N/A	N/A	PMID: 7871758		Bile
+LC022745					2003	N/A	N/A			Serum
+LC037955					2013	N/A	N/A			Serum
+LC042232					2010 - 2014	N/A	N/A			Serum
+LC055972					2012	7	N/A	N/A	https://www.jstage.jst.go.jp/article/kanzo/56/10/56_540/_article	N/A
+LC055973					2014	12	8	N/A	https://www.jstage.jst.go.jp/article/kanzo/56/10/56_540/_article	N/A
+LC061267	G1 HEV p21				2010	8	18			cultural supernatant
+LC126331		cell line	Japan		N/A	N/A	N/A			Feces
+LC126332		cell line	Japan		N/A	N/A	N/A			Feces
+LC131066	huJB-0414	Homo sapiens			N/A	N/A	N/A	N/A	N/A	plasma
+M73218	N/A	N/A	N/A	N/A	N/A	N/A	N/A			N/A
+M74506	N/A	Homo sapiens	Mexico		N/A	N/A	N/A			Feces
+M80581	N/A	N/A	Pakistan		N/A	N/A	N/A			Feces
+M94177	N/A	Homo sapiens			1987	N/A	N/A			Feces
+NC_001434	N/A	Homo sapiens	China		1987	N/A	N/A			Feces
+X98292			N/A	N/A	N/A	N/A	N/A			Liver
+X99441			India		1993	N/A	N/A			Feces
