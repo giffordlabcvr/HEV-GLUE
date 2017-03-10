@@ -294,3 +294,24 @@ M94177	N/A	Homo sapiens			1987	N/A	N/A			Feces
 NC_001434	N/A	Homo sapiens	China		1987	N/A	N/A			Feces
 X98292			N/A	N/A	N/A	N/A	N/A			Liver
 X99441			India		1993	N/A	N/A			Feces
+AB437319										
+AB847305										
+AB847306										
+AB847307										
+AB847308										
+AB847309										
+AB890001	N/A									
+AB890374	N/A									
+GU345042										
+GU345043										
+JN167537	N/A									
+JN167538	N/A									
+JN998606	FRHEV4									
+JN998607	FRHEV20									
+JX120573	V-105									
+KJ873912										
+KM516906	LA-B350									
+KX589065	little egret/kocsag02/2014/HUN							PMID: 27989815 		
+LC057247	sF4370							PMID: 26763355		
+LC057248	cF4370	cell line						PMID: 26763355		
+LC145325										

@@ -50,7 +50,7 @@
 		<fieldName>gb_pubmed_id</fieldName>
 		<header>gb_pubmed_id_missing</header>
 		<nullRegex>^(?:N/A)|(?: *)$</nullRegex>
-		<matchPattern>^PMID: *(\d+)$</matchPattern>
+		<matchPattern>^PMID: *(\d+) *$</matchPattern>
 		<outputTemplate>${g1?trim}</outputTemplate>
 	</textFileColumn>
 	<textFileColumn>
