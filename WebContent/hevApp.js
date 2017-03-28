@@ -95,6 +95,7 @@ function ($scope, glueWS, glueWebToolConfig) {
 	$scope.analysisToolMenuTitle = "Genotyping and Interpretation";
 	glueWS.setProjectURL("../../../gluetools-ws/project/hev");
 	glueWebToolConfig.setAnalysisToolURL("../gluetools-web/www/analysisTool");
+	glueWebToolConfig.setAnalysisToolExampleSequenceURL("exampleSequences/fullGenome1.fasta");
 	glueWebToolConfig.setAnalysisModuleName("hevWebAnalysisTool");
 	glueWebToolConfig.setProjectBrowserURL("../gluetools-web/www/projectBrowser");
 	glueWebToolConfig.setGlueWSURL("../gluetools-web/www/glueWS");
