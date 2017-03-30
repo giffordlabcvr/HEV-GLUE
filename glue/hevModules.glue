@@ -24,6 +24,8 @@
   create module --fileName modules/hevRaxmlPhylogenyGenerator.xml
   
   create module --moduleType fastaAlignmentExporter
+  create module --moduleType fastaProteinAlignmentExporter
+  create module --moduleType fastaExporter
   
   create module --fileName modules/hevMaxLikelihoodPlacer.xml
   create module --fileName modules/hevMaxLikelihoodGenotyper.xml
