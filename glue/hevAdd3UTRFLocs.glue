@@ -1,0 +1,385 @@
+reference REF_1_FJ457024
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7130 7217
+    exit
+  exit
+  
+reference REF_1_M73218
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7130 7207
+    exit
+  exit
+  
+reference REF_1a_M73218
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7130 7207
+    exit
+  exit
+  
+reference REF_1abcf_M73218
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7130 7207
+    exit
+  exit
+  
+reference REF_1b_D11092
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7130 7207
+    exit
+  exit
+  
+reference REF_1c_X98292
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7129 7202
+    exit
+  exit
+  
+reference REF_1d_AY230202
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7128 7212
+    exit
+  exit
+  
+reference REF_1de_AY230202
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7128 7212
+    exit
+  exit
+  
+reference REF_1e_AY204877
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7089 7170
+    exit
+  exit
+  
+reference REF_1f_JF443721
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7130 7217
+    exit
+  exit
+  
+reference REF_2_M74506
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7097 7180
+    exit
+  exit
+  
+reference REF_2a_M74506
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7097 7180
+    exit
+  exit
+  
+reference REF_3_AB290312
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7155 7237
+    exit
+  exit
+  
+reference REF_3_AB290313
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7155 7239
+    exit
+  exit
+  
+reference REF_3_AB369689
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7135 7215
+    exit
+  exit
+  
+reference REF_3_AF082843
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7154 7207
+    exit
+  exit
+  
+reference REF_3_EU360977
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7162 7258
+    exit
+  exit
+  
+reference REF_3_EU723513
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7133 7192
+    exit
+  exit
+  
+reference REF_3_JQ013791
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7193 7271
+    exit
+  exit
+  
+reference REF_3_JQ953664
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7156 7238
+    exit
+  exit
+  
+reference REF_3_KJ013415
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7215 7296
+    exit
+  exit
+  
+reference REF_3_KJ873911
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7157 7157
+    exit
+  exit
+  
+reference REF_3a_AF082843
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7154 7207
+    exit
+  exit
+  
+reference REF_3abchij_AF082843
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7154 7207
+    exit
+  exit
+  
+reference REF_3b_AP003430
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7156 7230
+    exit
+  exit
+  
+reference REF_3c_FJ705359
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7155 7237
+    exit
+  exit
+  
+reference REF_3e_AB248521
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7158 7241
+    exit
+  exit
+  
+reference REF_3efg_AB248521
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7158 7241
+    exit
+  exit
+  
+reference REF_3f_AB369687
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7138 7217
+    exit
+  exit
+  
+reference REF_3g_AF455784
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7140 7239
+    exit
+  exit
+  
+reference REF_3h_JQ013794
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7096 7182
+    exit
+  exit
+  
+reference REF_3i_FJ998008
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7130 7206
+    exit
+  exit
+  
+reference REF_3j_AY115488
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7171 7255
+    exit
+  exit
+  
+reference REF_3ra_FJ906895
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7213 7318
+    exit
+  exit
+  
+reference REF_4_AB197673
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7169 7257
+    exit
+  exit
+  
+reference REF_4_AB369688
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7148 7227
+    exit
+  exit
+  
+reference REF_4a_AB197673
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7169 7257
+    exit
+  exit
+  
+reference REF_4b_DQ279091
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7166 7234
+    exit
+  exit
+  
+reference REF_4c_AB074915
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7155 7236
+    exit
+  exit
+  
+reference REF_4d_AJ272108
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7165 7232
+    exit
+  exit
+  
+reference REF_4e_AY723745
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7171 7262
+    exit
+  exit
+  
+reference REF_4f_AB220974
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7171 7268
+    exit
+  exit
+  
+reference REF_4g_AB108537
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7152 7193
+    exit
+  exit
+  
+reference REF_4h_GU119961
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7172 7264
+    exit
+  exit
+  
+reference REF_4i_DQ450072
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7168 7248
+    exit
+  exit
+  
+reference REF_5_AB573435
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7174 7267
+    exit
+  exit
+  
+reference REF_5a_AB573435
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7174 7267
+    exit
+  exit
+  
+reference REF_6_AB602441
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7177 7261
+    exit
+  exit
+  
+reference REF_6_AB856243
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7177 7263
+    exit
+  exit
+  
+reference REF_6a_AB602441
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7177 7261
+    exit
+  exit
+  
+reference REF_7_KJ496143
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7155 7224
+    exit
+  exit
+  
+reference REF_7_KJ496144
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7154 7223
+    exit
+  exit
+  
+reference REF_7a_KJ496143
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7155 7224
+    exit
+  exit
+  
+reference REF_FEATURES_L08816
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7106 7176
+    exit
+  exit
+  
+reference REF_MASTER_M73218
+  add feature-location 3UTR
+  feature-location 3UTR
+    add segment 7130 7207
+    exit
+  exit
+  
