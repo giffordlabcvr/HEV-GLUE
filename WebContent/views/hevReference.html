@@ -1,5 +1,5 @@
 <div ng-show="renderResult" ng-app="projectBrowser">
-	<h2>Reference sequence: {{renderResult.reference.renderedName}}</h2>
+	<h2>{{renderResult.reference.renderedName}}</h2>
 	<p>
 		Underlying sequence: 
 		<a href="#project/sequence/{{renderResult.reference.sequence.sourceName}}/{{renderResult.reference.sequence.sequenceID}}">
@@ -16,5 +16,5 @@
 		</p>
 		<hr/>
 		<h3>Genome region annotations</h3>
-		<genome-feature-tree feature-tree="featureTree"/>		
+		<genome-feature-tree feature-tree="featureTree" selected-node="selectedNode"/>		
 </div>
