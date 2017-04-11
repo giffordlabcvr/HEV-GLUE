@@ -127,12 +127,14 @@
   run file glue/hevReferenceDisplayNames.glue
 
   run file glue/hevAddWholeGenomeFLocs.glue
-  run file glue/hevAdd5UTRFLocs.glue
-  run file glue/hevAdd3UTRFLocs.glue
 
   run file glue/hevFeaturesAlignment.glue
 
   run file glue/inheritFeatureLocations.glue
   
   delete alignment AL_FEATURES
+
+  run file glue/hevAdd5UTRFLocs.glue
+  run file glue/hevAdd3UTRFLocs.glue
+
   
