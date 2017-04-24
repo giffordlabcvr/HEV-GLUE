@@ -3,7 +3,7 @@
 		<username>hevglue</username>
 		<password>hevglue</password>
 		<vendor>MySQL</vendor>
-		<jdbcUrl>jdbc:mysql://localhost:3306/HEV_GLUE</jdbcUrl>	
+		<jdbcUrl>jdbc:mysql://localhost:3306/HEV_GLUE?characterEncoding=UTF-8</jdbcUrl>	
 	</database>
 	<properties>
 	

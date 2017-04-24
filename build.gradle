@@ -219,7 +219,7 @@ task initHevGlueDBGlueHomeAWS {
 			// create user gluetools with correct grants
 			execute "echo 'GRANT ALL ON HEV_GLUE.* TO \"hevglue\"@\"localhost\" identified by \"hevglue\";' | mysql -u root --password=root123"
 			// create HEV_GLUE database
-			execute "echo 'create database HEV_GLUE;' | mysql -u hevglue --password=hevglue" 
+			execute "echo 'create database HEV_GLUE character set UTF8;' | mysql -u hevglue --password=hevglue" 
 	    }
 	  }
   }
@@ -240,7 +240,7 @@ task deployHevGlueDbToGlueHomeAWS(dependsOn: 'zipHevGlueDB') {
 	  ssh.run {
 	    session(remotes.gluehome_aws) {
 	 	  put from: '/tmp/hev_glue.sql.gz', into: '/tmp/hev_glue.sql.gz'
-	      execute 'echo "drop database HEV_GLUE; create database HEV_GLUE;" | mysql -u hevglue --password=hevglue HEV_GLUE'
+	      execute 'echo "drop database HEV_GLUE; create database HEV_GLUE character set UTF8;" | mysql -u hevglue --password=hevglue HEV_GLUE'
 	      execute 'gunzip -c /tmp/hev_glue.sql.gz | mysql -u hevglue --password=hevglue HEV_GLUE'
 	      execute 'rm /tmp/hev_glue.sql.gz'
 	    }

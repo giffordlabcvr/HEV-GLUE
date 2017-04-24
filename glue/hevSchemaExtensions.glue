@@ -40,7 +40,7 @@ schema-project hev
   table alignment
     # confirmed / unassigned etc.
     create field status VARCHAR 20
-    create field phylogeny VARCHAR 50000
+    create field phylogeny VARCHAR 10000
     exit
 
   exit
