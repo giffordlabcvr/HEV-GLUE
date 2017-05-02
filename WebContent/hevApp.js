@@ -74,13 +74,31 @@ hevApp.config(['$routeProvider', 'projectBrowserStandardRoutesProvider',
     });
 	
     $routeProvider.
-      when('/home', {
-    	  templateUrl: './modules/home/home.html',
-    	  controller: 'homeCtrl'
-      }).
-      otherwise({
-    	  redirectTo: '/home'
-      });
+    when('/home', {
+  	  templateUrl: './modules/home/home.html',
+  	  controller: 'homeCtrl'
+    }).
+    otherwise({
+  	  redirectTo: '/home'
+    });
+
+    $routeProvider.
+    when('/howToCite', {
+  	  templateUrl: './modules/home/howToCite.html',
+  	  controller: 'howToCiteCtrl'
+    }).
+    otherwise({
+  	  redirectTo: '/home'
+    });
+
+    $routeProvider.
+    when('/team', {
+  	  templateUrl: './modules/home/team.html',
+  	  controller: 'teamCtrl'
+    }).
+    otherwise({
+  	  redirectTo: '/home'
+    });
 }]);
 
 hevApp.controller('hevAppCtrl', 
@@ -93,9 +111,13 @@ function ($scope, glueWS, glueWebToolConfig) {
 	$scope.projectBrowserSequenceMenuTitle = "Sequences";
 	$scope.analysisMenuTitle = "Analysis";
 	$scope.analysisToolMenuTitle = "Genotyping and Interpretation";
+	$scope.aboutMenuTitle = "About";
+	$scope.howToCiteMenuTitle = "How to cite";
+	$scope.teamMenuTitle = "Team";
 	glueWS.setProjectURL("../../../gluetools-ws/project/hev");
 	glueWebToolConfig.setAnalysisToolURL("../gluetools-web/www/analysisTool");
 	glueWebToolConfig.setAnalysisToolExampleSequenceURL("exampleSequences/fullGenome1.fasta");
+	glueWebToolConfig.setAnalysisToolExampleMsWindowsSequenceURL("exampleSequencesMsWindows/fullGenome1.fasta");
 	glueWebToolConfig.setAnalysisModuleName("hevWebAnalysisTool");
 	glueWebToolConfig.setProjectBrowserURL("../gluetools-web/www/projectBrowser");
 	glueWebToolConfig.setGlueWSURL("../gluetools-web/www/glueWS");
