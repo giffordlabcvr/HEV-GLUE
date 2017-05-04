@@ -37,6 +37,10 @@ schema-project hev
     create field alternative_reference_url VARCHAR 500
     exit
 
+  table member_floc_note
+  	create field ref_nt_coverage_pct DOUBLE
+  	exit
+
   table alignment
     # confirmed / unassigned etc.
     create field status VARCHAR 20

@@ -48,6 +48,11 @@ project hev
 
   run file glue/hevAlignmentTree.glue
 
+  ## record feature presence
+  module hevFeaturePresenceRecorder 
+    record feature-presence AL_MASTER --recursive --whereClause "sequence.source.name = 'ncbi-hev'" --featureName whole_genome --descendentFeatures
+    exit
+    
   run file glue/importPhylogeny.glue
 
 

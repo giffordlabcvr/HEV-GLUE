@@ -6,6 +6,8 @@
   
   create module --fileName modules/hevDataMissingImporter.xml 
   
+  create module --fileName modules/hevFeaturePresenceRecorder.xml hevFeaturePresenceRecorder
+  
   create module --fileName modules/unconstrainedAlignmentImporter.xml
   create module --fileName modules/ncbiHevImporter.xml 
   create module --fileName modules/ncbiOutgroupImporter.xml
