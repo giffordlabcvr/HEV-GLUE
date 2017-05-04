@@ -31,7 +31,6 @@ hevApp.controller('hevAlignmentCtrl',
 			    { property: "sequence.sequenceID", displayName: "NCBI Nucleotide ID", order: "+" }
 			]);
 	
-			
 			$scope.pagingContext.setSortableProperties([
 	            { property:"sequence.sequenceID", displayName: "NCBI Nucleotide ID" },
 	            { property:"sequence.gb_create_date", displayName: "NCBI Entry Creation Date" },
@@ -50,6 +49,27 @@ hevApp.controller('hevAlignmentCtrl',
            		{ property:"sequence.sequenceID", displayName: "NCBI Nucleotide ID", filterHints: {type: "String"} },
           		{ property:"sequence.gb_length", displayName: "Sequence Length", filterHints: {type: "Integer"} },
                 { property:"alignment.displayName", displayName: "Genotype / Subtype", filterHints: {type: "String"}  },
+                // note property here is a dummy value.
+                { property:"featurePresence", displayName: "Covers genome region", filterHints: 
+                	{ type: "FeaturePresence", 
+                	  generateCustomDefault: function() {
+                		  return {
+                			  feature: $scope.featureList[0], 
+                			  minCoveragePct: 90.0
+                		  };
+                	  },
+                	  generatePredicateFromCustom: function(custom) {
+                		  var cayennePredicate = 
+                  		  	"fLocNotes.featureLoc.referenceSequence.name = '"+$scope.referenceName+"' and "+
+                		  	"fLocNotes.featureLoc.feature.name = '"+custom.feature.featureName+"' and "+
+                		  	"fLocNotes.ref_nt_coverage_pct >= "+custom.minCoveragePct;
+                		  return cayennePredicate;
+                	  },
+                	  getFeaturePresenceFeatures: function() {
+                		  return($scope.featureList);
+                	  }
+                	}
+                },
           		{ property:"sequence.full_genome", displayName: "Full Genome (>= 6500nt)", filterHints: {type: "Boolean"} },
           		{ property:"sequence.gb_create_date", displayName: "NCBI Entry Creation Date", filterHints: {type: "Date"} },
           		{ property:"sequence.gb_update_date", displayName: "NCBI Last Update Date", filterHints: {type: "Date"} },
