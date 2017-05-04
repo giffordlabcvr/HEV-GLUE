@@ -50,7 +50,7 @@ hevApp.controller('hevAlignmentCtrl',
           		{ property:"sequence.gb_length", displayName: "Sequence Length", filterHints: {type: "Integer"} },
                 { property:"alignment.displayName", displayName: "Genotype / Subtype", filterHints: {type: "String"}  },
                 // note property here is a dummy value.
-                { property:"featurePresence", displayName: "Covers genome region", filterHints: 
+                { property:"featurePresence", displayName: "Coverage of Genome Region", filterHints: 
                 	{ type: "FeaturePresence", 
                 	  generateCustomDefault: function() {
                 		  return {
