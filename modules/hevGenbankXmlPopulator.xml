@@ -26,6 +26,7 @@
 	<gbCreateDate>
 		<fieldPopulator fieldName="gb_create_date"/>
 	</gbCreateDate>
+
 	<gbOrganism>
 		<fieldPopulator fieldName="gb_organism">
 			<valueConverter>
@@ -34,6 +35,7 @@
 			</valueConverter>
 		</fieldPopulator>
 	</gbOrganism>
+	
 	<gbReferencePubmed>
 		<fieldPopulator fieldName="gb_pubmed_id"/>
 	</gbReferencePubmed>
