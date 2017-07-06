@@ -49,9 +49,7 @@
 		<gbQualifier name="isolate">
 			<fieldPopulator fieldName="gb_isolate"/>
 		</gbQualifier>
-		<gbQualifier name="isolation_source">
-			<fieldPopulator fieldName="gb_isolation_source"/>
-		</gbQualifier>
+
 		<gbQualifier name="country">
 			<isoCountryFieldPopulator fieldName="gb_country_iso" codeStyle="ALPHA_3"/>
 			<fieldPopulator fieldName="gb_country"/>
@@ -241,6 +239,46 @@
 				</valueConverter>	
 			</fieldPopulator>
 		</gbQualifier>
+
+		<gbQualifier name="isolation_source">
+			<fieldPopulator fieldName="gb_isolation_source"/>
+		</gbQualifier>
+
+		<gbQualifier name="isolation_source">
+			<fieldPopulator fieldName="gb_host">
+				<valueConverter>
+					<matchPattern>.*[Pp]atient.*</matchPattern>
+					<matchPattern>.*[Hh]uman.*</matchPattern>
+					<outputTemplate>Homo sapiens</outputTemplate>
+				</valueConverter>
+				<valueConverter>
+					<matchPattern>.*[Bb]oar.*</matchPattern>
+					<matchPattern>.*[Ss]wine.*</matchPattern>
+					<matchPattern>.*[Pp]ig.*</matchPattern>
+					<matchPattern>.*[Ff]igatellu.*</matchPattern>
+					<outputTemplate>Sus scrofa</outputTemplate>
+				</valueConverter>
+				<valueConverter>
+					<matchPattern>.*[Hh]orse.*</matchPattern>
+					<outputTemplate>Equus caballus</outputTemplate>
+				</valueConverter>
+				<valueConverter>
+					<matchPattern>.*Cervus nippon nippon.*</matchPattern>
+					<outputTemplate>Cervus nippon nippon</outputTemplate>
+				</valueConverter>		
+			</fieldPopulator>
+		</gbQualifier>
+
+		<gbQualifier name="note">
+			<fieldPopulator fieldName="gb_host">
+				<valueConverter>
+					<matchPattern>.*[Pp]atient.*</matchPattern>
+					<matchPattern>.*[Hh]uman.*</matchPattern>
+					<outputTemplate>Homo sapiens</outputTemplate>
+				</valueConverter>
+			</fieldPopulator>
+		</gbQualifier>
+
 		<gbQualifier name="collection_date">
 			<fieldPopulator fieldName="gb_collection_month_day">
 				<matchPattern>(\d{2})-[A-Za-z]{3}-\d{4}</matchPattern>
