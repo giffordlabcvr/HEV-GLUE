@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fastaAlignmentExporter>
+    <idTemplate>${sequence.sequenceID}.${sequence.renderProperty('epa_genotype')}.${sequence.renderProperty('epa_genotype')}.${sequence.renderProperty('gb_country_iso')}</idTemplate>
+</fastaAlignmentExporter>
