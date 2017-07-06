@@ -245,40 +245,6 @@
 			<propertyPopulator property="gb_isolation_source"/>
 		</gbQualifier>
 
-		<gbQualifier name="isolation_source">
-			<propertyPopulator property="gb_host">
-				<valueConverter>
-					<matchPattern>.*[Pp]atient.*</matchPattern>
-					<matchPattern>.*[Hh]uman.*</matchPattern>
-					<outputTemplate>Homo sapiens</outputTemplate>
-				</valueConverter>
-				<valueConverter>
-					<matchPattern>.*[Bb]oar.*</matchPattern>
-					<matchPattern>.*[Ss]wine.*</matchPattern>
-					<matchPattern>.*[Pp]ig.*</matchPattern>
-					<matchPattern>.*[Ff]igatellu.*</matchPattern>
-					<outputTemplate>Sus scrofa</outputTemplate>
-				</valueConverter>
-				<valueConverter>
-					<matchPattern>.*[Hh]orse.*</matchPattern>
-					<outputTemplate>Equus caballus</outputTemplate>
-				</valueConverter>
-				<valueConverter>
-					<matchPattern>.*Cervus nippon nippon.*</matchPattern>
-					<outputTemplate>Cervus nippon nippon</outputTemplate>
-				</valueConverter>		
-			</propertyPopulator>
-		</gbQualifier>
-
-		<gbQualifier name="note">
-			<propertyPopulator property="gb_host">
-				<valueConverter>
-					<matchPattern>.*[Pp]atient.*</matchPattern>
-					<matchPattern>.*[Hh]uman.*</matchPattern>
-					<outputTemplate>Homo sapiens</outputTemplate>
-				</valueConverter>
-			</propertyPopulator>
-		</gbQualifier>
 
 		<gbQualifier name="collection_date">
 			<propertyPopulator property="gb_collection_month_day">
