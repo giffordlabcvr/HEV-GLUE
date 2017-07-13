@@ -58,7 +58,8 @@ hevApp.controller('hevAlignmentCtrl',
                 			  minCoveragePct: 90.0
                 		  };
                 	  },
-                	  generatePredicateFromCustom: function(custom) {
+                	  generatePredicateFromCustom: function(filterElem) {
+                		  var custom = filterElem.custom;
                 		  var cayennePredicate = 
                   		  	"fLocNotes.featureLoc.referenceSequence.name = '"+$scope.referenceName+"' and "+
                 		  	"fLocNotes.featureLoc.feature.name = '"+custom.feature.featureName+"' and "+
