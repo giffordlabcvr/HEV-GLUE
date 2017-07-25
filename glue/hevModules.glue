@@ -12,7 +12,6 @@
   create module --fileName modules/ncbiHevImporter.xml 
   create module --fileName modules/ncbiOutgroupImporter.xml
   
-  create module --fileName modules/fastaProteinAlignmentExporter.xml 
   create module --fileName modules/hevReferenceMetadataPopulator.xml 
    
   create module --fileName modules/hevAlignmentRenderer.xml --loadResources
