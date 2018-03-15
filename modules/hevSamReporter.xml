@@ -1,0 +1,6 @@
+<samReporter>
+    <alignerModuleName>hevCompoundAligner</alignerModuleName>
+    <readLogInterval>30000</readLogInterval>
+    <maxLikelihoodPlacerModuleName>hevMaxLikelihoodPlacer</maxLikelihoodPlacerModuleName>
+    <samReaderValidationStringency>SILENT</samReaderValidationStringency>
+</samReporter>
