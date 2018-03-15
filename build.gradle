@@ -45,29 +45,6 @@ war {
 	archiveName 'hevGlue.war'
 }
 
-task deployHevWebAppWarGlueHome(dependsOn: ['war']) {
-  ext.glueHevWebAppWarFile = new File(buildDir, '/libs/hevGlue.war')
-  ext.glueHevWebAppWarTouchfile = new File(buildDir, '/deployHevWebAppWarGlueHome.touchfile')
-  inputs.file glueHevWebAppWarFile
-  outputs.file glueHevWebAppWarTouchfile
-  doLast {
-	  println "Uploading "+glueHevWebAppWarFile.name
-	  ssh.run {
-	    session(remotes.gluehome) {
-	      put from: glueHevWebAppWarFile.absolutePath, into: '/tmp/hevGlue.war'
-	      execute 'sudo -n systemctl stop tomcat'
-	      execute 'sudo -n rm -rf /usr/share/tomcat/webapps/hevGlue'
-	      execute 'sudo -n rm -rf /usr/share/tomcat/webapps/hevGlue.war'
-	      execute 'sudo -n mv /tmp/hevGlue.war /usr/share/tomcat/webapps'
-	      execute 'sudo -n rm -rf /var/cache/tomcat/work/Catalina/localhost/hevGlue'
-	      execute 'sudo -n systemctl start tomcat'
-	    }
-	  }
-	  glueHevWebAppWarTouchfile.delete()
-	  buildDir.mkdirs()
-	  glueHevWebAppWarTouchfile.createNewFile()
-  }
-}
 
 task copyGluetoolsWebWar(type: Copy) {
     from configurations.gluetoolsWebWar
