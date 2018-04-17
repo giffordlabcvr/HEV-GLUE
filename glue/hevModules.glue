@@ -36,5 +36,10 @@
   create module --fileName modules/hevWebAnalysisTool.xml
   
   create module --fileName modules/hevSamReporter.xml
+
+  create module --fileName modules/hevNucleotideConsensusGenerator.xml
+  create module --fileName modules/hevAminoAcidConsensusGenerator.xml
+  
+
   
   
