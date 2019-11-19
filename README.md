@@ -3,11 +3,11 @@ GLUE project for Hepatitis E virus
 
 ## Description
 
-HEV-GLUE is a linked dataset and set of analysis modules for analysis of hepatitis E virus sequences. It is the underlying GLUE project for the [HEV-GLUE web application](http://hev.glue.cvr.ac.uk). HEV-GLUE is hosted within the [GLUE bioinformatics environment](http://tools.glue.cvr.ac.uk/). You can use HEV-GLUE to perform offline, batched analysis of HEV sequence files, including consensus and NGS data.
+HEV-GLUE is a linked dataset and set of analysis modules for analysis of hepatitis E virus sequences. It is the underlying GLUE project for the [HEV-GLUE web application](http://hev.glue.cvr.ac.uk). HEV-GLUE is hosted within the [GLUE bioinformatics environment](http://glue-tools.cvr.gla.ac.uk/). You can use HEV-GLUE to perform offline, batched analysis of HEV sequence files, including consensus and NGS data.
 
 ## Installation
 
-1. Install GLUE, based on the [GLUE installation instructions](http://tools.glue.cvr.ac.uk/#/installation). 
+1. Install GLUE, based on the [GLUE installation instructions](http://glue-tools.cvr.gla.ac.uk/#/installation). 
 2. Use Git to clone the HEV-GLUE repository into your `gluetools/projects` directory.
 3. Within the `gluetools/projects/HEV_GLUE` directory, start GLUE and build the HEV-GLUE project by issuing the following command in GLUE:
 ```
@@ -20,7 +20,7 @@ GLUE> run file hevProject.glue
 
 Here are some examples of useful things you can do with the HEV-GLUE offline project. In each case the command should be run in project mode (use `project hev` to enter this mode).  
 
-1. **Run maximum likelihood clade assignment (MLCA) on a FASTA file**. This is a clade assignment method described in the [GLUE article](http://tools.glue.cvr.ac.uk/#/about#citeGlue). The file may contain multiple sequences. The output will contain, for each sequence, genotype and subtype assignments, plus an indication of the most closely related reference sequence.
+1. **Run maximum likelihood clade assignment (MLCA) on a FASTA file**. This is a clade assignment method described in the [GLUE article](http://glue-tools.cvr.gla.ac.uk/#/about#citeGlue). The file may contain multiple sequences. The output will contain, for each sequence, genotype and subtype assignments, plus an indication of the most closely related reference sequence.
 ```
 Mode path: /project/hev
 GLUE> module hevMaxLikelihoodGenotyper genotype file -f path/to/mySequences.fasta -l HIGH 
