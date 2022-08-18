@@ -35,10 +35,13 @@
 			</valueConverter>
 		</propertyPopulator>
 	</gbOrganism>
+
+	<gbReference>
+		<gbRefPubmed>
+			<propertyPopulator property="gb_pubmed_id"/>
+		</gbRefPubmed>
+	</gbReference>	
 	
-	<gbReferencePubmed>
-		<propertyPopulator property="gb_pubmed_id"/>
-	</gbReferencePubmed>
 	<gbDivision>
 		<propertyPopulator property="gb_lab_construct">
 			<matchPattern>PAT</matchPattern>

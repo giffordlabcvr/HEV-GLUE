@@ -3,21 +3,21 @@
 	<textFileColumn>
 		<identifier>true</identifier>
 		<header>sequenceID</header>
-		<fieldName>sequenceID</fieldName>
+		<property>sequenceID</property>
 	</textFileColumn>
 	<textFileColumn>
 		<header>genotype</header>
-		<fieldName>genotype</fieldName>
+		<property>genotype</property>
 		<nullRegex>-</nullRegex>
 	</textFileColumn>
 	<textFileColumn>
 		<header>subtype</header>
-		<fieldName>subtype</fieldName>
+		<property>subtype</property>
 		<nullRegex>-</nullRegex>
 	</textFileColumn>
 	<textFileColumn>
 		<header>reference_type</header>
-		<fieldName>reference_type</fieldName>
+		<property>reference_type</property>
 		<nullRegex>-</nullRegex>
 	</textFileColumn>
 </textFilePopulator>

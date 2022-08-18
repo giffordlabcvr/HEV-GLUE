@@ -3,34 +3,34 @@
 	<textFileColumn>
 		<identifier>true</identifier>
 		<header>queryName</header>
-		<fieldName>sequenceID</fieldName>
+		<property>sequenceID</property>
 		<matchPattern>ncbi-hev/([0-9A-Za-z_]+)</matchPattern>
 		<outputTemplate>${g1}</outputTemplate>
 	</textFileColumn>
 	<textFileColumn>
 		<header>genotypeFinalClade</header>
-		<fieldName>epa_genotype</fieldName>
+		<property>epa_genotype</property>
 		<matchPattern>AL_([0-9])</matchPattern>
 		<outputTemplate>${g1}</outputTemplate>
 		<nullRegex>-</nullRegex>
 	</textFileColumn>
 	<textFileColumn>
 		<header>subtypeFinalClade</header>
-		<fieldName>epa_subtype</fieldName>
+		<property>epa_subtype</property>
 		<matchPattern>AL_[0-9]([a-z]+)</matchPattern>
 		<outputTemplate>${g1}</outputTemplate>
 		<nullRegex>-</nullRegex>
 	</textFileColumn>
 	<textFileColumn>
 		<header>genotypeFinalClade</header>
-		<fieldName>epa_genotype_final_clade</fieldName>
+		<property>epa_genotype_final_clade</property>
 		<matchPattern>(.*)</matchPattern>
 		<outputTemplate>${g1}</outputTemplate>
 		<nullRegex>-</nullRegex>
 	</textFileColumn>
 	<textFileColumn>
 		<header>subtypeFinalClade</header>
-		<fieldName>epa_subtype_final_clade</fieldName>
+		<property>epa_subtype_final_clade</property>
 		<matchPattern>(.*)</matchPattern>
 		<outputTemplate>${g1}</outputTemplate>
 		<nullRegex>-</nullRegex>
