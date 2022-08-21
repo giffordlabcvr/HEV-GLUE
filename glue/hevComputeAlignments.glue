@@ -9,7 +9,7 @@
   compute alignment AL_1 hevCompoundAligner -w "referenceMember = false"
   compute alignment AL_2 hevCompoundAligner -w "referenceMember = false"
   compute alignment AL_3 hevCompoundAligner -w "referenceMember = false"
-  #compute alignment AL_4 hevCompoundAligner -w "referenceMember = false"
+  compute alignment AL_4 hevCompoundAligner -w "referenceMember = false"
   compute alignment AL_5 hevCompoundAligner -w "referenceMember = false"
   compute alignment AL_6 hevCompoundAligner -w "referenceMember = false"
   compute alignment AL_7 hevCompoundAligner -w "referenceMember = false"
@@ -43,19 +43,19 @@
   compute alignment AL_3_AB369689 hevCompoundAligner
   compute alignment AL_3_EU360977 hevCompoundAligner
   compute alignment AL_3_JQ953664 hevCompoundAligner
-  #compute alignment AL_3_KJ873911 hevCompoundAligner
-  #compute alignment AL_4a hevCompoundAligner
-  #compute alignment AL_4b hevCompoundAligner
-  #compute alignment AL_4c hevCompoundAligner
-  #compute alignment AL_4d hevCompoundAligner
-  #compute alignment AL_4e hevCompoundAligner
-  #compute alignment AL_4f hevCompoundAligner
-  #compute alignment AL_4g hevCompoundAligner
-  #compute alignment AL_4h hevCompoundAligner
-  #compute alignment AL_4i hevCompoundAligner
-  #compute alignment AL_4_AB369688 hevCompoundAligner
-  #compute alignment AL_5a hevCompoundAligner
-  #compute alignment AL_6a hevCompoundAligner
-  #compute alignment AL_6_AB856243 hevCompoundAligner
-  #compute alignment AL_7a hevCompoundAligner
-  #compute alignment AL_7_KJ496144 hevCompoundAligner
+  compute alignment AL_3_KJ873911 hevCompoundAligner
+  compute alignment AL_4a hevCompoundAligner
+  compute alignment AL_4b hevCompoundAligner
+  compute alignment AL_4c hevCompoundAligner
+  compute alignment AL_4d hevCompoundAligner
+  compute alignment AL_4e hevCompoundAligner
+  compute alignment AL_4f hevCompoundAligner
+  compute alignment AL_4g hevCompoundAligner
+  compute alignment AL_4h hevCompoundAligner
+  compute alignment AL_4i hevCompoundAligner
+  compute alignment AL_4_AB369688 hevCompoundAligner
+  compute alignment AL_5a hevCompoundAligner
+  compute alignment AL_6a hevCompoundAligner
+  compute alignment AL_6_AB856243 hevCompoundAligner
+  compute alignment AL_7a hevCompoundAligner
+  compute alignment AL_7_KJ496144 hevCompoundAligner

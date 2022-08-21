@@ -11,21 +11,21 @@
   feature ORF1 set metatag OWN_CODON_NUMBERING true
   feature ORF1 set metatag INCLUDE_IN_SUMMARY true
   feature ORF1 set metatag CODES_AMINO_ACIDS true
-  feature ORF1 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+  #feature ORF1 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
   create feature ORF2 -p whole_genome "ORF 2"
   feature ORF2 set field displayName "ORF 2"
   feature ORF2 set metatag OWN_CODON_NUMBERING true
   feature ORF2 set metatag INCLUDE_IN_SUMMARY true
   feature ORF2 set metatag CODES_AMINO_ACIDS true
-  feature ORF2 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+  #feature ORF2 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
   create feature ORF3 -p whole_genome "ORF 3"
   feature ORF3 set field displayName "ORF 3"
   feature ORF3 set metatag OWN_CODON_NUMBERING true
   feature ORF3 set metatag INCLUDE_IN_SUMMARY true
   feature ORF3 set metatag CODES_AMINO_ACIDS true
-  feature ORF3 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+  #feature ORF3 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
   create feature MT -p ORF1 "Methyltransferase"
   feature MT set field displayName "Methyltransferase"
