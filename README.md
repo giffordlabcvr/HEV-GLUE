@@ -3,7 +3,7 @@ GLUE project for Hepatitis E virus
 
 ## Description
 
-HEV-GLUE is a linked dataset and set of analysis modules for analysis of hepatitis E virus sequences. It is the underlying GLUE project for the [HEV-GLUE web application](http://hev.glue.cvr.ac.uk). HEV-GLUE is hosted within the [GLUE bioinformatics environment](http://glue-tools.cvr.gla.ac.uk/). You can use HEV-GLUE to perform offline, batched analysis of HEV sequence files, including consensus and NGS data.
+HEV-GLUE is a linked dataset and set of analysis modules for analysis of hepatitis E virus sequences, developed using the **[GLUE](http://glue-tools.cvr.gla.ac.uk/)** software framework. You can use HEV-GLUE to perform offline, batched analysis of HEV sequence files, including consensus and NGS data.
 
 ## Installation
 
