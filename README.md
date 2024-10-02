@@ -42,10 +42,11 @@ GLUE> alignment AL_3 amino-acid frequency -c -w "referenceMember=false"  -r REF_
 Mode path: /project/hev
 GLUE> module hevSamReporter amino-acid -i path/to/myNgsData.sam -r REF_MASTER_M73218 -f RdRp -p
 ```
-
 ## Contributing
 
-If you are interested in extending the project in any way, please contact [Josh Singer](mailto:josh.singer@glasgow.ac.uk). 
+We welcome contributions from the community! If you're interested in contributing to HEV-GLUE, please review our [Contribution Guidelines](./md/CONTRIBUTING.md).
+
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](./md/code_of_conduct.md)
 
 ## Credits
 
