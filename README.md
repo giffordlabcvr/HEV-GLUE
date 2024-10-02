@@ -50,5 +50,5 @@ We welcome contributions from the community! If you're interested in contributin
 
 ## Credits
 
-The project was developed by Josh Singer with help from Tamer Abdelrahman, Rob Gifford and Ahmed Alnamroty.
+The project was developed by Josh Singer and Rob Gifford with help from Tamer Abdelrahman and Ahmed Alnamroty.
 
