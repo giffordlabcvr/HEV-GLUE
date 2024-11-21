@@ -1,6 +1,6 @@
 # HEV-GLUE
 
-<img src="md/glue-logo.png" align="right" alt="" width="280"/>
+<img src="md/glue-logo.png" align="right" alt="" width="240"/>
 
 A GLUE project for Hepatitis E virus
 
