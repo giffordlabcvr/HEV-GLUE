@@ -10,6 +10,8 @@ Diagnosis is made through serological tests or molecular methods, while preventi
 
 HEV-GLUE is a linked dataset and set of analysis modules for analysis of hepatitis E virus sequences, developed using the **[GLUE](http://glue-tools.cvr.gla.ac.uk/)** software framework. You can use HEV-GLUE to perform offline, batched analysis of HEV sequence files, including consensus and NGS data.
 
+* * * * *
+
 ## Installation
 
 1. Install GLUE, based on the [GLUE installation instructions](http://glue-tools.cvr.gla.ac.uk/#/installation). 
@@ -20,6 +22,9 @@ Mode path: /
 GLUE> run file hevProject.glue
 ```
 4. This should run to completion and produce the `OK` result.
+
+
+* * * * *
 
 ## Usage
 
@@ -42,13 +47,25 @@ GLUE> alignment AL_3 amino-acid frequency -c -w "referenceMember=false"  -r REF_
 Mode path: /project/hev
 GLUE> module hevSamReporter amino-acid -i path/to/myNgsData.sam -r REF_MASTER_M73218 -f RdRp -p
 ```
+
+
+* * * * *
+
+
 ## Contributing
 
 We welcome contributions from the community! If you're interested in contributing to HEV-GLUE, please review our [Contribution Guidelines](./md/CONTRIBUTING.md).
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](./md/code_of_conduct.md)
 
+
+* * * * *
+
+
 ## Credits
 
 The project was developed by Josh Singer and Rob Gifford with help from Tamer Abdelrahman and Ahmed Alnamroty.
+
+
+* * * * *
 
