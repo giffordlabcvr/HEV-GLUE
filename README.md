@@ -14,14 +14,14 @@ HEV-GLUE is a linked dataset and set of analysis modules for analysis of hepatit
 
 ## Installation
 
-1. Install GLUE, based on the [GLUE installation instructions](http://glue-tools.cvr.gla.ac.uk/#/installation). 
-2. Use Git to clone the HEV-GLUE repository into your `gluetools/projects` directory.
-3. Within the `gluetools/projects/HEV_GLUE` directory, start GLUE and build the HEV-GLUE project by issuing the following command in GLUE:
-```
-Mode path: /
-GLUE> run file hevProject.glue
-```
-4. This should run to completion and produce the `OK` result.
+To install HEV-GLUE, follow the instructions provided in the **[User Guide](https://github.com/giffordlabcvr/HEV-GLUE/wiki)**.
+
+You can choose between:
+
+-   **[Docker-based installation](https://github.com/giffordlabcvr/HEV-GLUE/wiki/Docker-Installation)** for ease of deployment.
+-   **[Native installation](https://github.com/giffordlabcvr/HEV-GLUE/wiki/Native-Installation)** for traditional setup.
+
+HEV-GLUE can be installed as a prebuilt database for quick setup or constructed from scratch for more customization.
 
 
 * * * * *
